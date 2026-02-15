@@ -145,8 +145,8 @@ def main() -> int:
     p.add_argument("--username", default="StateDept", help="Twitter/X username without @ (default: StateDept)")
     p.add_argument(
         "--until-utc",
-        default="2026-01-20_17:00:00_UTC",
-        help="Start crawling backwards from this UTC timestamp (exclusive). Format YYYY-MM-DD_HH:MM:SS_UTC",
+        default="2025-01-20_17:00:00_UTC",
+        help="Start crawling backward from this UTC timestamp (exclusive). Format YYYY-MM-DD_HH:MM:SS_UTC",
     )
     p.add_argument("--out", default="statedept_backfill.jsonl", help="Append-only JSONL output path")
     p.add_argument("--db", default="statedept_backfill.sqlite", help="SQLite DB for dedupe + resumability")
