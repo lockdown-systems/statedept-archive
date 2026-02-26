@@ -18,3 +18,11 @@ python3 media_backup.py \
   --media-dir media \
   --sleep 0.2
 ```
+
+## Static Site
+
+```
+python3 build_site.py
+cd site
+python3 -m http.server 8000
+```
