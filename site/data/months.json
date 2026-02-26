@@ -1,0 +1,630 @@
+[
+  {
+    "year_month": "2025-01",
+    "tweet_count": 63
+  },
+  {
+    "year_month": "2024-12",
+    "tweet_count": 100
+  },
+  {
+    "year_month": "2024-11",
+    "tweet_count": 80
+  },
+  {
+    "year_month": "2024-10",
+    "tweet_count": 95
+  },
+  {
+    "year_month": "2024-09",
+    "tweet_count": 78
+  },
+  {
+    "year_month": "2024-08",
+    "tweet_count": 68
+  },
+  {
+    "year_month": "2024-07",
+    "tweet_count": 82
+  },
+  {
+    "year_month": "2024-06",
+    "tweet_count": 95
+  },
+  {
+    "year_month": "2024-04",
+    "tweet_count": 88
+  },
+  {
+    "year_month": "2024-03",
+    "tweet_count": 112
+  },
+  {
+    "year_month": "2024-02",
+    "tweet_count": 98
+  },
+  {
+    "year_month": "2024-01",
+    "tweet_count": 97
+  },
+  {
+    "year_month": "2023-12",
+    "tweet_count": 20
+  },
+  {
+    "year_month": "2023-11",
+    "tweet_count": 102
+  },
+  {
+    "year_month": "2023-10",
+    "tweet_count": 123
+  },
+  {
+    "year_month": "2023-09",
+    "tweet_count": 147
+  },
+  {
+    "year_month": "2023-08",
+    "tweet_count": 141
+  },
+  {
+    "year_month": "2023-07",
+    "tweet_count": 127
+  },
+  {
+    "year_month": "2023-06",
+    "tweet_count": 160
+  },
+  {
+    "year_month": "2023-05",
+    "tweet_count": 171
+  },
+  {
+    "year_month": "2023-04",
+    "tweet_count": 171
+  },
+  {
+    "year_month": "2023-03",
+    "tweet_count": 202
+  },
+  {
+    "year_month": "2023-02",
+    "tweet_count": 140
+  },
+  {
+    "year_month": "2023-01",
+    "tweet_count": 40
+  },
+  {
+    "year_month": "2022-12",
+    "tweet_count": 40
+  },
+  {
+    "year_month": "2022-11",
+    "tweet_count": 191
+  },
+  {
+    "year_month": "2022-10",
+    "tweet_count": 227
+  },
+  {
+    "year_month": "2022-09",
+    "tweet_count": 245
+  },
+  {
+    "year_month": "2022-08",
+    "tweet_count": 211
+  },
+  {
+    "year_month": "2022-07",
+    "tweet_count": 221
+  },
+  {
+    "year_month": "2022-06",
+    "tweet_count": 234
+  },
+  {
+    "year_month": "2022-05",
+    "tweet_count": 249
+  },
+  {
+    "year_month": "2022-04",
+    "tweet_count": 200
+  },
+  {
+    "year_month": "2022-03",
+    "tweet_count": 285
+  },
+  {
+    "year_month": "2022-02",
+    "tweet_count": 245
+  },
+  {
+    "year_month": "2022-01",
+    "tweet_count": 225
+  },
+  {
+    "year_month": "2021-12",
+    "tweet_count": 285
+  },
+  {
+    "year_month": "2021-11",
+    "tweet_count": 320
+  },
+  {
+    "year_month": "2021-10",
+    "tweet_count": 60
+  },
+  {
+    "year_month": "2021-09",
+    "tweet_count": 241
+  },
+  {
+    "year_month": "2021-08",
+    "tweet_count": 225
+  },
+  {
+    "year_month": "2021-07",
+    "tweet_count": 282
+  },
+  {
+    "year_month": "2021-06",
+    "tweet_count": 239
+  },
+  {
+    "year_month": "2021-05",
+    "tweet_count": 255
+  },
+  {
+    "year_month": "2021-04",
+    "tweet_count": 100
+  },
+  {
+    "year_month": "2021-03",
+    "tweet_count": 307
+  },
+  {
+    "year_month": "2021-02",
+    "tweet_count": 240
+  },
+  {
+    "year_month": "2021-01",
+    "tweet_count": 164
+  },
+  {
+    "year_month": "2020-12",
+    "tweet_count": 257
+  },
+  {
+    "year_month": "2020-11",
+    "tweet_count": 216
+  },
+  {
+    "year_month": "2020-10",
+    "tweet_count": 200
+  },
+  {
+    "year_month": "2020-08",
+    "tweet_count": 180
+  },
+  {
+    "year_month": "2020-07",
+    "tweet_count": 274
+  },
+  {
+    "year_month": "2020-06",
+    "tweet_count": 200
+  },
+  {
+    "year_month": "2020-05",
+    "tweet_count": 148
+  },
+  {
+    "year_month": "2020-04",
+    "tweet_count": 192
+  },
+  {
+    "year_month": "2020-03",
+    "tweet_count": 161
+  },
+  {
+    "year_month": "2020-02",
+    "tweet_count": 120
+  },
+  {
+    "year_month": "2020-01",
+    "tweet_count": 275
+  },
+  {
+    "year_month": "2019-12",
+    "tweet_count": 140
+  },
+  {
+    "year_month": "2019-11",
+    "tweet_count": 191
+  },
+  {
+    "year_month": "2019-10",
+    "tweet_count": 40
+  },
+  {
+    "year_month": "2019-09",
+    "tweet_count": 157
+  },
+  {
+    "year_month": "2019-08",
+    "tweet_count": 99
+  },
+  {
+    "year_month": "2019-06",
+    "tweet_count": 100
+  },
+  {
+    "year_month": "2019-05",
+    "tweet_count": 93
+  },
+  {
+    "year_month": "2019-04",
+    "tweet_count": 163
+  },
+  {
+    "year_month": "2019-03",
+    "tweet_count": 183
+  },
+  {
+    "year_month": "2019-02",
+    "tweet_count": 137
+  },
+  {
+    "year_month": "2019-01",
+    "tweet_count": 89
+  },
+  {
+    "year_month": "2018-12",
+    "tweet_count": 96
+  },
+  {
+    "year_month": "2018-11",
+    "tweet_count": 132
+  },
+  {
+    "year_month": "2018-10",
+    "tweet_count": 104
+  },
+  {
+    "year_month": "2018-09",
+    "tweet_count": 143
+  },
+  {
+    "year_month": "2018-08",
+    "tweet_count": 86
+  },
+  {
+    "year_month": "2018-07",
+    "tweet_count": 117
+  },
+  {
+    "year_month": "2018-06",
+    "tweet_count": 167
+  },
+  {
+    "year_month": "2018-05",
+    "tweet_count": 227
+  },
+  {
+    "year_month": "2018-04",
+    "tweet_count": 462
+  },
+  {
+    "year_month": "2018-03",
+    "tweet_count": 180
+  },
+  {
+    "year_month": "2018-02",
+    "tweet_count": 220
+  },
+  {
+    "year_month": "2018-01",
+    "tweet_count": 280
+  },
+  {
+    "year_month": "2017-12",
+    "tweet_count": 294
+  },
+  {
+    "year_month": "2017-11",
+    "tweet_count": 399
+  },
+  {
+    "year_month": "2017-10",
+    "tweet_count": 322
+  },
+  {
+    "year_month": "2017-09",
+    "tweet_count": 60
+  },
+  {
+    "year_month": "2017-08",
+    "tweet_count": 329
+  },
+  {
+    "year_month": "2017-07",
+    "tweet_count": 198
+  },
+  {
+    "year_month": "2017-06",
+    "tweet_count": 194
+  },
+  {
+    "year_month": "2017-05",
+    "tweet_count": 211
+  },
+  {
+    "year_month": "2017-04",
+    "tweet_count": 80
+  },
+  {
+    "year_month": "2017-03",
+    "tweet_count": 160
+  },
+  {
+    "year_month": "2017-02",
+    "tweet_count": 84
+  },
+  {
+    "year_month": "2017-01",
+    "tweet_count": 106
+  },
+  {
+    "year_month": "2016-12",
+    "tweet_count": 140
+  },
+  {
+    "year_month": "2016-11",
+    "tweet_count": 139
+  },
+  {
+    "year_month": "2016-10",
+    "tweet_count": 140
+  },
+  {
+    "year_month": "2016-09",
+    "tweet_count": 303
+  },
+  {
+    "year_month": "2016-08",
+    "tweet_count": 150
+  },
+  {
+    "year_month": "2016-07",
+    "tweet_count": 206
+  },
+  {
+    "year_month": "2016-06",
+    "tweet_count": 213
+  },
+  {
+    "year_month": "2016-05",
+    "tweet_count": 176
+  },
+  {
+    "year_month": "2016-04",
+    "tweet_count": 238
+  },
+  {
+    "year_month": "2016-03",
+    "tweet_count": 40
+  },
+  {
+    "year_month": "2016-02",
+    "tweet_count": 198
+  },
+  {
+    "year_month": "2016-01",
+    "tweet_count": 207
+  },
+  {
+    "year_month": "2015-12",
+    "tweet_count": 158
+  },
+  {
+    "year_month": "2015-11",
+    "tweet_count": 187
+  },
+  {
+    "year_month": "2015-10",
+    "tweet_count": 240
+  },
+  {
+    "year_month": "2015-09",
+    "tweet_count": 264
+  },
+  {
+    "year_month": "2015-08",
+    "tweet_count": 156
+  },
+  {
+    "year_month": "2015-07",
+    "tweet_count": 193
+  },
+  {
+    "year_month": "2015-06",
+    "tweet_count": 173
+  },
+  {
+    "year_month": "2015-05",
+    "tweet_count": 175
+  },
+  {
+    "year_month": "2015-04",
+    "tweet_count": 273
+  },
+  {
+    "year_month": "2015-03",
+    "tweet_count": 197
+  },
+  {
+    "year_month": "2015-02",
+    "tweet_count": 274
+  },
+  {
+    "year_month": "2015-01",
+    "tweet_count": 100
+  },
+  {
+    "year_month": "2014-12",
+    "tweet_count": 40
+  },
+  {
+    "year_month": "2014-11",
+    "tweet_count": 150
+  },
+  {
+    "year_month": "2014-10",
+    "tweet_count": 234
+  },
+  {
+    "year_month": "2014-09",
+    "tweet_count": 267
+  },
+  {
+    "year_month": "2014-08",
+    "tweet_count": 40
+  },
+  {
+    "year_month": "2014-07",
+    "tweet_count": 270
+  },
+  {
+    "year_month": "2014-06",
+    "tweet_count": 235
+  },
+  {
+    "year_month": "2014-05",
+    "tweet_count": 240
+  },
+  {
+    "year_month": "2014-04",
+    "tweet_count": 257
+  },
+  {
+    "year_month": "2014-03",
+    "tweet_count": 218
+  },
+  {
+    "year_month": "2014-02",
+    "tweet_count": 257
+  },
+  {
+    "year_month": "2014-01",
+    "tweet_count": 136
+  },
+  {
+    "year_month": "2013-12",
+    "tweet_count": 111
+  },
+  {
+    "year_month": "2013-11",
+    "tweet_count": 150
+  },
+  {
+    "year_month": "2013-10",
+    "tweet_count": 71
+  },
+  {
+    "year_month": "2013-09",
+    "tweet_count": 127
+  },
+  {
+    "year_month": "2013-07",
+    "tweet_count": 83
+  },
+  {
+    "year_month": "2013-06",
+    "tweet_count": 145
+  },
+  {
+    "year_month": "2013-05",
+    "tweet_count": 210
+  },
+  {
+    "year_month": "2013-04",
+    "tweet_count": 197
+  },
+  {
+    "year_month": "2013-03",
+    "tweet_count": 273
+  },
+  {
+    "year_month": "2013-02",
+    "tweet_count": 249
+  },
+  {
+    "year_month": "2013-01",
+    "tweet_count": 294
+  },
+  {
+    "year_month": "2012-12",
+    "tweet_count": 416
+  },
+  {
+    "year_month": "2012-11",
+    "tweet_count": 451
+  },
+  {
+    "year_month": "2012-10",
+    "tweet_count": 494
+  },
+  {
+    "year_month": "2012-09",
+    "tweet_count": 746
+  },
+  {
+    "year_month": "2012-08",
+    "tweet_count": 505
+  },
+  {
+    "year_month": "2012-07",
+    "tweet_count": 360
+  },
+  {
+    "year_month": "2012-06",
+    "tweet_count": 912
+  },
+  {
+    "year_month": "2012-05",
+    "tweet_count": 500
+  },
+  {
+    "year_month": "2012-02",
+    "tweet_count": 20
+  },
+  {
+    "year_month": "2010-03",
+    "tweet_count": 40
+  },
+  {
+    "year_month": "2009-07",
+    "tweet_count": 20
+  },
+  {
+    "year_month": "2009-01",
+    "tweet_count": 20
+  },
+  {
+    "year_month": "2008-08",
+    "tweet_count": 20
+  },
+  {
+    "year_month": "2008-06",
+    "tweet_count": 20
+  },
+  {
+    "year_month": "2008-02",
+    "tweet_count": 17
+  },
+  {
+    "year_month": "2008-01",
+    "tweet_count": 6
+  }
+]

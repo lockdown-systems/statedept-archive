@@ -1,0 +1,4481 @@
+{
+  "year_month": "2012-09",
+  "tweets": [
+    {
+      "id": "252476238868918272",
+      "created_at": "2012-09-30T18:33:20+00:00",
+      "text": "Did you know @StateDept is also on @Storify? Follow us there for highlights from U.S. engagement at the #UN: http://t.co/ffWDr2sA #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "252475519461896192",
+      "created_at": "2012-09-30T18:30:29+00:00",
+      "text": "Latest on #DipNote: Behind the Scenes at #UNGA -- Focus on the Western Hemisphere http://t.co/uhYCl9Tz",
+      "media_count": 0
+    },
+    {
+      "id": "252449335822921728",
+      "created_at": "2012-09-30T16:46:26+00:00",
+      "text": "(Video)  Go behind the scenes at the #UN General Assembly with @WHAAsstSecty Roberta Jacobson: http://t.co/P9bfpIXe #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "252448941449302017",
+      "created_at": "2012-09-30T16:44:52+00:00",
+      "text": "#DipNote Photo of the Week: Heads of State Gather for 67th #UN General Assembly http://t.co/Aq7yr00d  #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "252116232629805056",
+      "created_at": "2012-09-29T18:42:48+00:00",
+      "text": "Want to know what is happening at the #UN General Assembly? Follow U.S. engagement at #UNGA on #Storify: http://t.co/OKe9HJj8",
+      "media_count": 0
+    },
+    {
+      "id": "252112001113919488",
+      "created_at": "2012-09-29T18:25:59+00:00",
+      "text": "#DipNote Photo of the Week: Heads of State Gather for 67th #UN General Assembly http://t.co/Aq7yr00d #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "252091285568102400",
+      "created_at": "2012-09-29T17:03:40+00:00",
+      "text": "(Photo) #SecClinton hosts #G8 Deauville Partnership with Arab Countries in Transition Foreign Ministers Meeting: http://t.co/nGO2MNkQ",
+      "media_count": 0
+    },
+    {
+      "id": "252060883096842240",
+      "created_at": "2012-09-29T15:02:52+00:00",
+      "text": "Readout of #SecClinton, Japanese Foreign Mininster Koichiro Gemba and Korean Foreign Minister Kim Sung-hwan meeting: http://t.co/oGWcvQC8",
+      "media_count": 0
+    },
+    {
+      "id": "252060308871475200",
+      "created_at": "2012-09-29T15:00:35+00:00",
+      "text": "(Photo) #SecClinton meets with Japanese Foreign Minister Koichiro Gemba and Korean Foreign Minister Kim Sung-hwan.  http://t.co/58VLe6W5",
+      "media_count": 0
+    },
+    {
+      "id": "252058688607645696",
+      "created_at": "2012-09-29T14:54:09+00:00",
+      "text": "The commitments under the #OpenGov Partnership will affect nearly two billion people around the world. http://t.co/NYtiwvhn",
+      "media_count": 0
+    },
+    {
+      "id": "252058545367961602",
+      "created_at": "2012-09-29T14:53:34+00:00",
+      "text": "As part of #OpenGov Partnership, 57 governments made 300 commitments to be more open and responsive to citizens. http://t.co/NYtiwvhn",
+      "media_count": 0
+    },
+    {
+      "id": "252049055717404672",
+      "created_at": "2012-09-29T14:15:52+00:00",
+      "text": "Latest on #DipNote: Making This Century a Century of Democracies http://t.co/vh8syxPz",
+      "media_count": 0
+    },
+    {
+      "id": "252048596445310977",
+      "created_at": "2012-09-29T14:14:02+00:00",
+      "text": "#SecClinton announces additional humanitarian assistance for the Syrian crisis: http://t.co/t9ePI65G. #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251899460601409536",
+      "created_at": "2012-09-29T04:21:26+00:00",
+      "text": "#SecClinton: Together, we must stand with those Syrians who believe in a different vision. http://t.co/WJsAmv5W #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251898830600155136",
+      "created_at": "2012-09-29T04:18:55+00:00",
+      "text": "#SecClinton: We urge all of #Syria's neighbors to take steps to prevent their territory or airspace from being used to fuel Assad's war.",
+      "media_count": 0
+    },
+    {
+      "id": "251898583945711618",
+      "created_at": "2012-09-29T04:17:57+00:00",
+      "text": "#SecClinton: Let's be very frank here -- the Assad regime’s most important lifeline is #Iran. http://t.co/WJsAmv5W #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251898460314431488",
+      "created_at": "2012-09-29T04:17:27+00:00",
+      "text": "#SecClinton: Those continuing to do business with entities associated with Assad regime risk being connected to sanctions violations. #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251897660200587264",
+      "created_at": "2012-09-29T04:14:16+00:00",
+      "text": "#SecClinton: Opposition and civil society will have to reassure minorities they will be safe in a post-Assad #Syria. http://t.co/WJsAmv5W",
+      "media_count": 0
+    },
+    {
+      "id": "251897451928236033",
+      "created_at": "2012-09-29T04:13:27+00:00",
+      "text": "#SecClinton: We know the Assad regime will do everything it can to pit communities against each other. http://t.co/WJsAmv5W #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251897171568365568",
+      "created_at": "2012-09-29T04:12:20+00:00",
+      "text": "#SecClinton: Total U.S. humanitarian aid during this crisis is more than $130 million. http://t.co/WJsAmv5W #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251897050252312576",
+      "created_at": "2012-09-29T04:11:51+00:00",
+      "text": "#SecClinton: We are working to help Syrian civilian opposition groups avoid regime persecution and document human rights abuses. #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251896854965547008",
+      "created_at": "2012-09-29T04:11:04+00:00",
+      "text": "#SecClinton: I am also announcing an additional $15 million to support Syrian civilian opposition groups. http://t.co/WJsAmv5W #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251896719112040448",
+      "created_at": "2012-09-29T04:10:32+00:00",
+      "text": "#SecClinton: I am announcing an additional $30 million to help the people suffering. #Syria http://t.co/WJsAmv5W",
+      "media_count": 0
+    },
+    {
+      "id": "251896335576489985",
+      "created_at": "2012-09-29T04:09:01+00:00",
+      "text": "#SecClinton: U.S. is taking new steps to meet humanitarian needs, support opposition in a democratic transition, pressure the regime. #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251896149563293696",
+      "created_at": "2012-09-29T04:08:16+00:00",
+      "text": "#SecClinton: As President Obama said, the Assad regime must come to an end so the suffering of the Syrian people can stop. #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251895856071073793",
+      "created_at": "2012-09-29T04:07:06+00:00",
+      "text": "#SecClinton delivers remarks at Ad Hoc Friends of the Syrian People Ministerial: http://t.co/WJsAmv5W | #Syria | #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251895049795809280",
+      "created_at": "2012-09-29T04:03:54+00:00",
+      "text": "Interested in what's happening this week at the #UN? Follow U.S. engagement at #UNGA on #Storify: http://t.co/DzUmxBjK",
+      "media_count": 0
+    },
+    {
+      "id": "251894431475695616",
+      "created_at": "2012-09-29T04:01:27+00:00",
+      "text": "Actor Matt Damon lends his voice to provide an update on @FeedtheFuture efforts to end global #hunger: http://t.co/riEOzJX0",
+      "media_count": 0
+    },
+    {
+      "id": "251893855555817474",
+      "created_at": "2012-09-29T03:59:09+00:00",
+      "text": "#SecClinton and President Banda of #Malawi discuss efforts to address global #hunger at a @FeedtheFuture event: http://t.co/qnd1PRSC #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251892779918172161",
+      "created_at": "2012-09-29T03:54:53+00:00",
+      "text": "(Photo) #SecClinton meets with President Joyce Banda of #Malawi during #UNGA in New York: http://t.co/xLmwFA79",
+      "media_count": 0
+    },
+    {
+      "id": "251891651583295488",
+      "created_at": "2012-09-29T03:50:24+00:00",
+      "text": "#SecClinton: Help us ensure this global conversation delivers results for people and helps build a better world. http://t.co/vh8syxPz #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251891278487371776",
+      "created_at": "2012-09-29T03:48:55+00:00",
+      "text": "#SecClinton: Share your ideas. Mobilize your friends. Take action online -- and off. http://t.co/vh8syxPz #UNGA #SGS2012",
+      "media_count": 0
+    },
+    {
+      "id": "251890837464686592",
+      "created_at": "2012-09-29T03:47:10+00:00",
+      "text": "#SecClinton: A revolution in social media is helping people everywhere take part in a global conversation. http://t.co/uvXbSEdW",
+      "media_count": 0
+    },
+    {
+      "id": "251890312111337472",
+      "created_at": "2012-09-29T03:45:04+00:00",
+      "text": "Latest on #DipNote: Making This Century a Century of Democracies http://t.co/vh8syxPz",
+      "media_count": 0
+    },
+    {
+      "id": "251878169890680832",
+      "created_at": "2012-09-29T02:56:50+00:00",
+      "text": "The commitments under the #OpenGov Partnership will affect nearly two billion people around the world. http://t.co/NYtiwvhn",
+      "media_count": 0
+    },
+    {
+      "id": "251877366907936769",
+      "created_at": "2012-09-29T02:53:38+00:00",
+      "text": "As part of #OpenGov Partnership, 57 governments have made 300 commitments to be more open and responsive to citizens. http://t.co/NYtiwvhn",
+      "media_count": 0
+    },
+    {
+      "id": "251876898089615361",
+      "created_at": "2012-09-29T02:51:46+00:00",
+      "text": "In just one year, 57 governments have joined the #OpenGov Partnership. http://t.co/NYtiwvhn via @usmariaotero | #OGP | #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251875976890445824",
+      "created_at": "2012-09-29T02:48:07+00:00",
+      "text": "Latest on #DipNote: @USMariaOtero on Celebrating Open Government Progress http://t.co/NYtiwvhn | #OpenGov | #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251869240360050689",
+      "created_at": "2012-09-29T02:21:21+00:00",
+      "text": "#SecState to revoke designation of the Mujahedin-e Khalq (MEK) and its aliases as a Foreign Terrorist Organization. http://t.co/Rm1rursN",
+      "media_count": 0
+    },
+    {
+      "id": "251822872182538241",
+      "created_at": "2012-09-28T23:17:06+00:00",
+      "text": "(Photo) #SecClinton attends meeting with foreign ministers from Central America during #UNGA in New York: http://t.co/2I1drZW4",
+      "media_count": 0
+    },
+    {
+      "id": "251821741146529792",
+      "created_at": "2012-09-28T23:12:36+00:00",
+      "text": "#SecClinton Remarks at the Connecting the Americas 2022 Ministerial: http://t.co/ILSM2RfN #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251821457653501952",
+      "created_at": "2012-09-28T23:11:28+00:00",
+      "text": "Latest on #DipNote: @WHAAsstSecty on Increasing Access to Affordable Electricity Across the Hemisphere http://t.co/DhSd7Whr",
+      "media_count": 0
+    },
+    {
+      "id": "251811206673870848",
+      "created_at": "2012-09-28T22:30:44+00:00",
+      "text": "U.S. to boost support for Middle Eastern and North African countries in recovering proceeds of corruption: http://t.co/41vINmJh #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251804133756125184",
+      "created_at": "2012-09-28T22:02:38+00:00",
+      "text": "#SecClinton speaks at #G8 Deauville Partnership With Arab Countries in Transition Foreign Ministers Meeting: http://t.co/0IxL52lp #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251803702250307585",
+      "created_at": "2012-09-28T22:00:55+00:00",
+      "text": "(Photo) #SecClinton meets with Israeli Prime Minister Netanyahu during #UNGA in New York: http://t.co/hGFa2Irw",
+      "media_count": 0
+    },
+    {
+      "id": "251803024421429249",
+      "created_at": "2012-09-28T21:58:13+00:00",
+      "text": "Want to know what is happening at the #UN this week? Follow U.S. engagement at #UNGA on #Storify: http://t.co/DzUmxBjK",
+      "media_count": 0
+    },
+    {
+      "id": "251802572296437760",
+      "created_at": "2012-09-28T21:56:26+00:00",
+      "text": "#SecClinton Statement on the Anniversary of the Founding of the People's Republic of #China: http://t.co/dcpXacld",
+      "media_count": 0
+    },
+    {
+      "id": "251802305010221057",
+      "created_at": "2012-09-28T21:55:22+00:00",
+      "text": "Readout of #SecClinton's meeting with Chinese Foreign Minister Yang Jiechi: http://t.co/LmI9E8hB | Photo: http://t.co/zfkbmilL",
+      "media_count": 0
+    },
+    {
+      "id": "251801872833318912",
+      "created_at": "2012-09-28T21:53:39+00:00",
+      "text": "(Photo) #SecClinton speaks at an #ASEAN Ministerial during #UNGA: http://t.co/OJuT6RIo | Readout of the meeting: http://t.co/Oi96YfkG",
+      "media_count": 0
+    },
+    {
+      "id": "251801105191813121",
+      "created_at": "2012-09-28T21:50:36+00:00",
+      "text": "(Photo) #SecClinton attends P5+1 Ministerial during #UNGA in New York: http://t.co/Tov6Zg15",
+      "media_count": 0
+    },
+    {
+      "id": "251800745005969410",
+      "created_at": "2012-09-28T21:49:10+00:00",
+      "text": "#SecClinton remarks at the Ad Hoc Friends of the Syrian People Ministerial during #UNGA: http://t.co/XPDe3XMW #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251800323801358336",
+      "created_at": "2012-09-28T21:47:30+00:00",
+      "text": "#SecClinton announces additional humanitarian assistance for the Syrian crisis: http://t.co/t9ePI65G",
+      "media_count": 0
+    },
+    {
+      "id": "251784936049225729",
+      "created_at": "2012-09-28T20:46:21+00:00",
+      "text": "Statement by @USUN @AmbassadorRice on agreements between #Sudan and #SouthSudan: http://t.co/Y5jMhjXM",
+      "media_count": 0
+    },
+    {
+      "id": "251783221937860608",
+      "created_at": "2012-09-28T20:39:32+00:00",
+      "text": "#FF: High-level meetings continue at the #UN next week. Follow @USUN and @State_IO for the latest from #UNGA.",
+      "media_count": 0
+    },
+    {
+      "id": "251781558183292929",
+      "created_at": "2012-09-28T20:32:56+00:00",
+      "text": "Interested in what's happening at the #UN this week?  Follow U.S. engagement at #UNGA on #Storify: http://t.co/DzUmxBjK",
+      "media_count": 0
+    },
+    {
+      "id": "251761644047306752",
+      "created_at": "2012-09-28T19:13:48+00:00",
+      "text": "Readout of President Obama's Call with Israeli Prime Minister Netanyahu http://t.co/raLW8sDx via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "251758643450634240",
+      "created_at": "2012-09-28T19:01:52+00:00",
+      "text": "#SecClinton and Colombian Foreign Minister Holguin meet to advance Connecting the Americas 2022: http://t.co/huTqLbYM",
+      "media_count": 0
+    },
+    {
+      "id": "251758401728684033",
+      "created_at": "2012-09-28T19:00:55+00:00",
+      "text": "#SecClinton remarks at her meeting with Central American Foreign Ministers during #UNGA: http://t.co/WcLz5cP1",
+      "media_count": 0
+    },
+    {
+      "id": "251744313938157568",
+      "created_at": "2012-09-28T18:04:56+00:00",
+      "text": "Briefing Previewing the Ad Hoc Ministerial Meeting on #Syria: http://t.co/hPxr0x7n  #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251729702790782976",
+      "created_at": "2012-09-28T17:06:52+00:00",
+      "text": "#SecClinton speaks at #G8 Deauville Partnership With Arab Countries in Transition Foreign Ministers Meeting: http://t.co/0IxL52lp #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251729130649960449",
+      "created_at": "2012-09-28T17:04:36+00:00",
+      "text": "#SecClinton: U.S., Japan, ROK share a strong interest in peaceful, verifiable denuclearization of Korean Peninsula. http://t.co/j8YGaavn",
+      "media_count": 0
+    },
+    {
+      "id": "251728788499615744",
+      "created_at": "2012-09-28T17:03:14+00:00",
+      "text": "#SecClinton remarks with Japanese Foreign Minister Koichiro Gemba and Korean Foreign Minister Kim Sung-hwan at #UNGA: http://t.co/j8YGaavn",
+      "media_count": 0
+    },
+    {
+      "id": "251728493631643648",
+      "created_at": "2012-09-28T17:02:04+00:00",
+      "text": "#SecClinton's schedule at #UNGA on Friday, September 28: http://t.co/zyZycys6",
+      "media_count": 0
+    },
+    {
+      "id": "251716644362137600",
+      "created_at": "2012-09-28T16:14:59+00:00",
+      "text": "(Video) Actor Matt Damon describes how @FeedTheFuture is helping turn the tide against global #hunger: http://t.co/riEOzJX0",
+      "media_count": 0
+    },
+    {
+      "id": "251696034315657216",
+      "created_at": "2012-09-28T14:53:05+00:00",
+      "text": "#SecClinton: @StateDept is establishing a new Office of Global Health Diplomacy. http://t.co/LPTcfi9f",
+      "media_count": 0
+    },
+    {
+      "id": "251691156205862915",
+      "created_at": "2012-09-28T14:33:42+00:00",
+      "text": "#SecClinton: We're providing #HIV treatment to 4.5 million people, an increase of more than 160% since 2008. http://t.co/LPTcfi9f via @PEFAR",
+      "media_count": 0
+    },
+    {
+      "id": "251690579933659136",
+      "created_at": "2012-09-28T14:31:25+00:00",
+      "text": "#SecClinton: We've committed $4 billion to the Global Fund to Fight #AIDS, TB and #Malaria since 2009. http://t.co/LPTcfi9f",
+      "media_count": 0
+    },
+    {
+      "id": "251690356624748544",
+      "created_at": "2012-09-28T14:30:31+00:00",
+      "text": "#SecClinton: We made global #health one of our diplomatic priorities. http://t.co/LPTcfi9f",
+      "media_count": 0
+    },
+    {
+      "id": "251690117893345280",
+      "created_at": "2012-09-28T14:29:34+00:00",
+      "text": "#SecClinton Op-Ed: 'Saving More Lives Than Ever' http://t.co/LPTcfi9f cc @PEPFAR @USAID",
+      "media_count": 0
+    },
+    {
+      "id": "251689581462839296",
+      "created_at": "2012-09-28T14:27:27+00:00",
+      "text": "#SecClinton to host Friends of Syrian People -- a group of 90 nations -- on the margins of #UNGA today: http://t.co/hPxr0x7n  #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251689373765099520",
+      "created_at": "2012-09-28T14:26:37+00:00",
+      "text": "An alliance of U.S.-based organizations is pledging more than a billion dollars over 3 years to improve #foodsecurity. http://t.co/quT0qRXO",
+      "media_count": 0
+    },
+    {
+      "id": "251689180776771585",
+      "created_at": "2012-09-28T14:25:51+00:00",
+      "text": "Latest on #DipNote: #SecClinton Highlights #CivilSociety Contributions To End Global #Hunger http://t.co/quT0qRXO via @FeedTheFuture #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251537845355966464",
+      "created_at": "2012-09-28T04:24:30+00:00",
+      "text": "Fact Sheet on U.S. Assistance to #Yemen http://t.co/3QC2HJ1i",
+      "media_count": 0
+    },
+    {
+      "id": "251536467715833856",
+      "created_at": "2012-09-28T04:19:01+00:00",
+      "text": "Latest on #DipNote: Behind the Scenes at #UNGA with @USAID's @RajShah and @AFAsstSecy Johnnie Carson http://t.co/tJY9dFSk",
+      "media_count": 0
+    },
+    {
+      "id": "251535691681497088",
+      "created_at": "2012-09-28T04:15:56+00:00",
+      "text": "#SecClinton to host Friends of Syrian People -- a group of 90 nations -- on the margins of #UNGA September 28. http://t.co/hPxr0x7n #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "251535122812268544",
+      "created_at": "2012-09-28T04:13:41+00:00",
+      "text": "Briefing Previewing the Ad Hoc Ministerial Meeting on #Syria: http://t.co/hPxr0x7n #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251534534754045952",
+      "created_at": "2012-09-28T04:11:21+00:00",
+      "text": "P-5+1 is united in ensuring #Iran does not acquire a #nuclear weapon and unified in our dual-track approach. http://t.co/KZJOYgiV #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251534090891821057",
+      "created_at": "2012-09-28T04:09:35+00:00",
+      "text": "Readout on the United Nations Security Council P-5+1 Ministerial: http://t.co/KZJOYgiV #UNGA #UNSC",
+      "media_count": 0
+    },
+    {
+      "id": "251533324126932992",
+      "created_at": "2012-09-28T04:06:32+00:00",
+      "text": "An alliance of U.S.-based organizations is pledging more than a billion dollars over 3 years to improve #foodsecurity. http://t.co/quT0qRXO",
+      "media_count": 0
+    },
+    {
+      "id": "251532435723014145",
+      "created_at": "2012-09-28T04:03:00+00:00",
+      "text": "Latest on #DipNote: #SecClinton Highlights #CivilSociety Contributions To End Global #Hunger http://t.co/quT0qRXO via @FeedTheFuture",
+      "media_count": 0
+    },
+    {
+      "id": "251442607115345921",
+      "created_at": "2012-09-27T22:06:03+00:00",
+      "text": "A busy day at the #UN: meetings on the #Sahel, #OpenGov, and #Somalia. Follow U.S. engagement at #UNGA on #Storify: http://t.co/yvIw3Y14",
+      "media_count": 0
+    },
+    {
+      "id": "251441480772747266",
+      "created_at": "2012-09-27T22:01:35+00:00",
+      "text": "New video! Go behind the scenes at #UNGA with @RajShah and @AFAsstSecy Johnnie Carson: http://t.co/nMYWWMbY",
+      "media_count": 0
+    },
+    {
+      "id": "251403128279289856",
+      "created_at": "2012-09-27T19:29:11+00:00",
+      "text": "(Video) Inside @StateDept: Behind the Scenes at #UNGA with @RajShah and @AFAsstSecy Johnnie Carson: http://t.co/nMYWWMbY",
+      "media_count": 0
+    },
+    {
+      "id": "251400266375647232",
+      "created_at": "2012-09-27T19:17:48+00:00",
+      "text": "Want to know what's happening at the #UN? Follow U.S. engagement at #UNGA this week on #Storify: http://t.co/yvIw3Y14",
+      "media_count": 0
+    },
+    {
+      "id": "251355358084354050",
+      "created_at": "2012-09-27T16:19:21+00:00",
+      "text": "Happening now: go to http://t.co/HUZhUyKw to join a web chat on U.S. efforts to combat #humantrafficking. Send questions using #WHhangout.",
+      "media_count": 0
+    },
+    {
+      "id": "251354513892593664",
+      "created_at": "2012-09-27T16:16:00+00:00",
+      "text": "Read President Obama's remarks on efforts to combat #humantrafficking: http://t.co/ODG1jhqC via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "251352088938950656",
+      "created_at": "2012-09-27T16:06:22+00:00",
+      "text": "Special briefing on #SecClinton's meeting with Turkish Foreign Minister Ahmet Davutoglu: http://t.co/y0eJ5A6i #Turkey",
+      "media_count": 0
+    },
+    {
+      "id": "251351698277298176",
+      "created_at": "2012-09-27T16:04:49+00:00",
+      "text": "(Photo) #SecClinton meets with Turkish Foreign Minister Davutoglu during #UNGA in New York: http://t.co/kORkNBcM #Turkey",
+      "media_count": 0
+    },
+    {
+      "id": "251351258479345664",
+      "created_at": "2012-09-27T16:03:04+00:00",
+      "text": "(Photo) #SecClinton meets with Tunisian President Marzouki during #UNGA in New York: http://t.co/WhgWM8Uw #Tunisia",
+      "media_count": 0
+    },
+    {
+      "id": "251349518879182848",
+      "created_at": "2012-09-27T15:56:09+00:00",
+      "text": "Briefing on #SecClinton meetings with Jordanian King Abdullah II and Palestinian Authority President Mahmoud Abbas: http://t.co/3JOsmqX8",
+      "media_count": 0
+    },
+    {
+      "id": "251349041001148416",
+      "created_at": "2012-09-27T15:54:15+00:00",
+      "text": "(Photo) #SecClinton meets with Jordanian King Abdullah II during #UNGA in New York: http://t.co/pmfq4aan #Jordan",
+      "media_count": 0
+    },
+    {
+      "id": "251348905755824128",
+      "created_at": "2012-09-27T15:53:43+00:00",
+      "text": "(Photo) #SecClinton meets with Palestinian Authority President Abbas during #UNGA in New York: http://t.co/7miZb7VD #Palestine",
+      "media_count": 0
+    },
+    {
+      "id": "251348662414897152",
+      "created_at": "2012-09-27T15:52:45+00:00",
+      "text": "(Photo) #SecClinton meets with Burmese President Thein Sein during #UNGA in New York: http://t.co/j9oiGwtY | Remarks: http://t.co/iZI79NZT",
+      "media_count": 0
+    },
+    {
+      "id": "251327919597694976",
+      "created_at": "2012-09-27T14:30:20+00:00",
+      "text": "Stay tuned to http://t.co/UKm9plIx and follow @FeedTheFuture for video and text transcript of #SecClinton remarks on global #hunger.",
+      "media_count": 0
+    },
+    {
+      "id": "251324418540834818",
+      "created_at": "2012-09-27T14:16:25+00:00",
+      "text": "Live now: #SecClinton, #Malawi’s President Joyce Banda and @NickKristof address #hunger and @FeedtheFuture. Watch: http://t.co/UKm9plIx.",
+      "media_count": 0
+    },
+    {
+      "id": "251323281267884032",
+      "created_at": "2012-09-27T14:11:54+00:00",
+      "text": "Live now! Watch @FeedTheFuture's Partnering With #CivilSociety event on http://t.co/UKm9plIx. | #hunger | #FoodSecurity",
+      "media_count": 0
+    },
+    {
+      "id": "251320836512964608",
+      "created_at": "2012-09-27T14:02:11+00:00",
+      "text": "Learn more about @FeedtheFuture, the U.S.'s global #hunger and food security initiative: http://t.co/TzrIiaMO.",
+      "media_count": 0
+    },
+    {
+      "id": "251318381750407168",
+      "created_at": "2012-09-27T13:52:26+00:00",
+      "text": "#SecClinton speaks to the @FeedTheFuture Partnering With #CivilSociety event. Watch live 10:00 AM EDT today on http://t.co/UKm9plIx. #hunger",
+      "media_count": 0
+    },
+    {
+      "id": "251316266105704448",
+      "created_at": "2012-09-27T13:44:01+00:00",
+      "text": "Latest on #DipNote: #SecClinton Recognizes Progress on #SharedResponsibility for #AIDS Response http://t.co/707SdW17 via @PEPFAR #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251177884440469504",
+      "created_at": "2012-09-27T04:34:08+00:00",
+      "text": "#SecClinton: More than 2 million people in #Somalia still need lifesaving humanitarian assistance. http://t.co/7dHftnWW",
+      "media_count": 0
+    },
+    {
+      "id": "251177390284369920",
+      "created_at": "2012-09-27T04:32:11+00:00",
+      "text": "#SecClinton: U.S. has strongly supported AMISOM and the Somali national forces. http://t.co/7dHftnWW #UNGA #Somalia",
+      "media_count": 0
+    },
+    {
+      "id": "251176695296585729",
+      "created_at": "2012-09-27T04:29:25+00:00",
+      "text": "#SecClinton delivers remarks at #UN Secretary-General Summit on #Somalia: http://t.co/7dHftnWW",
+      "media_count": 0
+    },
+    {
+      "id": "251167431408640000",
+      "created_at": "2012-09-27T03:52:36+00:00",
+      "text": "#SecClinton: U.S. supports the appointment of a senior #UN envoy empowered to lead an international effort on #Mali. http://t.co/rdU2OdlA",
+      "media_count": 0
+    },
+    {
+      "id": "251167184729038848",
+      "created_at": "2012-09-27T03:51:37+00:00",
+      "text": "#SecClinton: The chaos and violence in #Mali does threaten to undermine the stability of the entire region. http://t.co/rdU2OdlA",
+      "media_count": 0
+    },
+    {
+      "id": "251167015576948736",
+      "created_at": "2012-09-27T03:50:57+00:00",
+      "text": "#SecClinton addresses the situation in #Mali: http://t.co/rdU2OdlA. #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251161352155049984",
+      "created_at": "2012-09-27T03:28:27+00:00",
+      "text": "(Video) #SecClinton delivers remarks at the #UNAIDS #SharedResponsibility event during #UNGA: http://t.co/srzU2Puc",
+      "media_count": 0
+    },
+    {
+      "id": "251157863811125251",
+      "created_at": "2012-09-27T03:14:35+00:00",
+      "text": "Under Secretary of State @TSonenshine reflects on the tools of 21st century public diplomacy: http://t.co/YowQWPMM.",
+      "media_count": 0
+    },
+    {
+      "id": "251157326709538816",
+      "created_at": "2012-09-27T03:12:27+00:00",
+      "text": "Today, #SecClinton met with President Thein Sein of #Burma during #UNGA in New York: http://t.co/iZI79NZT.",
+      "media_count": 0
+    },
+    {
+      "id": "251153551668174848",
+      "created_at": "2012-09-27T02:57:27+00:00",
+      "text": "Latest on the @WhiteHouse Blog: Empowering #Women and Girls in the U.S. and Abroad http://t.co/xfZWlcxL | #EqualFutures",
+      "media_count": 0
+    },
+    {
+      "id": "251153010015752193",
+      "created_at": "2012-09-27T02:55:18+00:00",
+      "text": ".@WhiteHouse hosts a live video chat on combatting #humantrafficking 12:00 PM EDT September 27. http://t.co/8d6hw7Xj #WHhangout",
+      "media_count": 0
+    },
+    {
+      "id": "251104428009091072",
+      "created_at": "2012-09-26T23:42:15+00:00",
+      "text": "Latest on #DipNote: @TSonenshine on Putting 21st Century Statecraft Into Action http://t.co/YowQWPMM",
+      "media_count": 0
+    },
+    {
+      "id": "251104213772419072",
+      "created_at": "2012-09-26T23:41:24+00:00",
+      "text": "Remarks by President Obama to #CGI2012 on #HumanTrafficking: http://t.co/ODG1jhqC via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "251090693848707072",
+      "created_at": "2012-09-26T22:47:41+00:00",
+      "text": "Interested in what is happening this week at #UNGA? Follow U.S. engagement at the #UN on #Storify: http://t.co/G4jGUT0Z",
+      "media_count": 0
+    },
+    {
+      "id": "251090347285946368",
+      "created_at": "2012-09-26T22:46:18+00:00",
+      "text": "(Photo) #SecClinton and Arab League Secretary General Elaraby sign Memorandum of Understanding during #UNGA: http://t.co/cXS0sOep",
+      "media_count": 0
+    },
+    {
+      "id": "251089938722996224",
+      "created_at": "2012-09-26T22:44:41+00:00",
+      "text": "#SecClinton remarks with League of Arab States Secretary General Nabil Elaraby at MOU signing during #UNGA: http://t.co/tu3YGn44",
+      "media_count": 0
+    },
+    {
+      "id": "251089345728086017",
+      "created_at": "2012-09-26T22:42:19+00:00",
+      "text": "#SecClinton to the #UNSC: We must stand together in support of the common aspirations of all people. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251088948573655041",
+      "created_at": "2012-09-26T22:40:45+00:00",
+      "text": "#SecClinton:Iranian people suffer gross violation of their rights at the hand of their own government. http://t.co/GPS79l0A #UNGA #Iran",
+      "media_count": 0
+    },
+    {
+      "id": "251088574026510336",
+      "created_at": "2012-09-26T22:39:15+00:00",
+      "text": "#SecClinton: #Iran continues to sponsor terrorist groups and smuggle weapons for the Assad regime. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251088284485304320",
+      "created_at": "2012-09-26T22:38:06+00:00",
+      "text": "#SecClinton: #Iran has not taken the necessary steps to cooperate with the #IAEA and to resolve doubts about its #nuclear program. #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251087943240912896",
+      "created_at": "2012-09-26T22:36:45+00:00",
+      "text": "#SecClinton: The future of #Israel and #Palestine must belong to those who embrace the hard work of peace. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251087580580433920",
+      "created_at": "2012-09-26T22:35:18+00:00",
+      "text": "#SecClinton to the #UNSC: The violence in #Syria must end and a political transition without Assad must move forward. http://t.co/GPS79l0A",
+      "media_count": 0
+    },
+    {
+      "id": "251087285859282944",
+      "created_at": "2012-09-26T22:34:08+00:00",
+      "text": "#SecClinton to the #UNSC: Al-Qaida in the Arab Peninsula remains a serious threat. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251086545552027649",
+      "created_at": "2012-09-26T22:31:12+00:00",
+      "text": "#SecClinton to the #UNSC: We are committed to helping the transition in #Egypt succeed. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251086011914911744",
+      "created_at": "2012-09-26T22:29:04+00:00",
+      "text": "#SecClinton to the #UNSC: But Tunisians are working steadily to lay the foundation for sustainable democracy.  http://t.co/GPS79l0A #Tunisia",
+      "media_count": 0
+    },
+    {
+      "id": "251085728132497409",
+      "created_at": "2012-09-26T22:27:57+00:00",
+      "text": "#SecClinton to the #UNSC: In #Tunisia, where the Arab Awakening began, extremists seek to hijack its progress. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251085332534153217",
+      "created_at": "2012-09-26T22:26:22+00:00",
+      "text": "#SecClinton: Thousands of Libyans made clear, those who promote violence and division do not speak for the new #Libya. http://t.co/GPS79l0A",
+      "media_count": 0
+    },
+    {
+      "id": "251083856420151297",
+      "created_at": "2012-09-26T22:20:30+00:00",
+      "text": "#SecClinton to the #UNSC: It is our shared responsibility to help countries in transition find the right path forward. http://t.co/GPS79l0A",
+      "media_count": 0
+    },
+    {
+      "id": "251083579906478080",
+      "created_at": "2012-09-26T22:19:25+00:00",
+      "text": "#SecClinton: These new, emerging democracies need champions, not fair-weather friends. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251083353523113984",
+      "created_at": "2012-09-26T22:18:31+00:00",
+      "text": "#SecClinton: The fact of new, emerging democracies in the 21st century should be a cause for great hope. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251083132873359363",
+      "created_at": "2012-09-26T22:17:38+00:00",
+      "text": "#SecClinton: Democracies make the strongest, most capable partners. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251082856191909888",
+      "created_at": "2012-09-26T22:16:32+00:00",
+      "text": "#SecClinton:  The United States rejects the false choice between democracy and stability. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251079986189062144",
+      "created_at": "2012-09-26T22:05:08+00:00",
+      "text": "Today, #SecClinton spoke at the UN Security Council Session on Peace and Security in the Middle East. http://t.co/GPS79l0A #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251078698932006913",
+      "created_at": "2012-09-26T22:00:01+00:00",
+      "text": "U.S. Commitment to the Global Alliance for Clean @Cookstoves -- Year Two Progress Report http://t.co/q3GAH1rX",
+      "media_count": 0
+    },
+    {
+      "id": "251078436477624321",
+      "created_at": "2012-09-26T21:58:58+00:00",
+      "text": "How can we build more effective institutions for managing shared #water resources? Share your thoughts here: http://t.co/SdGqQ0WU #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251076101688930305",
+      "created_at": "2012-09-26T21:49:42+00:00",
+      "text": "Latest on #DipNote: #Water Should Be a Priority in Every Nation's Foreign Policy http://t.co/SdGqQ0WU via @USMariaOtero #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "251047426801164288",
+      "created_at": "2012-09-26T19:55:45+00:00",
+      "text": "Senior U.S. official previews the September 27 #Haiti Partners Ministerial, to be held during #UNGA in New York: http://t.co/nU2211Qi",
+      "media_count": 0
+    },
+    {
+      "id": "251047073431040000",
+      "created_at": "2012-09-26T19:54:21+00:00",
+      "text": "(Photo) #SecClinton meets with #UK Foreign Secretary William Hague: http://t.co/BsSYTRi1",
+      "media_count": 0
+    },
+    {
+      "id": "251046129922355200",
+      "created_at": "2012-09-26T19:50:36+00:00",
+      "text": "(Photo) #SecClinton meets with Foreign Minister Reynders of #Belgium during #UNGA in New York: http://t.co/zC6XjE3B",
+      "media_count": 0
+    },
+    {
+      "id": "251042230813470721",
+      "created_at": "2012-09-26T19:35:06+00:00",
+      "text": "(Photo) #UN Secretary-General Ban Ki-moon delivers remarks at Heads of State luncheon during #UNGA: http://t.co/szEvBa6D",
+      "media_count": 0
+    },
+    {
+      "id": "251041964013801472",
+      "created_at": "2012-09-26T19:34:03+00:00",
+      "text": "#SecClinton delivered remarks at the Heads of State luncheon during #UNGA in New York: http://t.co/uPIRGAvq | Photo: http://t.co/v8Ty91E3",
+      "media_count": 0
+    },
+    {
+      "id": "251041467760521216",
+      "created_at": "2012-09-26T19:32:04+00:00",
+      "text": "Interested in what is happening at #UNGA this week? Follow U.S. engagement at the #UN on #Storify: http://t.co/G4jGUT0Z",
+      "media_count": 0
+    },
+    {
+      "id": "251041082715013121",
+      "created_at": "2012-09-26T19:30:32+00:00",
+      "text": "(Photo) #SecClinton meets with Prime Minister Mikati of #Lebanon during #UNGA in New York: http://t.co/swrI7qXk",
+      "media_count": 0
+    },
+    {
+      "id": "251040664513560576",
+      "created_at": "2012-09-26T19:28:53+00:00",
+      "text": "(Photo) #SecClinton meets with President Hadi of #Yemen during #UNGA in New York: http://t.co/X7gvus7E",
+      "media_count": 0
+    },
+    {
+      "id": "251040151067820032",
+      "created_at": "2012-09-26T19:26:50+00:00",
+      "text": "(Photo) #SecClinton meets with Vice President al-Khuzai of #Iraq during #UNGA in New York: http://t.co/QFa1hec3",
+      "media_count": 0
+    },
+    {
+      "id": "251039802554732545",
+      "created_at": "2012-09-26T19:25:27+00:00",
+      "text": "Briefing on #SecClinton's meetings with Iraqi Vice President al-Khuzai and Yemeni President Hadi during #UNGA: http://t.co/ADb6XrDf",
+      "media_count": 0
+    },
+    {
+      "id": "251039502666199040",
+      "created_at": "2012-09-26T19:24:16+00:00",
+      "text": "(Photo) #SecClinton meets with Arab League Secretary General Al-Araby during #UNGA: http://t.co/cXS0sOep",
+      "media_count": 0
+    },
+    {
+      "id": "251037213163393025",
+      "created_at": "2012-09-26T19:15:10+00:00",
+      "text": "Latest on #DipNote: @AmbKennedy on Advancing the Biological and Toxin Weapons Convention http://t.co/XMzealA8",
+      "media_count": 0
+    },
+    {
+      "id": "251036805498028033",
+      "created_at": "2012-09-26T19:13:33+00:00",
+      "text": "Readout of #SecClinton's meetings with Belgian, Greek, and UK foreign ministers and the Transatlantic Dinner: http://t.co/i9qNHfSq",
+      "media_count": 0
+    },
+    {
+      "id": "251032940497219585",
+      "created_at": "2012-09-26T18:58:11+00:00",
+      "text": "(Photo) #SecClinton hosts the Transatlantic Dinner for #EU and #NATO foreign ministers during #UNGA: http://t.co/p0CJVN0E",
+      "media_count": 0
+    },
+    {
+      "id": "251032507208835073",
+      "created_at": "2012-09-26T18:56:28+00:00",
+      "text": "Interested in what is happening at the #UN this week? Follow U.S. engagement at #UNGA on #Storify: http://t.co/G4jGUT0Z",
+      "media_count": 0
+    },
+    {
+      "id": "250900413132460032",
+      "created_at": "2012-09-26T10:11:34+00:00",
+      "text": "Reminder: join Ambassador @McFaul for a Twitter Q&amp;A on U.S.-Russia relations Today at 6:45am EDT. Submit questions using #AskMcFaul.",
+      "media_count": 0
+    },
+    {
+      "id": "250841199949258752",
+      "created_at": "2012-09-26T06:16:17+00:00",
+      "text": "Join Ambassador @McFaul for a Twitter Q&amp;A on U.S.-Russia relations Sept. 26 at 6:45 a.m. EDT. Submit questions using #AskMcFaul.",
+      "media_count": 0
+    },
+    {
+      "id": "250806361779220480",
+      "created_at": "2012-09-26T03:57:51+00:00",
+      "text": "President Obama at #UNGA: We must stand with those Syrians who believe in a different vision -- a #Syria that is united and inclusive.",
+      "media_count": 0
+    },
+    {
+      "id": "250806040143204353",
+      "created_at": "2012-09-26T03:56:34+00:00",
+      "text": "President Obama at #UNGA: In #Syria, the future must not belong to a dictator who massacres his people. http://t.co/TfDSPurv",
+      "media_count": 0
+    },
+    {
+      "id": "250805283377541120",
+      "created_at": "2012-09-26T03:53:33+00:00",
+      "text": "Readout of #SecClinton's meeting with League of Arab States Secretary General Nabil Elaraby during #UNGA: http://t.co/qNaVT7AN",
+      "media_count": 0
+    },
+    {
+      "id": "250802294025777152",
+      "created_at": "2012-09-26T03:41:41+00:00",
+      "text": "President Obama at #UNGA: The U.S. will do what we must to prevent #Iran from obtaining a #nuclear weapon. http://t.co/vOGfYS7f",
+      "media_count": 0
+    },
+    {
+      "id": "250802014479593472",
+      "created_at": "2012-09-26T03:40:34+00:00",
+      "text": "President Obama at #UNGA: Nuclear-armed #Iran risks triggering an arms race and unraveling of non-proliferation treaty. http://t.co/vOGfYS7f",
+      "media_count": 0
+    },
+    {
+      "id": "250800915798433793",
+      "created_at": "2012-09-26T03:36:12+00:00",
+      "text": "President Obama at #UNGA: A #nuclear-armed #Iran would threaten Israel, the Gulf nations, stability of global economy. http://t.co/239J5pKi",
+      "media_count": 0
+    },
+    {
+      "id": "250793471819005952",
+      "created_at": "2012-09-26T03:06:37+00:00",
+      "text": "(Photo) #SecClinton meets with President Zardari of #Pakistan during #UNGA in New York: http://t.co/MdVIpwcG",
+      "media_count": 0
+    },
+    {
+      "id": "250793132218802176",
+      "created_at": "2012-09-26T03:05:16+00:00",
+      "text": "(Photo) #SecClinton meets with President Karzai of #Afghanistan during #UNGA in New York: http://t.co/eu2dsKCq",
+      "media_count": 0
+    },
+    {
+      "id": "250792122171678720",
+      "created_at": "2012-09-26T03:01:16+00:00",
+      "text": "#SecClinton: #Water management and resource issues are both a moral imperative and a strategic investment. http://t.co/oqROxcXf #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250791730490777600",
+      "created_at": "2012-09-26T02:59:42+00:00",
+      "text": "#SecClinton calls for cooperation on shared waters: http://t.co/UqNfqkQL. #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250706329885351936",
+      "created_at": "2012-09-25T21:20:21+00:00",
+      "text": "(Video) #SecClinton delivers remarks at the launch of the Equal Futures Partnership during #UNGA in New York: http://t.co/4PLCqzum",
+      "media_count": 0
+    },
+    {
+      "id": "250692713572352000",
+      "created_at": "2012-09-25T20:26:15+00:00",
+      "text": "U.S. welcomes the Dutch government's pledge as part of the Equal Futures Partnership: http://t.co/inl10Vbl",
+      "media_count": 0
+    },
+    {
+      "id": "250681376783884288",
+      "created_at": "2012-09-25T19:41:12+00:00",
+      "text": "(Photo) #SecClinton meets with Egyptian President Morsi in New York during #UNGA: http://t.co/by7Jr1em",
+      "media_count": 0
+    },
+    {
+      "id": "250680982359916545",
+      "created_at": "2012-09-25T19:39:38+00:00",
+      "text": "(Photo) #SecClinton meets with Libyan President Magariaf in New York during #UNGA: http://t.co/RKeoTVJA",
+      "media_count": 0
+    },
+    {
+      "id": "250680365293924354",
+      "created_at": "2012-09-25T19:37:11+00:00",
+      "text": "U.S. announces efforts to combat human trafficking at home and abroad: http://t.co/mANtpniM via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "250678764382605312",
+      "created_at": "2012-09-25T19:30:49+00:00",
+      "text": "Today, President Obama addressed #CGI2012, where he discussed #ModernSlavery. http://t.co/ODG1jhqC via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "250678382327644160",
+      "created_at": "2012-09-25T19:29:18+00:00",
+      "text": "#SecClinton delivers remarks at #CGI2012: http://t.co/LPfLKyXF | Photos: http://t.co/sFNp1zwU | http://t.co/ds70DghB",
+      "media_count": 0
+    },
+    {
+      "id": "250678040789676032",
+      "created_at": "2012-09-25T19:27:56+00:00",
+      "text": "Interested in what's happening at the #UN this week? Follow U.S. events at #UNGA on #Storify: http://t.co/hqTeZ8rW",
+      "media_count": 0
+    },
+    {
+      "id": "250642775073251329",
+      "created_at": "2012-09-25T17:07:48+00:00",
+      "text": "Executive Order Strengthening Protections Against Trafficking in Persons in Federal Contracts http://t.co/ATCF32Ay #ModernSlavery",
+      "media_count": 0
+    },
+    {
+      "id": "250641877710299136",
+      "created_at": "2012-09-25T17:04:15+00:00",
+      "text": "Now on #DipNote: Combating #ModernSlavery 150 Years After the Emancipation Proclamation http://t.co/ilDDVkSb via @JTIP_State",
+      "media_count": 0
+    },
+    {
+      "id": "250640609193390080",
+      "created_at": "2012-09-25T16:59:12+00:00",
+      "text": "Stay tuned to http://t.co/r40bYdmI and follow @WhiteHouse and @JTIP_State for video of President Obama's remarks on #ModernSlavery. #CGI2012",
+      "media_count": 0
+    },
+    {
+      "id": "250633898604777472",
+      "created_at": "2012-09-25T16:32:32+00:00",
+      "text": "Latest on #DipNote: Putting Children Front and Center in the Response to #HIV/#AIDS http://t.co/oXUQz2SP via @PEPFAR",
+      "media_count": 0
+    },
+    {
+      "id": "250624530328989697",
+      "created_at": "2012-09-25T15:55:19+00:00",
+      "text": "President Barack Obama speaks at #CGI2012 today at 12:10 PM EDT. Watch on http://t.co/HUZhUyKw. #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250622246715011072",
+      "created_at": "2012-09-25T15:46:14+00:00",
+      "text": "Interested in what's happening at the #UN this week? Follow U.S. engagement at #UNGA on #Storify: http://t.co/hqTeZ8rW",
+      "media_count": 0
+    },
+    {
+      "id": "250612851914440704",
+      "created_at": "2012-09-25T15:08:54+00:00",
+      "text": "#SecClinton's schedule at the #UN General Assembly on September 25: http://t.co/z8ivkqtv #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250609127125037057",
+      "created_at": "2012-09-25T14:54:06+00:00",
+      "text": "Stay tuned to http://t.co/kbcwj3a4 and follow @WhiteHouse and @USUN for text transcript and video of President Obama's remarks at #UNGA.",
+      "media_count": 0
+    },
+    {
+      "id": "250600749510295552",
+      "created_at": "2012-09-25T14:20:49+00:00",
+      "text": "Live now! President Obama addresses the 67th UN General Assembly. Watch on http://t.co/HUZhUyKw. #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250594267217682432",
+      "created_at": "2012-09-25T13:55:03+00:00",
+      "text": "President Barack Obama addresses the 67th #UN General Assembly today at 10:10 AM EDT. Watch on http://t.co/HUZhUyKw. #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250556677294813184",
+      "created_at": "2012-09-25T11:25:41+00:00",
+      "text": "Today, the #DipNote blog turns five! Tell us what you'd like to see on the blog in the future: http://t.co/oQ2xme05.",
+      "media_count": 0
+    },
+    {
+      "id": "250552149258412032",
+      "created_at": "2012-09-25T11:07:42+00:00",
+      "text": "Readout of #SecClinton's meeting with President Mohammed Morsi of #Egypt during #UNGA in New York: http://t.co/PafVZ5ur",
+      "media_count": 0
+    },
+    {
+      "id": "250551717035380736",
+      "created_at": "2012-09-25T11:05:59+00:00",
+      "text": "Background briefing on #SecClinton's bilateral meetings during #UNGA: http://t.co/xkK6YiE3",
+      "media_count": 0
+    },
+    {
+      "id": "250457527769255936",
+      "created_at": "2012-09-25T04:51:42+00:00",
+      "text": "The @StateDept's #DipNote blog turns five http://t.co/oQ2xme05.",
+      "media_count": 0
+    },
+    {
+      "id": "250456450277732352",
+      "created_at": "2012-09-25T04:47:25+00:00",
+      "text": "Get the latest U.S. foreign policy information on your handheld device by going to http://t.co/lbdSWz2V.",
+      "media_count": 0
+    },
+    {
+      "id": "250456015001239552",
+      "created_at": "2012-09-25T04:45:41+00:00",
+      "text": "(Video) #SecClinton launches Global #Philanthropy Working Group, co-chaired by @TSonenshine and @KrisAtState: http://t.co/iQwdEN0y",
+      "media_count": 0
+    },
+    {
+      "id": "250455374728159232",
+      "created_at": "2012-09-25T04:43:09+00:00",
+      "text": "Spokesperson Victoria Nuland: Conduct of September 23 parliamentary elections in #Belarus cannot be considered free or fair.",
+      "media_count": 0
+    },
+    {
+      "id": "250455120343621632",
+      "created_at": "2012-09-25T04:42:08+00:00",
+      "text": "Spokesperson Victoria Nuland: September 23 parliamentary elections in #Belarus fell short of international standards. http://t.co/rIHBMn5v",
+      "media_count": 0
+    },
+    {
+      "id": "250454546743189504",
+      "created_at": "2012-09-25T04:39:51+00:00",
+      "text": "Spokesperson Victoria Nuland: We are deeply troubled by the convictions of three Vietnamese bloggers. http://t.co/2wNctotM",
+      "media_count": 0
+    },
+    {
+      "id": "250454345173315584",
+      "created_at": "2012-09-25T04:39:03+00:00",
+      "text": "Spokesperson Victoria Nuland: Vietnamese government should release the three bloggers, all prisoners of conscience. http://t.co/2wNctotM",
+      "media_count": 0
+    },
+    {
+      "id": "250453644141527040",
+      "created_at": "2012-09-25T04:36:16+00:00",
+      "text": ".@inlbureau announces grant to @StanfordLaw School to expand an innovative legal education program in #Afghanistan: http://t.co/2dyvkCTo.",
+      "media_count": 0
+    },
+    {
+      "id": "250432995448721408",
+      "created_at": "2012-09-25T03:14:13+00:00",
+      "text": "#SecClinton announces launch of the U.S.-#Pakistan #Women's Council: http://t.co/iBz5fadw",
+      "media_count": 0
+    },
+    {
+      "id": "250432163177197568",
+      "created_at": "2012-09-25T03:10:55+00:00",
+      "text": "Today, #SecClinton met with President Mohamed Magariaf of #Libya during #UNGA in New York: http://t.co/LRnwjuPP.",
+      "media_count": 0
+    },
+    {
+      "id": "250431358210560000",
+      "created_at": "2012-09-25T03:07:43+00:00",
+      "text": "(Video) #SecClinton remarks at #CGI2012: http://t.co/hi1oWsAY #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250430000669552640",
+      "created_at": "2012-09-25T03:02:19+00:00",
+      "text": "#SecClinton: Ensuring #women are equal partners was one of the great pieces of unfinished business of the 21st century. http://t.co/lgNIvB0j",
+      "media_count": 0
+    },
+    {
+      "id": "250344531185258497",
+      "created_at": "2012-09-24T21:22:42+00:00",
+      "text": "Fact Sheet: Equal Futures Partnership to Expand #Women's Political and Economic Participation http://t.co/oNzHyrs8 via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "250344230654971904",
+      "created_at": "2012-09-24T21:21:30+00:00",
+      "text": ".@S_GWI Ambassador Melanne Verveer discusses the launch of the Equal Futures Partnership: http://t.co/Ul6a0BQp",
+      "media_count": 0
+    },
+    {
+      "id": "250292298288623616",
+      "created_at": "2012-09-24T17:55:08+00:00",
+      "text": "#SecClinton at #CGI2012: As we pursue #development around the world, we are working to advance freedom and dignity. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250290234233868288",
+      "created_at": "2012-09-24T17:46:56+00:00",
+      "text": "#SecClinton at #CGI2012: We need to broaden and increase our partnerships to advance our work in #development. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250288056341499904",
+      "created_at": "2012-09-24T17:38:17+00:00",
+      "text": "#SecClinton at #CGI2012: You cannot have #development in today's world without partnering with the private sector. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250286447603634176",
+      "created_at": "2012-09-24T17:31:53+00:00",
+      "text": "#SecClinton at #CGI2012: Today, #development assistance can and should play a different role. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250286204875063296",
+      "created_at": "2012-09-24T17:30:55+00:00",
+      "text": "#SecClinton at #CGI2012: We want to move from aid to investment. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250285690892464129",
+      "created_at": "2012-09-24T17:28:53+00:00",
+      "text": "#SecClinton at #CGI2012: #Development is vital to our national interests and to our efforts to build a more free, stable, prosperous world.",
+      "media_count": 0
+    },
+    {
+      "id": "250285000975581187",
+      "created_at": "2012-09-24T17:26:08+00:00",
+      "text": "#SecClinton at #CGI2012: At the same time, we must stay true to our values. Otherwise, we will lose our way. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250284854703435777",
+      "created_at": "2012-09-24T17:25:34+00:00",
+      "text": "#SecClinton at #CGI2012: We must think and act innovatively and be willing to change ourselves. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250284310073049089",
+      "created_at": "2012-09-24T17:23:24+00:00",
+      "text": "#SecClinton: In the face of change, those who care about having an impact have to do two important things at once. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250283530603618304",
+      "created_at": "2012-09-24T17:20:18+00:00",
+      "text": "#SecClinton at #CGI2012: New technologies are transforming how people everywhere work, learn, and communicate. http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250283244354945025",
+      "created_at": "2012-09-24T17:19:10+00:00",
+      "text": "#SecClinton remarks at #CGI2012: http://t.co/LPfLKyXF",
+      "media_count": 0
+    },
+    {
+      "id": "250274951062515712",
+      "created_at": "2012-09-24T16:46:12+00:00",
+      "text": "RT @USAID Did you know? The world has met two #MDG targets well ahead of the 2015 deadline, reducing poverty by 50%. http://t.co/KNmJlye8",
+      "media_count": 0
+    },
+    {
+      "id": "250264526187020289",
+      "created_at": "2012-09-24T16:04:47+00:00",
+      "text": "#SecClinton's schedule at the #UN General Assembly today, September 24: http://t.co/oCANRoLG #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250260723899457536",
+      "created_at": "2012-09-24T15:49:40+00:00",
+      "text": "#SecClinton announces revisions to tax regulations to support #civilsociety worldwide: http://t.co/T4gKxNiK | #CivSoc | #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250260394524958720",
+      "created_at": "2012-09-24T15:48:22+00:00",
+      "text": "#SecClinton launches Global #Philanthropy Working Group, co-chaired by @TSonenshine and @KrisAtState. http://t.co/T4gKxNiK #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250258573312024576",
+      "created_at": "2012-09-24T15:41:08+00:00",
+      "text": "(Photo) #SecClinton meets with Israeli Defense Minister Ehud Barak in New York during #UNGA: http://t.co/9xcKixBi",
+      "media_count": 0
+    },
+    {
+      "id": "250256214213148673",
+      "created_at": "2012-09-24T15:31:45+00:00",
+      "text": "Latest on #DipNote: @US2EU Spotlights #Women in Leadership http://t.co/V65FH5ja | #EU | #GenderEquality",
+      "media_count": 0
+    },
+    {
+      "id": "250246090069266433",
+      "created_at": "2012-09-24T14:51:31+00:00",
+      "text": "(Photos) #SecClinton meets with Dominican Republic President Danilo Medina during #UNGA: http://t.co/MI2LJN1n | http://t.co/4Chm0lqL",
+      "media_count": 0
+    },
+    {
+      "id": "250239854535905280",
+      "created_at": "2012-09-24T14:26:45+00:00",
+      "text": "(Photo) #SecClinton meets with #EU High Representative Catherine Ashton in New York during #UNGA: http://t.co/PKmjX3Zj",
+      "media_count": 0
+    },
+    {
+      "id": "250239438997827584",
+      "created_at": "2012-09-24T14:25:06+00:00",
+      "text": ".@USUN is now on #Facebook. 'Like' for updates throughout the high-level week of the #UN General Assembly. http://t.co/pkhYMBBn #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250235475783204864",
+      "created_at": "2012-09-24T14:09:21+00:00",
+      "text": "On September 27, @FeedtheFuture hosts an event with @NickKristof on partnering with #CivilSociety to end #hunger.  http://t.co/H9I9eQEJ",
+      "media_count": 0
+    },
+    {
+      "id": "250234242213240833",
+      "created_at": "2012-09-24T14:04:27+00:00",
+      "text": "Multiple events around #UNGA will highlight progress on #FoodSecurity and #nutrition. http://t.co/H9I9eQEJ via @FeedTheFuture",
+      "media_count": 0
+    },
+    {
+      "id": "250220803713536000",
+      "created_at": "2012-09-24T13:11:03+00:00",
+      "text": "Latest on #DipNote -- @State_IO's Dr. Esther Brimmer previews the 67th #UN General Assembly: http://t.co/n0JbCyjd  #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "250075072667217921",
+      "created_at": "2012-09-24T03:31:58+00:00",
+      "text": "Photo of the Week: #SecClinton Meets With Daw Aung San Suu Kyi http://t.co/fKkwr3zU #Burma #ASSK",
+      "media_count": 0
+    },
+    {
+      "id": "250073876321669123",
+      "created_at": "2012-09-24T03:27:12+00:00",
+      "text": "Latest on #DipNote: @State_IO's Dr. Esther Brimmer on U.S. Priorities at the 67th #UN General Assembly http://t.co/n0JbCyjd #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "249986132354424832",
+      "created_at": "2012-09-23T21:38:33+00:00",
+      "text": "(Video) @State_IO's Dr. Esther Brimmer previews U.S. priorities for the 67th #UN General Assembly http://t.co/GzmCgzLh #UNGA",
+      "media_count": 0
+    },
+    {
+      "id": "249984475600150529",
+      "created_at": "2012-09-23T21:31:58+00:00",
+      "text": "Latest on #DipNote: International Coastal Cleanup and Marine Debris http://t.co/bwa0IPbr via @StateDeptOES",
+      "media_count": 0
+    },
+    {
+      "id": "249875050931572738",
+      "created_at": "2012-09-23T14:17:09+00:00",
+      "text": "Latest on #DipNote: Daw Aung San Suu Kyi Recognizes Staff at Radio Free Asia and Voice of America http://t.co/0avem8dG  #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "249874685863546880",
+      "created_at": "2012-09-23T14:15:42+00:00",
+      "text": "Photo of the Week: #SecClinton Meets With Daw Aung San Suu Kyi http://t.co/fKkwr3zU #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "249575093641027585",
+      "created_at": "2012-09-22T18:25:13+00:00",
+      "text": "@AnnatState will travel to #Zambia and #SouthAfrica September 24-29 to engage with youth, civil society, entrepreneurs. http://t.co/CoevflVx",
+      "media_count": 0
+    },
+    {
+      "id": "249518291951947776",
+      "created_at": "2012-09-22T14:39:31+00:00",
+      "text": "RT @HistoryAtState Read about the role of the Emancipation Proclamation in Civil War diplomacy http://t.co/osx6DQZF #FRUS #twitterstorians",
+      "media_count": 0
+    },
+    {
+      "id": "249518035759669250",
+      "created_at": "2012-09-22T14:38:30+00:00",
+      "text": "Latest on #DipNote: Combating Modern Slavery 150 Years After the Emancipation Proclamation http://t.co/ilDDVkSb via @JTIP_State",
+      "media_count": 0
+    },
+    {
+      "id": "249326611286073344",
+      "created_at": "2012-09-22T01:57:51+00:00",
+      "text": "#SecClinton remarks with Foreign Minister Abdessalem of #Tunisia: http://t.co/G1vc4Znl | Photo: http://t.co/ztcLhW3E",
+      "media_count": 0
+    },
+    {
+      "id": "249326398311907329",
+      "created_at": "2012-09-22T01:57:00+00:00",
+      "text": "#SecClinton remarks with Foreign Minister Khar of #Pakistan: http://t.co/nNSwix9W | Photo: http://t.co/IDeB1JbB",
+      "media_count": 0
+    },
+    {
+      "id": "249326095076315138",
+      "created_at": "2012-09-22T01:55:47+00:00",
+      "text": "#SecClinton remarks with #Czech Republic Foreign Minister Schwarzenberg: http://t.co/i3NzSWl4 | Photo: http://t.co/8HMYHmL1",
+      "media_count": 0
+    },
+    {
+      "id": "249322794708504577",
+      "created_at": "2012-09-22T01:42:41+00:00",
+      "text": "After receiving over 730 applications from 47 states, DC, and Puerto Rico, the first-ever US Youth Observer is named: http://t.co/vIV3iYwp",
+      "media_count": 0
+    },
+    {
+      "id": "249322689402126337",
+      "created_at": "2012-09-22T01:42:16+00:00",
+      "text": "Congrats to Brooke Loughrin from @BostonCollege at being named the 1st-ever #USYouth Observer at the #UN! #UNGA http://t.co/vIV3iYwp",
+      "media_count": 0
+    },
+    {
+      "id": "249322594887675904",
+      "created_at": "2012-09-22T01:41:53+00:00",
+      "text": ".@UNAUSA and @StateDept announce the first-ever #USYouth Observer at the #UN! Meet the winner: http://t.co/vIV3iYwp",
+      "media_count": 0
+    },
+    {
+      "id": "249303323868557312",
+      "created_at": "2012-09-22T00:25:18+00:00",
+      "text": "#SecClinton remarks with Foreign Minister Hina Rabbani Khar of #Pakistan: http://t.co/nNSwix9W",
+      "media_count": 0
+    },
+    {
+      "id": "249303026655969280",
+      "created_at": "2012-09-22T00:24:08+00:00",
+      "text": "Latest on #DipNote: Daw Aung San Suu Kyi Recognizes Staff at Radio Free Asia and Voice of America http://t.co/0avem8dG #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "249271768311791616",
+      "created_at": "2012-09-21T22:19:55+00:00",
+      "text": "Missed our #Facebook Chat with @State_IO's Esther Brimmer on U.S. engagement at the #UN? Follow it on #Storify: http://t.co/IBDnTvvT",
+      "media_count": 0
+    },
+    {
+      "id": "249264961421967360",
+      "created_at": "2012-09-21T21:52:52+00:00",
+      "text": "Follow @USUN and @State_IO during the 67th #UN General Assembly. #UNGA #FollowFriday #FF",
+      "media_count": 0
+    },
+    {
+      "id": "249251105912004609",
+      "created_at": "2012-09-21T20:57:49+00:00",
+      "text": "Spokesperson Victoria Nuland on #Ethiopia's selection of new leadership: http://t.co/FeIucxu4",
+      "media_count": 0
+    },
+    {
+      "id": "249241819752321024",
+      "created_at": "2012-09-21T20:20:55+00:00",
+      "text": "Assistant Secretary of @State_IO Esther Brimmer on U.S. goals and priorities for the 67th #UNGA: http://t.co/CfQy39hZ",
+      "media_count": 0
+    },
+    {
+      "id": "249237412386054144",
+      "created_at": "2012-09-21T20:03:24+00:00",
+      "text": "Now is the time to demonstrate courage and to deliver peace and prosperity for the people of #Sudan and #SouthSudan. http://t.co/XvA8gOqp",
+      "media_count": 0
+    },
+    {
+      "id": "249237069413638146",
+      "created_at": "2012-09-21T20:02:02+00:00",
+      "text": "The U.S., #UK and #Norway call on #Sudan and #SouthSudan governments to reach final agreement on outstanding issues. http://t.co/XvA8gOqp",
+      "media_count": 0
+    },
+    {
+      "id": "249234889587716097",
+      "created_at": "2012-09-21T19:53:22+00:00",
+      "text": "Joint statement by #SecClinton, Foreign Minister Eide of #Norway and Foreign Secretary @WilliamJHague of the #UK: http://t.co/XvA8gOqp",
+      "media_count": 0
+    },
+    {
+      "id": "249232888946622464",
+      "created_at": "2012-09-21T19:45:25+00:00",
+      "text": "2014 Diversity Visa Program Registration: http://t.co/LyefgKWn",
+      "media_count": 0
+    },
+    {
+      "id": "249227069987368960",
+      "created_at": "2012-09-21T19:22:18+00:00",
+      "text": "#SecClinton's 2012 Award for Corporate Excellence (ACE) finalists selected: http://t.co/s3TulFdg",
+      "media_count": 0
+    },
+    {
+      "id": "249225423995691008",
+      "created_at": "2012-09-21T19:15:46+00:00",
+      "text": "The fourth session of the Bilateral Consultative Commission under the New START Treaty: http://t.co/qKdxWzct | Photo: http://t.co/c8SlqqLq",
+      "media_count": 0
+    },
+    {
+      "id": "249218818134642688",
+      "created_at": "2012-09-21T18:49:31+00:00",
+      "text": "Remarks by #SecClinton with Foreign Minister Rafik Abdessalem of #Tunisia: http://t.co/G1vc4Znl",
+      "media_count": 0
+    },
+    {
+      "id": "249218577683587072",
+      "created_at": "2012-09-21T18:48:33+00:00",
+      "text": "#SecClinton: The U.S. is committed to supporting #Tunisia as you deal with this current situation and continue your democratic transition.",
+      "media_count": 0
+    },
+    {
+      "id": "249218392597344256",
+      "created_at": "2012-09-21T18:47:49+00:00",
+      "text": "#SecClinton: We continue to look for ways we can assist the new Government of #Tunisia in ensuring the rule of law throughout their country.",
+      "media_count": 0
+    },
+    {
+      "id": "249218260736823297",
+      "created_at": "2012-09-21T18:47:18+00:00",
+      "text": "#SecClinton: We are working closely with #Tunisia on the shared threat of terrorism, including from groups like al-Qaida and its affiliates.",
+      "media_count": 0
+    },
+    {
+      "id": "249217098960732160",
+      "created_at": "2012-09-21T18:42:41+00:00",
+      "text": "#SecClinton: The U.S.-#Tunisia relationship is built around the shared principles of all democracies. http://t.co/G1vc4Znl",
+      "media_count": 0
+    },
+    {
+      "id": "249216978890399744",
+      "created_at": "2012-09-21T18:42:12+00:00",
+      "text": "#SecClinton: We look forward to continuing to build our new partnership with the government and people of #Tunisia. http://t.co/G1vc4Znl",
+      "media_count": 0
+    },
+    {
+      "id": "249216731032199168",
+      "created_at": "2012-09-21T18:41:13+00:00",
+      "text": "#SecClinton remarks with Foreign Minister Rafik Abdessalem of #Tunisia: http://t.co/G1vc4Znl",
+      "media_count": 0
+    },
+    {
+      "id": "249211416014385153",
+      "created_at": "2012-09-21T18:20:06+00:00",
+      "text": "\"A New Beginning\" exchange to connect international and American entrepreneurs: http://t.co/HjIIUi6u",
+      "media_count": 0
+    },
+    {
+      "id": "249210768548040704",
+      "created_at": "2012-09-21T18:17:31+00:00",
+      "text": "Bringing Cultural Diplomacy to Main Street America: @StateDept welcomes Nan Jombang of #Indonesia to the U.S. http://t.co/6QtnYyUZ",
+      "media_count": 0
+    },
+    {
+      "id": "249209536165052416",
+      "created_at": "2012-09-21T18:12:38+00:00",
+      "text": "Community of Democracies meetings at #UNGA to address key Issues related to emerging democracies and #CivilSociety: http://t.co/JdxKZVeD",
+      "media_count": 0
+    },
+    {
+      "id": "249208598008315904",
+      "created_at": "2012-09-21T18:08:54+00:00",
+      "text": "#SecClinton remarks with #Czech Republic Foreign Minister Karel Schwarzenberg: http://t.co/i3NzSWl4",
+      "media_count": 0
+    },
+    {
+      "id": "249187417314181120",
+      "created_at": "2012-09-21T16:44:44+00:00",
+      "text": "Latest on #DipNote: Under Secretary Robert Hormats on a Model for Community-Led #Conservation Efforts http://t.co/p8rDhOB6",
+      "media_count": 0
+    },
+    {
+      "id": "249187084173197312",
+      "created_at": "2012-09-21T16:43:25+00:00",
+      "text": "Special Advisor for International Disability Rights Judith Heumann travels to #Finland and #Russia http://t.co/rstfXxle via @State_DRL",
+      "media_count": 0
+    },
+    {
+      "id": "249186766811168769",
+      "created_at": "2012-09-21T16:42:09+00:00",
+      "text": "Special Envoys @HannahAtState and Douglas Davidson commemorate the MS St. Louis with survivors September 24: http://t.co/uEhi0sz6",
+      "media_count": 0
+    },
+    {
+      "id": "249182564189884416",
+      "created_at": "2012-09-21T16:25:27+00:00",
+      "text": "Get the latest U.S. foreign policy information on your handheld device by going to http://t.co/lbdSWz2V.",
+      "media_count": 0
+    },
+    {
+      "id": "249149955065921536",
+      "created_at": "2012-09-21T14:15:52+00:00",
+      "text": "RT @AFAsstSecy At 11:00 AM EDT, Ambassador Don Yamamoto will have a conversation with @ReutersAfrica. Please follow at #RAForum.",
+      "media_count": 0
+    },
+    {
+      "id": "249136768048312320",
+      "created_at": "2012-09-21T13:23:28+00:00",
+      "text": "67th #UNGA started this week! Join @State_IO's Esther Brimmer now for a #Facebook Chat on U.S. engagement at the #UN: http://t.co/VJxzn9Hl",
+      "media_count": 0
+    },
+    {
+      "id": "249132762064371712",
+      "created_at": "2012-09-21T13:07:33+00:00",
+      "text": "Live now! Join @State_IO Dr. Esther Brimmer for a #Facebook Chat on U.S. engagement at the #UN: http://t.co/VJxzn9Hl",
+      "media_count": 0
+    },
+    {
+      "id": "248971813349122048",
+      "created_at": "2012-09-21T02:28:00+00:00",
+      "text": "Interested in U.S. engagement at the #UN? Join @State_IO Dr. Esther Brimmer for a #Facebook Chat Friday at 9:00 AM EDT: http://t.co/VJxzn9Hl",
+      "media_count": 0
+    },
+    {
+      "id": "248971353506582528",
+      "created_at": "2012-09-21T02:26:10+00:00",
+      "text": "#SecClinton remarks with Foreign Minister of #Indonesia R.M. Marty Muliana Natalegawa http://t.co/ArANpO6i | Photo: http://t.co/kg6R7W58",
+      "media_count": 0
+    },
+    {
+      "id": "248971191484825601",
+      "created_at": "2012-09-21T02:25:32+00:00",
+      "text": "#SecClinton: As two of the world's largest democracies, the U.S. and #Indonesia have a responsibility to promote democracy and human rights.",
+      "media_count": 0
+    },
+    {
+      "id": "248970084368928768",
+      "created_at": "2012-09-21T02:21:08+00:00",
+      "text": "#SecClinton: The U.S. is looking forward to #Indonesia hosting #APEC in 2013. http://t.co/ArANpO6i",
+      "media_count": 0
+    },
+    {
+      "id": "248969420439961601",
+      "created_at": "2012-09-21T02:18:30+00:00",
+      "text": "#SecClinton: Today’s meetings have highlighted the strong foundation that we have built together. http://t.co/ArANpO6i #Indonesia",
+      "media_count": 0
+    },
+    {
+      "id": "248968770561900544",
+      "created_at": "2012-09-21T02:15:55+00:00",
+      "text": "#SecClinton: We have to look to reasonable people and responsible leaders everywhere to stand up to extremists. http://t.co/ArANpO6i",
+      "media_count": 0
+    },
+    {
+      "id": "248968630879006720",
+      "created_at": "2012-09-21T02:15:21+00:00",
+      "text": "#SecClinton: There is no justification for violence and I thank the Foreign Minister for speaking out against violence. http://t.co/ArANpO6i",
+      "media_count": 0
+    },
+    {
+      "id": "248968214313304064",
+      "created_at": "2012-09-21T02:13:42+00:00",
+      "text": "#SecClinton: We have condemned in the strongest possible terms the violence that has erupted from these protests. http://t.co/ArANpO6i",
+      "media_count": 0
+    },
+    {
+      "id": "248967507329839104",
+      "created_at": "2012-09-21T02:10:53+00:00",
+      "text": "#SecClinton: The U.S. and #Indonesia are working more closely than ever on a range of issues. http://t.co/ArANpO6i",
+      "media_count": 0
+    },
+    {
+      "id": "248967190093651968",
+      "created_at": "2012-09-21T02:09:38+00:00",
+      "text": "#SecClinton remarks with Foreign Minister of #Indonesia R.M. Marty Muliana Natalegawa http://t.co/ArANpO6i | Photo: http://t.co/MdrZ4A5A",
+      "media_count": 0
+    },
+    {
+      "id": "248947811310256128",
+      "created_at": "2012-09-21T00:52:38+00:00",
+      "text": "Joint Statement of the U.S.#Indonesia on the Occasion of the Third Annual Joint Commission: http://t.co/Sfxh4SLf",
+      "media_count": 0
+    },
+    {
+      "id": "248947514244476928",
+      "created_at": "2012-09-21T00:51:27+00:00",
+      "text": "#SecClinton Remarks at the Third Annual U.S.-#Indonesia Joint Commission Meeting: http://t.co/T095vgkk | Photo: http://t.co/kg6R7W58",
+      "media_count": 0
+    },
+    {
+      "id": "248944319774486529",
+      "created_at": "2012-09-21T00:38:45+00:00",
+      "text": "Remarks by #DepSec William Burns at a Ceremony Honoring Fallen Americans in #Libya: http://t.co/hHYCTpNa | Video: http://t.co/KHdA2jkk",
+      "media_count": 0
+    },
+    {
+      "id": "248944096599748608",
+      "created_at": "2012-09-21T00:37:52+00:00",
+      "text": "#DepSec Burns: The best way to honor the memories of Chris, Sean, Tyrone, Glen is to renew our shared determination to build a free #Libya.",
+      "media_count": 0
+    },
+    {
+      "id": "248943692155600896",
+      "created_at": "2012-09-21T00:36:16+00:00",
+      "text": "#DepSec Burns: Libyans have to continue to make hard choices and to ensure violent extremists don't hijack the promise of your revolution.",
+      "media_count": 0
+    },
+    {
+      "id": "248943414425550848",
+      "created_at": "2012-09-21T00:35:09+00:00",
+      "text": "#DepSec Burns: Chris would remind us that dignity and freedom are noble aspirations but translating them into reality takes hard work #Libya",
+      "media_count": 0
+    },
+    {
+      "id": "248942907074179072",
+      "created_at": "2012-09-21T00:33:08+00:00",
+      "text": "#DepSec Burns: We lost a brilliant ambassador - full of courage, skill, and determination to help the people of #Libya. http://t.co/KHdA2jkk",
+      "media_count": 0
+    },
+    {
+      "id": "248942286015180800",
+      "created_at": "2012-09-21T00:30:40+00:00",
+      "text": "#DepSec Burns: This is a hard moment. It is a moment of shared loss, hope and responsibility. http://t.co/KHdA2jkk #Libya",
+      "media_count": 0
+    },
+    {
+      "id": "248941946196877312",
+      "created_at": "2012-09-21T00:29:19+00:00",
+      "text": "#DepSec Burns: The men gave their lives serving the U.S. and trying to build a better future for the people of #Libya. http://t.co/KHdA2jkk",
+      "media_count": 0
+    },
+    {
+      "id": "248941573818159104",
+      "created_at": "2012-09-21T00:27:50+00:00",
+      "text": "#DepSec Burns: We gather to remember Ambassador Chris Stevens, Sean Smith, Tyrone Woods and Glen Doherty. http://t.co/KHdA2jkk #Libya",
+      "media_count": 0
+    },
+    {
+      "id": "248941068274511872",
+      "created_at": "2012-09-21T00:25:50+00:00",
+      "text": "#DepSec William Burns Remarks at a Ceremony Honoring Fallen Americans in #Libya: http://t.co/hHYCTpNa | Video: http://t.co/KHdA2jkk",
+      "media_count": 0
+    },
+    {
+      "id": "248919409001910272",
+      "created_at": "2012-09-20T22:59:46+00:00",
+      "text": "U.S. Special Envoy for North Korean #HumanRights Issues travels to Seoul September 22: http://t.co/7LMg2Ipx #DPRK",
+      "media_count": 0
+    },
+    {
+      "id": "248914927283228673",
+      "created_at": "2012-09-20T22:41:57+00:00",
+      "text": "Missed today's conversation with @StatePRM and @USAID on #Syria assistance? Follow the discussion on #Storify: http://t.co/Cn3XDnyk",
+      "media_count": 0
+    },
+    {
+      "id": "248912956178436096",
+      "created_at": "2012-09-20T22:34:07+00:00",
+      "text": "#SecClinton remarks at the Global Infrastructure Conference: http://t.co/1fLt9xzY",
+      "media_count": 0
+    },
+    {
+      "id": "248912736321421312",
+      "created_at": "2012-09-20T22:33:15+00:00",
+      "text": "#SecClinton: We need to make infrastructure smarter, more sustainable, and more efficient. http://t.co/1fLt9xzY",
+      "media_count": 0
+    },
+    {
+      "id": "248895659967655936",
+      "created_at": "2012-09-20T21:25:24+00:00",
+      "text": "Latest on #DipNote: @USAID Announces the Better Than Cash Alliance http://t.co/iyXMHPbL #MobileMoney #ePayments",
+      "media_count": 0
+    },
+    {
+      "id": "248884611214610432",
+      "created_at": "2012-09-20T20:41:30+00:00",
+      "text": "Assistant Secretary Gordon: Central Europeans are making robust contributions to the ISAF mission in #Afghanistan. @CEPA Forum",
+      "media_count": 0
+    },
+    {
+      "id": "248884313523892224",
+      "created_at": "2012-09-20T20:40:19+00:00",
+      "text": "Assistant Secretary Gordon: #NATO remains the bedrock of our common commitment with Central Europe. @CEPA Forum",
+      "media_count": 0
+    },
+    {
+      "id": "248882618286878720",
+      "created_at": "2012-09-20T20:33:34+00:00",
+      "text": "Assistant Secretary Gordon: Now we think in terms of what we can do with Central Europe, not what we can do for Central Europe. @CEPA Forum",
+      "media_count": 0
+    },
+    {
+      "id": "248876884614582273",
+      "created_at": "2012-09-20T20:10:47+00:00",
+      "text": "Remarks by Assistant Secretary Gordon on U.S. Relations With Central Europe @CEPA Forum: http://t.co/kIlJAGRc",
+      "media_count": 0
+    },
+    {
+      "id": "248863760863883264",
+      "created_at": "2012-09-20T19:18:38+00:00",
+      "text": "Interested in U.S. engagement at the #UN? Join @State_IO's Esther Brimmer for a #Facebook Chat Friday at 9:00 AM EDT: http://t.co/VJxzn9Hl",
+      "media_count": 0
+    },
+    {
+      "id": "248845736987475968",
+      "created_at": "2012-09-20T18:07:01+00:00",
+      "text": "Photo: @StatePRM and @NancyLindborg respond to #AskState questions on #Syria humanitarian aid http://t.co/hh2tohA2",
+      "media_count": 0
+    },
+    {
+      "id": "248823598112976898",
+      "created_at": "2012-09-20T16:39:03+00:00",
+      "text": "Thank you for your questions. This is an ongoing dialogue. Continue to follow the conversation @StatePRM and @NancyLindborg #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248823307082821632",
+      "created_at": "2012-09-20T16:37:53+00:00",
+      "text": "We stand with Syrian people and are committed to helping and listening. http://t.co/97K1Sisp #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248822377092354048",
+      "created_at": "2012-09-20T16:34:12+00:00",
+      "text": ".@WilliamLambers Commitment is strong. We have transformed food aid to include vouchers and local purchase for those in need. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248822124154859521",
+      "created_at": "2012-09-20T16:33:11+00:00",
+      "text": ".@Beth_Ferris Very concerned regarding 1.2M IDPs in #Syria. Committed to reaching all we can. Access is critical. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248820705083408387",
+      "created_at": "2012-09-20T16:27:33+00:00",
+      "text": "Grateful for @UN and NGO partners on the front lines, taking risks to help those in need. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248820247887486977",
+      "created_at": "2012-09-20T16:25:44+00:00",
+      "text": "Providing aid in conflict is hard. Innocent people are targeted, incl aid workers risking their lives. Heroic efforts underway. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248818142363656193",
+      "created_at": "2012-09-20T16:17:22+00:00",
+      "text": ".@Mou2amara Yes, we heard this from families in camps. We are committed to doing more. #AskState #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "248817403276972032",
+      "created_at": "2012-09-20T16:14:26+00:00",
+      "text": ".@Larryj2121 The United States provides innocent civilians with critical relief including food, shelter, and medical care. #AskState #Syria",
+      "media_count": 0
+    },
+    {
+      "id": "248816783795027968",
+      "created_at": "2012-09-20T16:11:58+00:00",
+      "text": ".@Larryj2121 U.S. support equals humanitarian assistance. Life-saving relief helps 780K inside #Syria and 285K who have fled. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248815350651695104",
+      "created_at": "2012-09-20T16:06:17+00:00",
+      "text": ".@JasmineRoman01 As part of our enduring commitment to humanitarian aid, we explore all ways to deliver relief to those in need. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248815156690296832",
+      "created_at": "2012-09-20T16:05:30+00:00",
+      "text": ".@RafifJ.@Mou2amara  US Food aid thru WFP reaches all 14 provinces in #Syria; thx to 16K SARC volunteers @WFP #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248814648567144448",
+      "created_at": "2012-09-20T16:03:29+00:00",
+      "text": ".@Larryj2121 Intl community will not give up on political solution to crisis in #Syria. We look forward to democratic transition. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248814223898058752",
+      "created_at": "2012-09-20T16:01:48+00:00",
+      "text": ".@i_magpie  #SecClinton: US planning for post-Asad transition, security, humanitarian needs, rebuilding economy &amp; society #Syria #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248813872276975618",
+      "created_at": "2012-09-20T16:00:24+00:00",
+      "text": ".@i_magpie #SecClinton: US directing aid to innocent children, women &amp; men affected by conflict in #Syria:  #AskState http://t.co/3b8MyYc1",
+      "media_count": 0
+    },
+    {
+      "id": "248813338706968577",
+      "created_at": "2012-09-20T15:58:17+00:00",
+      "text": ".@A22523 The U.S. is committed to providing aid to those affected by violence in #Syria. http://t.co/5HjIpW7q #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248813179034017792",
+      "created_at": "2012-09-20T15:57:39+00:00",
+      "text": ".@A22523 For info on what U.S. relief funding for #Syria crisis provides, read our latest fact sheet at http://t.co/97K1Sisp. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248812884522590208",
+      "created_at": "2012-09-20T15:56:29+00:00",
+      "text": ".@i_magpie  #SecClinton: we work w/nonviolent opposition to hasten fall of Asad regime, end bloodshed, transition to democracy #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248812525863456768",
+      "created_at": "2012-09-20T15:55:03+00:00",
+      "text": ".@A22523 The U.S. government delivers food, medical care, shelter. $100M+ in humanitarian aid to date. #AskState http://t.co/LH2ojIlS",
+      "media_count": 0
+    },
+    {
+      "id": "248812060023078913",
+      "created_at": "2012-09-20T15:53:12+00:00",
+      "text": ".@pitapolicy.@alOraibi.  Insecurity a serious threat for all aid workers inside #Syria, 5 Syrian Arab Red Crescent workers killed  #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248811402070994945",
+      "created_at": "2012-09-20T15:50:35+00:00",
+      "text": ".@pitapolicy.@AlOraibi.  We commend relief workers who put lives on line to deliver life-saving aid in #Syria.  #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248811107941236737",
+      "created_at": "2012-09-20T15:49:25+00:00",
+      "text": ".@pitapolicy.@AlOraibi.  We have provided approx. $70M+ for aid reaching 780K people inside #Syria. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248808604914814977",
+      "created_at": "2012-09-20T15:39:28+00:00",
+      "text": "For 30+ years, U.S. has helped build intl structures to respond quickly &amp; effectively to humanitarian crises. http://t.co/5HjIpW7q #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248808020048506881",
+      "created_at": "2012-09-20T15:37:09+00:00",
+      "text": "We applaud the generous response of governments of #Turkey, #Iraq, #Jordan, #Lebanon in protecting victims of Assad's violence. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248807798253690881",
+      "created_at": "2012-09-20T15:36:16+00:00",
+      "text": ".@StatePRM Anne Richard and @USAID's @NancyLindborg recently visited a camp in #Turkey for those fleeing violence in #Syria. #AskState",
+      "media_count": 0
+    },
+    {
+      "id": "248806293362581504",
+      "created_at": "2012-09-20T15:30:17+00:00",
+      "text": "Glad to have @StatePRM Anne Richard and @USAID’s @NancyLindborg to talk about humanitarian response to #Syria crisis. Use #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248783137247739904",
+      "created_at": "2012-09-20T13:58:16+00:00",
+      "text": "Join @StatePRM and @NancyLindborg for a #Twitter Q&amp;A on humanitarian aid and #Syria 11:30 AM EDT 9/20. Send ?'s using #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248777750758948864",
+      "created_at": "2012-09-20T13:36:52+00:00",
+      "text": "Latest on #DipNote: At #UNESCO, A New Chapter in Literacy http://t.co/h5x62XRU via @State_IO",
+      "media_count": 0
+    },
+    {
+      "id": "248614515770527744",
+      "created_at": "2012-09-20T02:48:14+00:00",
+      "text": "Join @StatePRM and @NancyLindborg for a #Twitter Q&amp;A on humanitarian assistance and #Syria 11:30 AM EDT 9/20. Send ?'s using #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248584289036423169",
+      "created_at": "2012-09-20T00:48:07+00:00",
+      "text": "#SecClinton remarks at the Congressional Gold Medal Ceremony for Daw #AungSanSuuKyi: http://t.co/G0zkMh8z #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "248583941295046656",
+      "created_at": "2012-09-20T00:46:44+00:00",
+      "text": "#SecClinton: The U.S. will stand with her, the President of #Burma, the activists and civil society as they press forward with reform. #AASK",
+      "media_count": 0
+    },
+    {
+      "id": "248583387948916736",
+      "created_at": "2012-09-20T00:44:32+00:00",
+      "text": "#SecClinton: As we honor her, it’s good to recognize one phase of her work may be over, but another phase is just beginning. #AASK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "248582880517832704",
+      "created_at": "2012-09-20T00:42:31+00:00",
+      "text": "#SecClinton: That work of building democracy never ends, not here in the seat of the world's oldest democracy, or in a country like #Burma.",
+      "media_count": 0
+    },
+    {
+      "id": "248582227414355968",
+      "created_at": "2012-09-20T00:39:56+00:00",
+      "text": "#SecClinton: Overcoming the past, healing a wounded country, building a democracy, would require moving from icon to politician #Burma #AASK",
+      "media_count": 0
+    },
+    {
+      "id": "248580850814439425",
+      "created_at": "2012-09-20T00:34:27+00:00",
+      "text": "#SecClinton: I am moved by what she has stood for, for the people of her country, and for people everywhere who yearn for freedom. #ASSK",
+      "media_count": 0
+    },
+    {
+      "id": "248535031583227904",
+      "created_at": "2012-09-19T21:32:23+00:00",
+      "text": "Interested in U.S. engagement at the #UN? Join @State_IO's Esther Brimmer for a #Facebook Chat Friday at 9:00 AM EDT: http://t.co/VJxzn9Hl.",
+      "media_count": 0
+    },
+    {
+      "id": "248528622577668096",
+      "created_at": "2012-09-19T21:06:55+00:00",
+      "text": ".@WhiteHouse releases new Travel and Tourism Progress Report http://t.co/j2ZkjBbD",
+      "media_count": 0
+    },
+    {
+      "id": "248528318981369856",
+      "created_at": "2012-09-19T21:05:43+00:00",
+      "text": "Progress Report on Improvements to Visa and Foreign Visitor Processing http://t.co/v45isDOk",
+      "media_count": 0
+    },
+    {
+      "id": "248515391071080450",
+      "created_at": "2012-09-19T20:14:21+00:00",
+      "text": "Join @StatePRM and @NancyLindborg for a #Twitter Q&amp;A on humanitarian assistance and #Syria 11:30 AM EDT 9/20. Send ?'s using #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248507766182907904",
+      "created_at": "2012-09-19T19:44:03+00:00",
+      "text": "Join @State_IO Assistant Secretary Esther Brimmer for a #Facebook Chat on Friday, September 21 at 9:00 AM EDT: http://t.co/VJxzn9Hl",
+      "media_count": 0
+    },
+    {
+      "id": "248507301521133568",
+      "created_at": "2012-09-19T19:42:12+00:00",
+      "text": "Assistant Secretary of @State_IO Esther Brimmer remarks to @CSIS on U.S. multilateral priorities at the 67th #UNGA: http://t.co/RdEqLDb3",
+      "media_count": 0
+    },
+    {
+      "id": "248488344609226752",
+      "created_at": "2012-09-19T18:26:52+00:00",
+      "text": "International conference in support of the #Syria Justice and Accountability Center held in Rabat, #Morocco. http://t.co/lLVeeGkc",
+      "media_count": 0
+    },
+    {
+      "id": "248487810951159809",
+      "created_at": "2012-09-19T18:24:45+00:00",
+      "text": "Assistant Secretary of @State_DRL Michael Posner travels to Geneva and Brussels: http://t.co/rpraPcJ7",
+      "media_count": 0
+    },
+    {
+      "id": "248462483415760897",
+      "created_at": "2012-09-19T16:44:06+00:00",
+      "text": "Join @NancyLindborg of @USAID and Anne Richard of @StatePRM for a Twitter Q&amp;A September 20 at 11:30 AM EDT. Send ?'s using #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248461289213542400",
+      "created_at": "2012-09-19T16:39:22+00:00",
+      "text": "Photo: #SecClinton with Daw Aung San Suu Kyi at the @USIP in Washington, DC http://t.co/pWm7FrfW",
+      "media_count": 0
+    },
+    {
+      "id": "248443957044981762",
+      "created_at": "2012-09-19T15:30:29+00:00",
+      "text": "U.S., #Mexico sign Memorandum of Understanding for the Promotion of Gender Equality: http://t.co/znHGJgcK | Photo: http://t.co/5h6ODLCM",
+      "media_count": 0
+    },
+    {
+      "id": "248441657387790336",
+      "created_at": "2012-09-19T15:21:21+00:00",
+      "text": "Join @NancyLindborg of @USAID and Anne Richard of @StatePRM for a Twitter Q&amp;A on humanitarian aid, Sept. 20 at 11:30 AM EDT. Use #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248408075269177344",
+      "created_at": "2012-09-19T13:07:55+00:00",
+      "text": "Join Anne Richard of @StatePRM and @NancyLindborg of @USAID for a Twitter Q&amp;A on humanitarian aid, Sept. 20 at 11:30 AM EDT. Use #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248245094581411841",
+      "created_at": "2012-09-19T02:20:17+00:00",
+      "text": "Join Anne Richard of @StatePRM and @NancyLindborg of @USAID for a Twitter Q&amp;A on humanitarian aid, Sept. 20 at 11:30 am EDT. Use #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248244031610572802",
+      "created_at": "2012-09-19T02:16:03+00:00",
+      "text": "#SecClinton remarks with Mexican Secretary of Foreign Relations Patricia Espinosa: http://t.co/odA0YMbZ | Photo: http://t.co/szAPC2ht",
+      "media_count": 0
+    },
+    {
+      "id": "248232878662623232",
+      "created_at": "2012-09-19T01:31:44+00:00",
+      "text": "Joint Statement of the #Merida Initiative High-Level Consultative Group: http://t.co/BYqXPuRn #Mexico",
+      "media_count": 0
+    },
+    {
+      "id": "248231751925760000",
+      "created_at": "2012-09-19T01:27:16+00:00",
+      "text": "President Obama, Prime Minister Erdogan pledge to advance cooperation between U.S. and #Turkey in the face of the ongoing crisis in #Syria.",
+      "media_count": 0
+    },
+    {
+      "id": "248231535482908673",
+      "created_at": "2012-09-19T01:26:24+00:00",
+      "text": "President Obama expressed condolences regarding today's deadly attack on a Turkish military convoy. http://t.co/of9tR5ob",
+      "media_count": 0
+    },
+    {
+      "id": "248231329987166208",
+      "created_at": "2012-09-19T01:25:35+00:00",
+      "text": "Readout of President Obama's Call with Turkish Prime Minister Erdogan: http://t.co/of9tR5ob via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "248222350108135425",
+      "created_at": "2012-09-19T00:49:54+00:00",
+      "text": "#SecClinton remarks honoring Daw Aung San Suu Kyi: http://t.co/WHyEowIL | Photo: http://t.co/tr2BTT0N #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "248189279157764096",
+      "created_at": "2012-09-18T22:38:29+00:00",
+      "text": "Latest on #DipNote: @StatePRM's Anne Richard on her meeting with #refugees in #Turkey http://t.co/dD30Xr14",
+      "media_count": 0
+    },
+    {
+      "id": "248188908792344576",
+      "created_at": "2012-09-18T22:37:01+00:00",
+      "text": "#SecClinton remarks honoring Daw Aung San Suu Kyi: http://t.co/WHyEowIL | Photo: http://t.co/PRfot7Ai #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "248177522867589120",
+      "created_at": "2012-09-18T21:51:47+00:00",
+      "text": "Readout of President Obama's Call with Prime Minister Erdogan of #Turkey http://t.co/of9tR5ob via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "248176668273963009",
+      "created_at": "2012-09-18T21:48:23+00:00",
+      "text": "Happy 65th birthday, @USAirForce! Post your well wishes on their Facebook page: http://t.co/TLAvqwtV.",
+      "media_count": 0
+    },
+    {
+      "id": "248165342688448513",
+      "created_at": "2012-09-18T21:03:23+00:00",
+      "text": ".@StateDept welcomes performers Ti-Coca and Wanga-Neges of #Haiti to the U.S.: http://t.co/5SyLGxEJ",
+      "media_count": 0
+    },
+    {
+      "id": "248157828211146752",
+      "created_at": "2012-09-18T20:33:31+00:00",
+      "text": "U.S.-#Mexico sign agreement to collaborate in promoting #gender equality: http://t.co/uMAr61iv",
+      "media_count": 0
+    },
+    {
+      "id": "248143274454441984",
+      "created_at": "2012-09-18T19:35:41+00:00",
+      "text": "Submit questions for a Twitter Q&amp;A with Anne Richard of @StatePRM and @NancyLindborg of @USAID on humanitarian aid, Sept. 20. Use #AskState.",
+      "media_count": 0
+    },
+    {
+      "id": "248139456895406081",
+      "created_at": "2012-09-18T19:20:31+00:00",
+      "text": "#SecClinton honors Daw Aung San Suu Kyi at an @USIP event: http://t.co/WHyEowIL #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "248137366898880512",
+      "created_at": "2012-09-18T19:12:13+00:00",
+      "text": "Photo: #SecClinton meets with Daw Aung San Suu Kyi http://t.co/PRfot7Ai",
+      "media_count": 0
+    },
+    {
+      "id": "248135648056324097",
+      "created_at": "2012-09-18T19:05:23+00:00",
+      "text": "Five Permanent #UN Representatives support #Mongolia's nuclear-weapon-free status: http://t.co/A8nBrclZ",
+      "media_count": 0
+    },
+    {
+      "id": "248134955635458048",
+      "created_at": "2012-09-18T19:02:38+00:00",
+      "text": "Spokesperson Victoria Nuland on Russian decision to end @USAID activities in #Russia: http://t.co/wZsQxJy2",
+      "media_count": 0
+    },
+    {
+      "id": "248128738443808768",
+      "created_at": "2012-09-18T18:37:55+00:00",
+      "text": "Stay tuned to http://t.co/UKm9plIx for video and transcript of @State_IO's Esther Brimmer preview of U.S. engagement at #UNGA. @CSIS",
+      "media_count": 0
+    },
+    {
+      "id": "248126813807710208",
+      "created_at": "2012-09-18T18:30:17+00:00",
+      "text": "Brimmer of @State_IO: We’ve worked with UN leadership to increase transparency, oversight, accountability for results across the UN system.",
+      "media_count": 0
+    },
+    {
+      "id": "248123305171763200",
+      "created_at": "2012-09-18T18:16:20+00:00",
+      "text": "Esther Brimmer of @State_IO: U.S. engagement at the UN has made the U.S. -- and the world as a whole -- safer and more secure. #UNGA @CSIS",
+      "media_count": 0
+    },
+    {
+      "id": "248105191914762240",
+      "created_at": "2012-09-18T17:04:21+00:00",
+      "text": "Stay tuned to http://t.co/UKm9plIx for video and text transcript of #SecClinton remarks at an @USIP event honoring #AungSanSuuKyi. #ASSK",
+      "media_count": 0
+    },
+    {
+      "id": "248097624119447552",
+      "created_at": "2012-09-18T16:34:17+00:00",
+      "text": "Live now! #SecClinton delivers remarks at an @USIP event honoring #AungSanSuuKyi. Watch on http://t.co/UKm9plIx. #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "248085008978432000",
+      "created_at": "2012-09-18T15:44:09+00:00",
+      "text": "#SecClinton speaks at an @USIP event honoring Aung San Suu Kyi today at 12:30 PM EDT. Watch live on http://t.co/UKm9plIx. #Burma #ASSK",
+      "media_count": 0
+    },
+    {
+      "id": "248084638730436608",
+      "created_at": "2012-09-18T15:42:41+00:00",
+      "text": "Today at 2:00 PM EDT, @State_IO's Esther Brimmer previews U.S. priorities at the 67th #UNGA @CSIS. Watch live here: http://t.co/B76SrHvq",
+      "media_count": 0
+    },
+    {
+      "id": "248067154048581632",
+      "created_at": "2012-09-18T14:33:13+00:00",
+      "text": "Happy 65th birthday, @US_Air_Force! Post your well wishes on their Facebook page: http://t.co/TLAvqwtV",
+      "media_count": 0
+    },
+    {
+      "id": "248060715368333312",
+      "created_at": "2012-09-18T14:07:37+00:00",
+      "text": "#SecClinton speaks at an @USIP event honoring Aung San Suu Kyi today at 12:30 PM EDT. Watch live on http://t.co/UKm9plIx. #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "247900084791037952",
+      "created_at": "2012-09-18T03:29:20+00:00",
+      "text": "#SecClinton speaks at an @USIP event honoring Aung San Suu Kyi September 18. Watch live 12:30 PM EDT on http://t.co/UKm9plIx. #ASSK #Burma",
+      "media_count": 0
+    },
+    {
+      "id": "247876575939395584",
+      "created_at": "2012-09-18T01:55:55+00:00",
+      "text": "Get the latest U.S. foreign policy information on your handheld device by visiting http://t.co/lbdSWz2V.",
+      "media_count": 0
+    },
+    {
+      "id": "247828419985960960",
+      "created_at": "2012-09-17T22:44:34+00:00",
+      "text": "#SecClinton speaks at event honoring Aung San Suu Kyi, at the @USIP 12:30 PM EDT September 18. Watch live at http://t.co/UKm9plIx. #ASSK",
+      "media_count": 0
+    },
+    {
+      "id": "247817572446240769",
+      "created_at": "2012-09-17T22:01:28+00:00",
+      "text": "#SecClinton will host the Merida Initiative High-Level Consultative Group on September 18: http://t.co/4eqHt6I4. #Mexico",
+      "media_count": 0
+    },
+    {
+      "id": "247817279981617152",
+      "created_at": "2012-09-17T22:00:18+00:00",
+      "text": "U.S. commemorates 25th Anniversary of the creation of the Nuclear Risk Reduction Centers: http://t.co/X7C3jjhu.",
+      "media_count": 0
+    },
+    {
+      "id": "247816307922329601",
+      "created_at": "2012-09-17T21:56:26+00:00",
+      "text": "Get the latest U.S. foreign policy information on your handheld device by going to http://t.co/lbdSWz2V.",
+      "media_count": 0
+    },
+    {
+      "id": "247813664999092224",
+      "created_at": "2012-09-17T21:45:56+00:00",
+      "text": "President Obama on Rosh Hashanah: I wish you a sweet year full of health, happiness, and peace. http://t.co/fNi8zYZH",
+      "media_count": 0
+    },
+    {
+      "id": "247740243447521280",
+      "created_at": "2012-09-17T16:54:11+00:00",
+      "text": ".@S_GWI Ambassador Melanne Verveer travels to Brussels to meet with #NATO on #women, peace and security September 17: http://t.co/6D6LVY9m.",
+      "media_count": 0
+    },
+    {
+      "id": "247682823119581185",
+      "created_at": "2012-09-17T13:06:01+00:00",
+      "text": "President Obama on Rosh Hashanah: I extend warmest wishes to all those celebrating the New Year. Watch: http://t.co/q8kV2skJ via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "247027239647068160",
+      "created_at": "2012-09-15T17:40:58+00:00",
+      "text": "(Photo) U.S. flag flying over U.S. Embassy Tunis in Tunisia on September 15, 2012. http://t.co/48WFJnuz",
+      "media_count": 0
+    },
+    {
+      "id": "246787231459721217",
+      "created_at": "2012-09-15T01:47:15+00:00",
+      "text": "Honoring Those Lost in Attacks in #Libya: http://t.co/oHg0qiiY",
+      "media_count": 0
+    },
+    {
+      "id": "246786735126753280",
+      "created_at": "2012-09-15T01:45:17+00:00",
+      "text": "(Photos) President Obama and #SecClinton honor those lost in #Libya at the Transfer of Remains Ceremony. http://t.co/RorMs77r",
+      "media_count": 0
+    },
+    {
+      "id": "246785498889195520",
+      "created_at": "2012-09-15T01:40:22+00:00",
+      "text": "Daily Press Briefing with Spokesperson Victoria Nuland: http://t.co/7Lnumx9M #StateBriefing",
+      "media_count": 0
+    },
+    {
+      "id": "246748855012564992",
+      "created_at": "2012-09-14T23:14:46+00:00",
+      "text": "#SecClinton: We will continue with our partners to ratchet up pressure on #Iran to meet its international obligations. http://t.co/CTwDUpn6",
+      "media_count": 0
+    },
+    {
+      "id": "246748188923551746",
+      "created_at": "2012-09-14T23:12:07+00:00",
+      "text": "#SecClinton: We welcome resolve of the international community to make clear the onus is on #Iran to abide by its international obligations.",
+      "media_count": 0
+    },
+    {
+      "id": "246747414252363779",
+      "created_at": "2012-09-14T23:09:02+00:00",
+      "text": "#SecClinton: #Iran must cooperate fully and immediately with the IAEA on all outstanding issues. http://t.co/CTwDUpn6",
+      "media_count": 0
+    },
+    {
+      "id": "246745892865056768",
+      "created_at": "2012-09-14T23:02:59+00:00",
+      "text": "(Video) President Obama, #SecClinton honor those lost in Benghazi, Libya at Transfer of Remains Ceremony:\n http://t.co/xHQO5VQI",
+      "media_count": 0
+    },
+    {
+      "id": "246729487864180736",
+      "created_at": "2012-09-14T21:57:48+00:00",
+      "text": "#SecClinton: May God bless Sean, Tyrone, Glen, and Chris and grant their families peace and solace. http://t.co/1aQUi58z",
+      "media_count": 0
+    },
+    {
+      "id": "246728641340403713",
+      "created_at": "2012-09-14T21:54:26+00:00",
+      "text": "#SecClinton: I'm proud of all those across our government, civilian and military alike, who represent America abroad. http://t.co/1aQUi58z",
+      "media_count": 0
+    },
+    {
+      "id": "246728319784071168",
+      "created_at": "2012-09-14T21:53:10+00:00",
+      "text": "#SecClinton: I am enormously proud of the men and women of the @StateDept. http://t.co/1aQUi58z",
+      "media_count": 0
+    },
+    {
+      "id": "246727564859691008",
+      "created_at": "2012-09-14T21:50:10+00:00",
+      "text": "#SecClinton: There will be more difficult days ahead. We owe it to those four men to continue the long, hard work of diplomacy.",
+      "media_count": 0
+    },
+    {
+      "id": "246726513024724992",
+      "created_at": "2012-09-14T21:45:59+00:00",
+      "text": "#SecClinton: The people of Egypt, Libya, Yemen, and Tunisia did not trade the tyranny of a dictator for the tyranny of a mob.",
+      "media_count": 0
+    },
+    {
+      "id": "246726184149344256",
+      "created_at": "2012-09-14T21:44:40+00:00",
+      "text": "#SecClinton: To the families of our fallen colleagues, I offer our most heartfelt condolences and deepest gratitude. http://t.co/1aQUi58z",
+      "media_count": 0
+    },
+    {
+      "id": "246725929005621248",
+      "created_at": "2012-09-14T21:43:40+00:00",
+      "text": "#SecClinton: Today we bring home four Americans who gave their lives for our country and our values. http://t.co/1aQUi58z",
+      "media_count": 0
+    },
+    {
+      "id": "246718237939748865",
+      "created_at": "2012-09-14T21:13:06+00:00",
+      "text": "Remarks by #SecClinton at the Transfer of Remains Ceremony to Honor Those Lost in Attacks in Benghazi, #Libya http://t.co/1aQUi58z",
+      "media_count": 0
+    },
+    {
+      "id": "246714820156616704",
+      "created_at": "2012-09-14T20:59:31+00:00",
+      "text": "President Obama: Four Americans, four patriots -- they loved this country, they chose to serve it, and served it well. http://t.co/yuHBTIa4",
+      "media_count": 0
+    },
+    {
+      "id": "246714171167760385",
+      "created_at": "2012-09-14T20:56:56+00:00",
+      "text": "President Obama: Chris Stevens was everything America could want in an ambassador. http://t.co/yuHBTIa4",
+      "media_count": 0
+    },
+    {
+      "id": "246713829847887872",
+      "created_at": "2012-09-14T20:55:35+00:00",
+      "text": "President Obama: Sean Smith lived to serve -- first, in the @US_Air_Force, then, with the @StateDept. http://t.co/yuHBTIa4",
+      "media_count": 0
+    },
+    {
+      "id": "246713433305804800",
+      "created_at": "2012-09-14T20:54:00+00:00",
+      "text": "President Obama: Tyrone Woods devoted 20 years of his life to the @USNavy SEALs -- the consummate “quiet professional.” http://t.co/yuHBTIa4",
+      "media_count": 0
+    },
+    {
+      "id": "246713157769367552",
+      "created_at": "2012-09-14T20:52:55+00:00",
+      "text": "President Obama: Glen Doherty believed that he could make a difference -- a calling he fulfilled as a @USNavy SEAL. http://t.co/yuHBTIa4",
+      "media_count": 0
+    },
+    {
+      "id": "246712025366003712",
+      "created_at": "2012-09-14T20:48:25+00:00",
+      "text": "Remarks by President Obama at Transfer of Remains Ceremony for Benghazi Victims http://t.co/yuHBTIa4 via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "246668410228989952",
+      "created_at": "2012-09-14T17:55:06+00:00",
+      "text": "#SecClinton on the deaths of U.S. personnel in Benghazi, #Libya: http://t.co/wW43marV  | http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "246586381600698369",
+      "created_at": "2012-09-14T12:29:09+00:00",
+      "text": "#SecClinton Statement on the Deaths of Tyrone S. Woods and Glen A. Doherty in Benghazi, Libya http://t.co/vEdtQ8Vh",
+      "media_count": 0
+    },
+    {
+      "id": "246586257088593920",
+      "created_at": "2012-09-14T12:28:39+00:00",
+      "text": "#SecClinton: Today, we recognize Tyrone S. Woods and Glen A. Doherty who died protecting colleagues in #Libya. http://t.co/wW43marV",
+      "media_count": 0
+    },
+    {
+      "id": "246585504580112385",
+      "created_at": "2012-09-14T12:25:40+00:00",
+      "text": "#SecClinton: Refraining from violence is not a sign of weakness in one's faith; it is absolutely the opposite. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246585343426568192",
+      "created_at": "2012-09-14T12:25:01+00:00",
+      "text": "#SecClinton: I strongly believe that the great religions of the world are stronger than any insults. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246585076119392256",
+      "created_at": "2012-09-14T12:23:58+00:00",
+      "text": "#SecClinton: The U.S. deplores any intentional effort to denigrate the religious beliefs of others. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246583838837448707",
+      "created_at": "2012-09-14T12:19:03+00:00",
+      "text": "#SecClinton: To attack an embassy is to attack the idea that we can work together to build a better future. http://t.co/dR9Gw4aU",
+      "media_count": 0
+    },
+    {
+      "id": "246582748070936577",
+      "created_at": "2012-09-14T12:14:43+00:00",
+      "text": "#SecClinton delivers remarks at reception marking Eid ul-Fitr: http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246582529614815232",
+      "created_at": "2012-09-14T12:13:51+00:00",
+      "text": "Spokesperson Victoria Nuland: I want to thank the international community for their condolences for the tragic events in Benghazi.",
+      "media_count": 0
+    },
+    {
+      "id": "246458019490177026",
+      "created_at": "2012-09-14T03:59:05+00:00",
+      "text": "#SecClinton Statement on the Deaths of Tyrone S. Woods and Glen A. Doherty in Benghazi, Libya http://t.co/vEdtQ8Vh",
+      "media_count": 0
+    },
+    {
+      "id": "246457130134155265",
+      "created_at": "2012-09-14T03:55:33+00:00",
+      "text": "#SecClinton delivers remarks at a reception marking Eid ul-Fitr: http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246456805293707264",
+      "created_at": "2012-09-14T03:54:15+00:00",
+      "text": "#SecClinton: People of faith and conscience are called to be the leaders of tolerance. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246455153488695297",
+      "created_at": "2012-09-14T03:47:42+00:00",
+      "text": "#SecClinton: Voices will answer against offense -- answering ignorance with enlightenment, hatred with understanding. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246454402683117568",
+      "created_at": "2012-09-14T03:44:43+00:00",
+      "text": "#SecClinton: We can pledge that whenever one person speaks out in ignorance and bigotry, ten voices will answer. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246453830416465920",
+      "created_at": "2012-09-14T03:42:26+00:00",
+      "text": "#SecClinton: Refraining from violence is not a sign of weakness in one's faith; it is absolutely the opposite. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246453413041295360",
+      "created_at": "2012-09-14T03:40:47+00:00",
+      "text": "#SecClinton: I strongly believe that the great religions of the world are stronger than any insults. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246453155532009472",
+      "created_at": "2012-09-14T03:39:45+00:00",
+      "text": "#SecClinton: You cannot respond to offensive speech with violence. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246452947402235904",
+      "created_at": "2012-09-14T03:38:56+00:00",
+      "text": "#SecClinton: When people of faith feel the pain of insults, we must expect ourselves not to resort to violence. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246450465997455360",
+      "created_at": "2012-09-14T03:29:04+00:00",
+      "text": "#SecClinton: The U.S. deplores any intentional effort to denigrate the religious beliefs of others. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246450353929871360",
+      "created_at": "2012-09-14T03:28:37+00:00",
+      "text": "#SecClinton: The U.S. rejects both the content and the message of that video. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246449819407765504",
+      "created_at": "2012-09-14T03:26:30+00:00",
+      "text": "#SecClinton: Some seek to justify violence as a response to inflammatory, despicable material posted on the internet. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246448959961313280",
+      "created_at": "2012-09-14T03:23:05+00:00",
+      "text": "#SecClinton: All people of faith and good will know that the actions of a small and savage group in #Benghazi do not honor religion or God.",
+      "media_count": 0
+    },
+    {
+      "id": "246448592498331648",
+      "created_at": "2012-09-14T03:21:37+00:00",
+      "text": "#SecClinton: Religious freedom and religious tolerance are essential to the stability of any nation, any people. http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246447757152366594",
+      "created_at": "2012-09-14T03:18:18+00:00",
+      "text": "#SecClinton delivers remarks at reception marking Eid ul-Fitr: http://t.co/IWIBO5BB",
+      "media_count": 0
+    },
+    {
+      "id": "246447293111357441",
+      "created_at": "2012-09-14T03:16:28+00:00",
+      "text": "#SecClinton addresses events unfolding in #Libya, #Egypt and #Yemen: http://t.co/dR9Gw4aU",
+      "media_count": 0
+    },
+    {
+      "id": "246414268856147968",
+      "created_at": "2012-09-14T01:05:14+00:00",
+      "text": "#SecClinton: We honor the memory of our fallen colleagues by continuing their work. http://t.co/wW43marV",
+      "media_count": 0
+    },
+    {
+      "id": "246414068066422784",
+      "created_at": "2012-09-14T01:04:26+00:00",
+      "text": "#SecClinton: We are taking additional steps to safeguard American embassies, consulates, and citizens around the world. http://t.co/wW43marV",
+      "media_count": 0
+    },
+    {
+      "id": "246413866626605056",
+      "created_at": "2012-09-14T01:03:38+00:00",
+      "text": "#SecClinton: We condemn the attack that took the lives of these heroes in the strongest terms. http://t.co/wW43marV",
+      "media_count": 0
+    },
+    {
+      "id": "246413564334731264",
+      "created_at": "2012-09-14T01:02:26+00:00",
+      "text": "#SecClinton: Tyrone and Glen were both decorated military veterans who served our country with honor and distinction. http://t.co/wW43marV",
+      "media_count": 0
+    },
+    {
+      "id": "246413302115209216",
+      "created_at": "2012-09-14T01:01:24+00:00",
+      "text": "#SecClinton: Today, we recognize Tyrone S. Woods and Glen A. Doherty who died protecting their colleagues in #Libya. http://t.co/wW43marV",
+      "media_count": 0
+    },
+    {
+      "id": "246412861226754048",
+      "created_at": "2012-09-14T00:59:38+00:00",
+      "text": "#SecClinton: The attack on our diplomatic post in Benghazi, #Libya on Tuesday claimed the lives of four Americans. http://t.co/wW43marV",
+      "media_count": 0
+    },
+    {
+      "id": "246342891448971264",
+      "created_at": "2012-09-13T20:21:36+00:00",
+      "text": "U.S. citizens traveling to, or living in, a foreign country can enroll in STEP for information from @TravelGov. https://t.co/3UEzEwBm",
+      "media_count": 0
+    },
+    {
+      "id": "246342391278227456",
+      "created_at": "2012-09-13T20:19:37+00:00",
+      "text": ".@TravelGov informs #AmCits of conditions abroad that may affect their #travel. http://t.co/i0YaTZZ3",
+      "media_count": 0
+    },
+    {
+      "id": "246336152565587968",
+      "created_at": "2012-09-13T19:54:50+00:00",
+      "text": "RT @USAbilAraby U.S. Special Envoy Rashad Hussain appears live on Al Jazeera today at 4:00 p.m. EDT. Check local listings.",
+      "media_count": 0
+    },
+    {
+      "id": "246317309541621760",
+      "created_at": "2012-09-13T18:39:57+00:00",
+      "text": "#SecClinton: To attack an embassy is to attack the idea that we can work together to build understanding. http://t.co/dR9Gw4aU",
+      "media_count": 0
+    },
+    {
+      "id": "246317040367988736",
+      "created_at": "2012-09-13T18:38:53+00:00",
+      "text": "#SecClinton: Diplomatic missions are places whose very purpose is peaceful -- to promote better understanding across countries and cultures.",
+      "media_count": 0
+    },
+    {
+      "id": "246316815729426432",
+      "created_at": "2012-09-13T18:37:59+00:00",
+      "text": "#SecClinton: It is especially wrong for violence to be directed against diplomatic missions. http://t.co/dR9Gw4aU",
+      "media_count": 0
+    },
+    {
+      "id": "246316606538526721",
+      "created_at": "2012-09-13T18:37:09+00:00",
+      "text": "#SecClinton addresses events unfolding in #Libya, #Egypt, and #Yemen: http://t.co/dR9Gw4aU",
+      "media_count": 0
+    },
+    {
+      "id": "246300621488152576",
+      "created_at": "2012-09-13T17:33:38+00:00",
+      "text": "(Video) #SecClinton comments on violence in #Libya, #Egypt and #Yemen: http://t.co/svWLstJV",
+      "media_count": 0
+    },
+    {
+      "id": "246300324904710144",
+      "created_at": "2012-09-13T17:32:28+00:00",
+      "text": "#SecClinton: There should be no debate about the proposition that violence in response to speech is not acceptable. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246299120627773440",
+      "created_at": "2012-09-13T17:27:41+00:00",
+      "text": "#SecClinton: To attack an embassy is to attack the idea we can work together to build understanding &amp; a better future. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246298663066955777",
+      "created_at": "2012-09-13T17:25:51+00:00",
+      "text": "#SecClinton: It is wrong for violence to be directed against diplomatic missions. These are places whose very purpose is peaceful.",
+      "media_count": 0
+    },
+    {
+      "id": "246298306110693376",
+      "created_at": "2012-09-13T17:24:26+00:00",
+      "text": "#SecClinton: We condemn the violence and appreciate that many Muslims in the U.S. and around the world have spoken out. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246297840169656320",
+      "created_at": "2012-09-13T17:22:35+00:00",
+      "text": "#SecClinton: Violence, we believe, has no place in religion and is no way to honor religion. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246297515106914304",
+      "created_at": "2012-09-13T17:21:18+00:00",
+      "text": "#SecClinton: There is no justification, none at all, for responding to this video with violence. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246297289902133248",
+      "created_at": "2012-09-13T17:20:24+00:00",
+      "text": "#SecClinton: To us, to me personally, this video is disgusting and reprehensible. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246297071664107520",
+      "created_at": "2012-09-13T17:19:32+00:00",
+      "text": "#SecClinton: We are home to people of all religions. And we have the greatest respect for people of faith. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246296465780129792",
+      "created_at": "2012-09-13T17:17:08+00:00",
+      "text": "#SecClinton:  America's commitment to religious tolerance goes back to the very beginning of our nation. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246295919451066368",
+      "created_at": "2012-09-13T17:14:57+00:00",
+      "text": "#SecClinton: We absolutely reject the content and message of the video circulating that has led to these protests. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246293572247240704",
+      "created_at": "2012-09-13T17:05:38+00:00",
+      "text": "#SecClinton: Let me state very clearly -- the U.S. government had absolutely nothing to do with this video. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246293258651725824",
+      "created_at": "2012-09-13T17:04:23+00:00",
+      "text": "#SecClinton: I want to address the video circulating on the internet that has led to these protests. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246292578796986368",
+      "created_at": "2012-09-13T17:01:41+00:00",
+      "text": "#SecClinton: We are closely watching what is happening in #Yemen and elsewhere. http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246292335586074624",
+      "created_at": "2012-09-13T17:00:43+00:00",
+      "text": "#SecClinton delivers remarks at the opening of the U.S.-#Morocco Strategic Dialogue: http://t.co/mulECiNp",
+      "media_count": 0
+    },
+    {
+      "id": "246277203409653760",
+      "created_at": "2012-09-13T16:00:35+00:00",
+      "text": "U.S. condemns recent attacks and reprisals in #Kenya's Tana River Delta that has left more than 100 people dead. http://t.co/eWafY2bf",
+      "media_count": 0
+    },
+    {
+      "id": "246276706590154752",
+      "created_at": "2012-09-13T15:58:37+00:00",
+      "text": "RT @usembislamabad Ambassador Hoagland: Our condolences and prayers to the families of those who perished and suffered in the factory fires.",
+      "media_count": 0
+    },
+    {
+      "id": "246251529630253056",
+      "created_at": "2012-09-13T14:18:34+00:00",
+      "text": "Readout of President Obama's Call with President Magariaf of #Libya: http://t.co/GLq3fUPt",
+      "media_count": 0
+    },
+    {
+      "id": "246250971506831360",
+      "created_at": "2012-09-13T14:16:21+00:00",
+      "text": "Readout of President Obama's Call with President Morsi of #Egypt http://t.co/0FZGej9b",
+      "media_count": 0
+    },
+    {
+      "id": "246250635748581378",
+      "created_at": "2012-09-13T14:15:01+00:00",
+      "text": "Today, #SecClinton and Foreign Minister Saad-Eddine Al-Otmani launch the U.S.-#Morocco Strategic Dialogue. http://t.co/XUI7ow0p",
+      "media_count": 0
+    },
+    {
+      "id": "246082778490347520",
+      "created_at": "2012-09-13T03:08:01+00:00",
+      "text": "Remarks by #SecClinton on the deaths of U.S. personnel in Benghazi, Libya: http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "246082392576638977",
+      "created_at": "2012-09-13T03:06:29+00:00",
+      "text": "(Video) President Obama speaks on the attack in Benghazi, Libya:  http://t.co/PVZU0BnO via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "246038859018817536",
+      "created_at": "2012-09-13T00:13:29+00:00",
+      "text": "We are grateful to those around the world who have offered condolences for the Americans who have lost their lives in #Benghazi on Tuesday.",
+      "media_count": 0
+    },
+    {
+      "id": "246030845532598273",
+      "created_at": "2012-09-12T23:41:39+00:00",
+      "text": "Senior U.S. officials provide an update on recent events in #Libya: http://t.co/X0bAGTbG",
+      "media_count": 0
+    },
+    {
+      "id": "246030600589414401",
+      "created_at": "2012-09-12T23:40:40+00:00",
+      "text": "(Photos) #SecClinton meets with #Libya's Ambassador to the U.S. Ali Suleiman Aujali. http://t.co/eOuOlxrP | http://t.co/2udNPAZA",
+      "media_count": 0
+    },
+    {
+      "id": "245989261059428353",
+      "created_at": "2012-09-12T20:56:24+00:00",
+      "text": "President Obama orders U.S. flags to be flown at half-staff honoring the victims of the attack in #Libya. http://t.co/KXIyDSkb",
+      "media_count": 0
+    },
+    {
+      "id": "245987706960740352",
+      "created_at": "2012-09-12T20:50:14+00:00",
+      "text": "Remarks by #SecClinton on the deaths of U.S. personnel in Benghazi, #Libya: http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "245986415593283584",
+      "created_at": "2012-09-12T20:45:06+00:00",
+      "text": "Remarks by President Obama on the deaths of U.S. Embassy staff in Benghazi, #Libya: http://t.co/KdC0eqWE  via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "245983938617688064",
+      "created_at": "2012-09-12T20:35:15+00:00",
+      "text": "(Photo) President Obama speaks with @StateDept employees after delivering remarks on the attack in Benghazi, #Libya: http://t.co/8K1GaIrD",
+      "media_count": 0
+    },
+    {
+      "id": "245983448441966592",
+      "created_at": "2012-09-12T20:33:18+00:00",
+      "text": "(Photo) President Obama signs a condolence book in memory of Ambassador Chris Stevens at the @StateDept today: http://t.co/deSL5vTZ",
+      "media_count": 0
+    },
+    {
+      "id": "245938299921895424",
+      "created_at": "2012-09-12T17:33:54+00:00",
+      "text": "President Obama directs U.S. flags be flown at half-staff at the @WhiteHouse and all public buildings. http://t.co/KXIyDSkb",
+      "media_count": 0
+    },
+    {
+      "id": "245937726887710720",
+      "created_at": "2012-09-12T17:31:38+00:00",
+      "text": "Presidential Proclamation -- Honoring the Victims of the Attack in Benghazi, Libya http://t.co/KXIyDSkb",
+      "media_count": 0
+    },
+    {
+      "id": "245933741237743618",
+      "created_at": "2012-09-12T17:15:47+00:00",
+      "text": "Remarks by President Obama on the deaths of U.S. Embassy staff in #Libya: http://t.co/KdC0eqWE via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "245933018806640641",
+      "created_at": "2012-09-12T17:12:55+00:00",
+      "text": "(Video) #SecClinton delivers remarks on the deaths of U.S. personnel in #Benghazi, Libya: http://t.co/C7wngmEo",
+      "media_count": 0
+    },
+    {
+      "id": "245932084252786689",
+      "created_at": "2012-09-12T17:09:12+00:00",
+      "text": "#SecClinton remarks on the deaths of U.S. personnel in #Benghazi, Libya: http://t.co/o96xRImb.",
+      "media_count": 0
+    },
+    {
+      "id": "245931255370235904",
+      "created_at": "2012-09-12T17:05:55+00:00",
+      "text": "#SecClinton on #Benghazi: Let me be clear -- there is no justification for this, none. Violence is no way to honor religion or faith.",
+      "media_count": 0
+    },
+    {
+      "id": "245930395508547584",
+      "created_at": "2012-09-12T17:02:30+00:00",
+      "text": "#SecClinton: We are working with partners around the world to safeguard other U.S. embassies, consulates, and citizens. http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "245928492422791168",
+      "created_at": "2012-09-12T16:54:56+00:00",
+      "text": "#SecClinton on #Benghazi: Nor will we rest until those responsible for these attacks are found and brought to justice. http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "245928290961997824",
+      "created_at": "2012-09-12T16:54:08+00:00",
+      "text": "#SecClinton: A free and stable #Libya is still in America's interest and security; we will not turn our back on that. http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "245927594464272384",
+      "created_at": "2012-09-12T16:51:22+00:00",
+      "text": "#SecClinton: The friendship between the U.S. and #Libya will not be another casualty of this attack. http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "245927288514961408",
+      "created_at": "2012-09-12T16:50:09+00:00",
+      "text": "#SecClinton: We must be clear-eyed, even in grief. This was an attack by a small and savage group, not the people or government of #Libya.",
+      "media_count": 0
+    },
+    {
+      "id": "245926809865187329",
+      "created_at": "2012-09-12T16:48:15+00:00",
+      "text": "#SecClinton: Chris Stevens risked his life to stop a tyrant, then gave his life trying to help build a better #Libya. http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "245925722768699392",
+      "created_at": "2012-09-12T16:43:56+00:00",
+      "text": "#SecClinton: Every day, America's diplomats and development experts risk their lives in the service of our country and our values.",
+      "media_count": 0
+    },
+    {
+      "id": "245925226880315392",
+      "created_at": "2012-09-12T16:41:57+00:00",
+      "text": "#SecClinton on #Benghazi:  We send our prayers to the families, friends, and colleagues of those we've lost. http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "245923726728769536",
+      "created_at": "2012-09-12T16:36:00+00:00",
+      "text": "#SecClinton on #Benghazi: This attack should shock the conscience of people of all faiths around the world. http://t.co/o96xRImb",
+      "media_count": 0
+    },
+    {
+      "id": "245922717029777408",
+      "created_at": "2012-09-12T16:31:59+00:00",
+      "text": "(Video) #SecClinton delivers remarks on the deaths of U.S. personnel in Benghazi, #Libya: http://t.co/C7wngmEo",
+      "media_count": 0
+    },
+    {
+      "id": "245887422896939008",
+      "created_at": "2012-09-12T14:11:44+00:00",
+      "text": "Statement by President Barack Obama on the Attack in Benghazi, #Libya http://t.co/u71fkuGX",
+      "media_count": 0
+    },
+    {
+      "id": "245884981837180929",
+      "created_at": "2012-09-12T14:02:02+00:00",
+      "text": "Live now: #SecClinton delivers remarks on the attack in Benghazi, #Libya. Watch on http://t.co/UKm9plIx.",
+      "media_count": 0
+    },
+    {
+      "id": "245883951770656768",
+      "created_at": "2012-09-12T13:57:57+00:00",
+      "text": "Live now: #SecClinton delivers remarks from the @StateDept. Watch on http://t.co/UKm9plIx.",
+      "media_count": 0
+    },
+    {
+      "id": "245879849942650882",
+      "created_at": "2012-09-12T13:41:39+00:00",
+      "text": "#SecClinton will deliver remarks from the @StateDept at approximately 9:30 a.m. EDT today. Watch live on http://t.co/UKm9plIx.",
+      "media_count": 0
+    },
+    {
+      "id": "245878103296049152",
+      "created_at": "2012-09-12T13:34:42+00:00",
+      "text": "President Obama: Ambassador Chris Stevens' legacy will endure wherever human beings reach for liberty and justice. http://t.co/u71fkuGX",
+      "media_count": 0
+    },
+    {
+      "id": "245877703406915586",
+      "created_at": "2012-09-12T13:33:07+00:00",
+      "text": "President Obama: As Ambassador in Tripoli, Chris Stevens has supported #Libya's transition to democracy. http://t.co/u71fkuGX",
+      "media_count": 0
+    },
+    {
+      "id": "245877164145266688",
+      "created_at": "2012-09-12T13:30:58+00:00",
+      "text": "President Obama: Ambassador Chris Stevens was a courageous and exemplary representative of the U.S. http://t.co/u71fkuGX",
+      "media_count": 0
+    },
+    {
+      "id": "245876839996850177",
+      "created_at": "2012-09-12T13:29:41+00:00",
+      "text": "President Obama: The brave Americans we lost represent the extraordinary service, sacrifices our civilians make every day around the globe.",
+      "media_count": 0
+    },
+    {
+      "id": "245876517475856384",
+      "created_at": "2012-09-12T13:28:24+00:00",
+      "text": "President Obama: I strongly condemn the outrageous attack on our diplomatic facility in Benghazi, #Libya. http://t.co/u71fkuGX",
+      "media_count": 0
+    },
+    {
+      "id": "245876172842487808",
+      "created_at": "2012-09-12T13:27:02+00:00",
+      "text": "Statement by President Obama on the Attack in Benghazi, #Libya http://t.co/u71fkuGX",
+      "media_count": 0
+    },
+    {
+      "id": "245860715909488641",
+      "created_at": "2012-09-12T12:25:37+00:00",
+      "text": "#SecClinton: U.S. diplomats and development experts stand on the front lines every day for our country. We are honored by their service.",
+      "media_count": 0
+    },
+    {
+      "id": "245860450326159360",
+      "created_at": "2012-09-12T12:24:33+00:00",
+      "text": "#SecClinton: All the Americans we lost in yesterday's attacks made the ultimate sacrifice. http://t.co/uW0Iyt4v #Libya",
+      "media_count": 0
+    },
+    {
+      "id": "245860151620423680",
+      "created_at": "2012-09-12T12:23:22+00:00",
+      "text": "#SecClinton: With sadness I share news of the death of 4 U.S. personnel in #Libya, including Ambassador Chris Stevens. http://t.co/uW0Iyt4v",
+      "media_count": 0
+    },
+    {
+      "id": "245856872823914496",
+      "created_at": "2012-09-12T12:10:20+00:00",
+      "text": "#SecClinton Statement on the Death of American Personnel in Benghazi, #Libya: http://t.co/uW0Iyt4v",
+      "media_count": 0
+    },
+    {
+      "id": "245724580646354944",
+      "created_at": "2012-09-12T03:24:40+00:00",
+      "text": "#SecClinton Statement on the Attack in Benghazi, #Libya: http://t.co/Ea1d7tXL",
+      "media_count": 0
+    },
+    {
+      "id": "245718438402744320",
+      "created_at": "2012-09-12T03:00:15+00:00",
+      "text": "#SecClinton: The U.S. is working with partner countries to protect our personnel, missions, and citizens worldwide. http://t.co/UKm9plIx",
+      "media_count": 0
+    },
+    {
+      "id": "245717593153998851",
+      "created_at": "2012-09-12T02:56:54+00:00",
+      "text": "#SecClinton on the attack in #Libya: Let me be clear -- there is never any justification for violent acts of this kind.",
+      "media_count": 0
+    },
+    {
+      "id": "245717209433919488",
+      "created_at": "2012-09-12T02:55:22+00:00",
+      "text": "#SecClinton: Our commitment to religious tolerance goes back to the very beginning of our nation. http://t.co/UKm9plIx",
+      "media_count": 0
+    },
+    {
+      "id": "245717059693080576",
+      "created_at": "2012-09-12T02:54:46+00:00",
+      "text": "#SecClinton: The U.S. deplores any intentional effort to denigrate the religious beliefs of others. http://t.co/UKm9plIx",
+      "media_count": 0
+    },
+    {
+      "id": "245714232560193536",
+      "created_at": "2012-09-12T02:43:32+00:00",
+      "text": "#SecClinton: President Magariaf of #Libya expressed his condemnation and condolences and pledged his government's full cooperation.",
+      "media_count": 0
+    },
+    {
+      "id": "245713694359691264",
+      "created_at": "2012-09-12T02:41:24+00:00",
+      "text": "#SecClinton: This evening, I called Libyan President Magariaf to coordinate additional support to protect Americans in #Libya.",
+      "media_count": 0
+    },
+    {
+      "id": "245713319510540288",
+      "created_at": "2012-09-12T02:39:55+00:00",
+      "text": "#SecClinton: We have confirmed one @StateDept officer was killed in #Libya.  We are heartbroken by this terrible loss.",
+      "media_count": 0
+    },
+    {
+      "id": "245712887560167424",
+      "created_at": "2012-09-12T02:38:12+00:00",
+      "text": "#SecClinton: I condemn in the strongest terms the attack on our mission in Benghazi today. http://t.co/UKm9plIx #Libya",
+      "media_count": 0
+    },
+    {
+      "id": "245711620863565826",
+      "created_at": "2012-09-12T02:33:10+00:00",
+      "text": "#SecClinton Statement on the Election of New Somali President Hassan Sheikh Mohamoud http://t.co/UIfaXf7F",
+      "media_count": 0
+    },
+    {
+      "id": "245545573787250688",
+      "created_at": "2012-09-11T15:33:21+00:00",
+      "text": "Remarks by President Obama at the Pentagon Memorial Service in Remembrance of #September11th: http://t.co/5eituVtU",
+      "media_count": 0
+    },
+    {
+      "id": "245525874701651968",
+      "created_at": "2012-09-11T14:15:04+00:00",
+      "text": "Follow @ServeDotGov and go to http://t.co/T42P3XLr for more on the National Day of Service and Remembrance. #911Day",
+      "media_count": 0
+    },
+    {
+      "id": "245525461042593793",
+      "created_at": "2012-09-11T14:13:26+00:00",
+      "text": "More than 1 million Americans are expected to serve in their communities in remembrance of #September11th. http://t.co/T42P3XLr",
+      "media_count": 0
+    },
+    {
+      "id": "245524564849864705",
+      "created_at": "2012-09-11T14:09:52+00:00",
+      "text": "President Obama declares #September11th Patriot Day and National Day of Service and Remembrance: http://t.co/F8ODxdhe.",
+      "media_count": 0
+    },
+    {
+      "id": "245519201522032640",
+      "created_at": "2012-09-11T13:48:33+00:00",
+      "text": "President Obama declares September 11 Patriot Day and National Day of Service and Remembrance: http://t.co/F8ODxdhe #911Day",
+      "media_count": 0
+    },
+    {
+      "id": "245312280798056449",
+      "created_at": "2012-09-11T00:06:20+00:00",
+      "text": "Questions on Americans’ engagement with Sub-Saharan Africa? Send them now for Conversations With America. http://t.co/VzsJ33fZ #EngageAfrica",
+      "media_count": 0
+    },
+    {
+      "id": "245307590165278720",
+      "created_at": "2012-09-10T23:47:41+00:00",
+      "text": "President Obama declares September 11 Patriot Day and National Day of Service and Remembrance: http://t.co/F8ODxdhe",
+      "media_count": 0
+    },
+    {
+      "id": "245266258273116160",
+      "created_at": "2012-09-10T21:03:27+00:00",
+      "text": "Attorney General Eric Holder, Deputy National Security Advisor Michael Froman travel to Arab Forum on Asset Recovery. http://t.co/TfI8kzc1",
+      "media_count": 0
+    },
+    {
+      "id": "245242785521864704",
+      "created_at": "2012-09-10T19:30:11+00:00",
+      "text": "Submit your questions now for Conversations With America: Building Americans’ Engagement with Sub-Saharan Africa. http://t.co/VzsJ33fZ",
+      "media_count": 0
+    },
+    {
+      "id": "245199990916542465",
+      "created_at": "2012-09-10T16:40:08+00:00",
+      "text": "President Obama on the end of #Kosovo's supervised independence: http://t.co/5PmnJUhz via @WhiteHouse",
+      "media_count": 0
+    },
+    {
+      "id": "245199305428840448",
+      "created_at": "2012-09-10T16:37:24+00:00",
+      "text": "U.S. welcomes reports that Iranian authorities have released Pastor Youcef Nadarkhani. http://t.co/rBXVajw7",
+      "media_count": 0
+    },
+    {
+      "id": "245178311536439297",
+      "created_at": "2012-09-10T15:13:59+00:00",
+      "text": "RT @USEmbassyKabul U.S. Condemns Suicide Attack in Kabul http://t.co/cSZCysAe",
+      "media_count": 0
+    },
+    {
+      "id": "245177743107575808",
+      "created_at": "2012-09-10T15:11:43+00:00",
+      "text": "Assistant Secretary Mike Hammer travels to Ulaanbaatar, Beijing, and Hong Kong September 10-15: http://t.co/RYI37iSm cc @eAsiaMediaHub",
+      "media_count": 0
+    },
+    {
+      "id": "245171964208107521",
+      "created_at": "2012-09-10T14:48:45+00:00",
+      "text": "U.S.-sponsored #India-#Pakistan girls #soccer program promotes common interests through sports: http://t.co/cXHLKCqq. #EmpowerGirls",
+      "media_count": 0
+    },
+    {
+      "id": "245171432580075520",
+      "created_at": "2012-09-10T14:46:39+00:00",
+      "text": "Now on #DipNote: @AnnatState on Mentoring the Next Generation of Global #Women Leaders in Sports http://t.co/c7q6dYEF  #EmpowerGirls",
+      "media_count": 0
+    },
+    {
+      "id": "245171324350251008",
+      "created_at": "2012-09-10T14:46:13+00:00",
+      "text": "Interested in U.S. engagement at the #UN? Ask @State_IO's Dr. Esther Brimmer questions about the topic here: http://t.co/z4eD77No",
+      "media_count": 0
+    },
+    {
+      "id": "245170752003907584",
+      "created_at": "2012-09-10T14:43:56+00:00",
+      "text": ".@ConnectStateGov Announces American Music Abroad Tour to #Africa http://t.co/aQunsxsZ",
+      "media_count": 0
+    },
+    {
+      "id": "245134759733370880",
+      "created_at": "2012-09-10T12:20:55+00:00",
+      "text": "Latest on #DipNote: Travel Diary -- #SecClinton at the #APEC 2012 Summit in Vladivostok http://t.co/H8IVvoKR",
+      "media_count": 0
+    },
+    {
+      "id": "244909139388678144",
+      "created_at": "2012-09-09T21:24:23+00:00",
+      "text": "#SecClinton: U.S. strongly supports constructive dialogue between nations to resolve territorial disputes. Video: http://t.co/cC1B4znB",
+      "media_count": 0
+    },
+    {
+      "id": "244845166647730176",
+      "created_at": "2012-09-09T17:10:11+00:00",
+      "text": "Remarks by #SecClinton at a press conference in Vladivostok, #Russia: http://t.co/1LMdQseY",
+      "media_count": 0
+    },
+    {
+      "id": "244844313715032065",
+      "created_at": "2012-09-09T17:06:48+00:00",
+      "text": "#SecClinton: We are concerned by recent measures targeting people who have spoken out about #Russia’s democratic future http://t.co/1LMdQseY",
+      "media_count": 0
+    },
+    {
+      "id": "244844078628478976",
+      "created_at": "2012-09-09T17:05:51+00:00",
+      "text": "#SecClinton: As I told President Putin and Foreign Minister Lavrov, the U.S. disagrees with their approach on #Syria. http://t.co/1LMdQseY",
+      "media_count": 0
+    },
+    {
+      "id": "244843362107146240",
+      "created_at": "2012-09-09T17:03:01+00:00",
+      "text": "#SecClinton: The Obama Administration has been committed to strengthening our relationship with #Russia; we are moving ahead in many areas.",
+      "media_count": 0
+    },
+    {
+      "id": "244843136361312256",
+      "created_at": "2012-09-09T17:02:07+00:00",
+      "text": "#SecClinton: #APEC members took important steps to promote #foodsecurity. http://t.co/1LMdQseY",
+      "media_count": 0
+    },
+    {
+      "id": "244816936876253185",
+      "created_at": "2012-09-09T15:18:00+00:00",
+      "text": ".@StateDept and the Asian University for Women convene inaugural grassroots #women's political leadership forum: http://t.co/Gv8cb9cV #APEC",
+      "media_count": 0
+    },
+    {
+      "id": "244815892603613184",
+      "created_at": "2012-09-09T15:13:51+00:00",
+      "text": "MT @USEmbRu: #SecClinton becomes first U.S. senior official to visit the U.S. Consulate in Vladivostok since 1974. http://t.co/GzWLZvY2",
+      "media_count": 0
+    },
+    {
+      "id": "244570498514681856",
+      "created_at": "2012-09-08T22:58:45+00:00",
+      "text": "#SecClinton: There is a growing body of evidence that bringing more #women into the workplace spurs innovation. http://t.co/K2xidiiB #APEC",
+      "media_count": 0
+    },
+    {
+      "id": "244495652501979136",
+      "created_at": "2012-09-08T18:01:20+00:00",
+      "text": "Video: #SecClinton on U.S. Commitment to Free and Fair Trade http://t.co/6otMupgR | Photo: http://t.co/HB7ULTa4",
+      "media_count": 0
+    },
+    {
+      "id": "244479187891654657",
+      "created_at": "2012-09-08T16:55:55+00:00",
+      "text": "Video: #SecClinton on Improving Access for #Women in the Workforce http://t.co/n7AvbzG2 #APEC",
+      "media_count": 0
+    },
+    {
+      "id": "244477999557267456",
+      "created_at": "2012-09-08T16:51:11+00:00",
+      "text": "Photo: #SecClinton meets with Prime Minister Noda of #Japan: http://t.co/1V0aWBqB #APEC",
+      "media_count": 0
+    },
+    {
+      "id": "244476141765816320",
+      "created_at": "2012-09-08T16:43:49+00:00",
+      "text": "Video: #SecClinton on Strengthening U.S.-#Russia Interregional Cooperation http://t.co/tOrsjY5d",
+      "media_count": 0
+    },
+    {
+      "id": "244465263758680064",
+      "created_at": "2012-09-08T16:00:35+00:00",
+      "text": "Background Briefing by Senior @StateDept official on #APEC Summit Meeting: http://t.co/3UtueTSW",
+      "media_count": 0
+    },
+    {
+      "id": "244463207396294656",
+      "created_at": "2012-09-08T15:52:25+00:00",
+      "text": "#SecClinton: No economic system can be  open, free, transparent and fair if half of the population is excluded. http://t.co/KgiAINNy #APEC",
+      "media_count": 0
+    },
+    {
+      "id": "244461991538872321",
+      "created_at": "2012-09-08T15:47:35+00:00",
+      "text": "#SecClinton: The U.S. has pushed for reforms that allow more people to participate in the formal economy, especially #women. #APEC",
+      "media_count": 0
+    },
+    {
+      "id": "244461128967675904",
+      "created_at": "2012-09-08T15:44:09+00:00",
+      "text": "#SecClinton: The U.S. has made a major push to pursue trade agreements with partners in the Asia-Pacific that open markets, reduce barriers.",
+      "media_count": 0
+    },
+    {
+      "id": "244460706546712576",
+      "created_at": "2012-09-08T15:42:28+00:00",
+      "text": "#SecClinton: I want to congratulate #Russia on joining the @WTO. This is good for Russia, the U.S., and for the global economy.",
+      "media_count": 0
+    },
+    {
+      "id": "244458674263846912",
+      "created_at": "2012-09-08T15:34:24+00:00",
+      "text": "U.S. and #Russia seek to deepen cooperation and strengthen ties in the Bering Strait. http://t.co/v2mWpiLY #APEC",
+      "media_count": 0
+    },
+    {
+      "id": "244456723451109377",
+      "created_at": "2012-09-08T15:26:39+00:00",
+      "text": "U.S.-#Russia Cooperation on #Antarctica, Interregional Areas, and Beringia: http://t.co/2HQnF2YE #APEC",
+      "media_count": 0
+    },
+    {
+      "id": "244444472719581184",
+      "created_at": "2012-09-08T14:37:58+00:00",
+      "text": "#SecClinton remarks at the #APEC CEO Summit: http://t.co/KgiAINNy | Photos: http://t.co/qBzKrlRB",
+      "media_count": 0
+    },
+    {
+      "id": "244440965849444352",
+      "created_at": "2012-09-08T14:24:02+00:00",
+      "text": "Remarks by #SecClinton at a Signing Ceremony with Foreign Minister Lavrov of #Russia http://t.co/EuWpbgmO | Photos: http://t.co/rbi1UthA",
+      "media_count": 0
+    },
+    {
+      "id": "244201727832780800",
+      "created_at": "2012-09-07T22:33:23+00:00",
+      "text": "September 10 will be a historic day for #Somalia as its Parliament chooses a new President. http://t.co/mrHp9pSp",
+      "media_count": 0
+    },
+    {
+      "id": "244184071947825154",
+      "created_at": "2012-09-07T21:23:14+00:00",
+      "text": "Now on #DipNote: @AnnatState on Mentoring the Next Generation of Global #Women Leaders in Sports http://t.co/c7q6dYEF #EmpowerGirls",
+      "media_count": 0
+    },
+    {
+      "id": "244162281909411840",
+      "created_at": "2012-09-07T19:56:38+00:00",
+      "text": "Photo of the Week: #SecClinton Visits Cooperativa Cafe Timor http://t.co/YmAYvGzR @USAID",
+      "media_count": 0
+    },
+    {
+      "id": "244149993261379584",
+      "created_at": "2012-09-07T19:07:49+00:00",
+      "text": "Assistant Secretary of @State_SCA Robert Blake travels to #Nepal, #Maldives and #SriLanka, September 10-14: http://t.co/w1j8Tw2E",
+      "media_count": 0
+    },
+    {
+      "id": "244144846732926976",
+      "created_at": "2012-09-07T18:47:22+00:00",
+      "text": "Assistant Secretary Mike Hammer travels to Ulaanbaatar, Beijing and Hong Kong, September 10-15: http://t.co/RYI37iSm @eAsiaMediaHub",
+      "media_count": 0
+    },
+    {
+      "id": "244144265712762880",
+      "created_at": "2012-09-07T18:45:03+00:00",
+      "text": "#SecClinton Remarks at the Inaugural Launch of the U.S.-#Brunei English-Language Enrichment Project for ASEAN: http://t.co/Hd8ZtZf2",
+      "media_count": 0
+    },
+    {
+      "id": "244143477590466561",
+      "created_at": "2012-09-07T18:41:55+00:00",
+      "text": "Historic visa agreement between the U.S. and #Russia enters into force September 9: http://t.co/gdegvkCv",
+      "media_count": 0
+    },
+    {
+      "id": "243900393447366656",
+      "created_at": "2012-09-07T02:35:59+00:00",
+      "text": "An update from #APEC Leaders' Week in #Russia: http://t.co/KU3bloye",
+      "media_count": 0
+    },
+    {
+      "id": "243897079309684737",
+      "created_at": "2012-09-07T02:22:49+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8.",
+      "media_count": 0
+    },
+    {
+      "id": "243896243716255744",
+      "created_at": "2012-09-07T02:19:30+00:00",
+      "text": "Deputy Assistant Secretary of @State_DRL Thomas Melia travels to #Georgia, September 10-12: http://t.co/vlgYcKbj",
+      "media_count": 0
+    },
+    {
+      "id": "243893467682578432",
+      "created_at": "2012-09-07T02:08:28+00:00",
+      "text": "Interested in U.S. engagement at the #UN? Ask @State_IO's Dr. Esther Brimmer questions about the topic here: http://t.co/z4eD77No",
+      "media_count": 0
+    },
+    {
+      "id": "243892512899616768",
+      "created_at": "2012-09-07T02:04:41+00:00",
+      "text": "Be the first U.S. #youth observer to attend the #UN General Assembly. Apply by tomorrow, September 7! http://t.co/DyJEeXLG",
+      "media_count": 0
+    },
+    {
+      "id": "243887464492716032",
+      "created_at": "2012-09-07T01:44:37+00:00",
+      "text": ".@AmbFeinstein joins Judy and Dennis Shepard in spotlighting #LGBT rights in #Europe: http://t.co/kSAbJd0Z.",
+      "media_count": 0
+    },
+    {
+      "id": "243837184342364160",
+      "created_at": "2012-09-06T22:24:49+00:00",
+      "text": ".@RajShah announces additional humanitarian assistance in response to the violence in #Syria: http://t.co/fVmf6qVW (Arabic subtitles)",
+      "media_count": 0
+    },
+    {
+      "id": "243836725447774208",
+      "created_at": "2012-09-06T22:23:00+00:00",
+      "text": "Latest on #DipNote: An Update From #APEC Leaders' Week in #Russia http://t.co/KU3bloye",
+      "media_count": 0
+    },
+    {
+      "id": "243831560544083969",
+      "created_at": "2012-09-06T22:02:28+00:00",
+      "text": "(Photos) #APEC Leaders' Week occurs in Vladivostok, #Russia September 2-9: http://t.co/AqF7tC7v | http://t.co/LUxweOZj",
+      "media_count": 0
+    },
+    {
+      "id": "243811854156177408",
+      "created_at": "2012-09-06T20:44:10+00:00",
+      "text": ".@AmbFeinstein and @USEmbassyWarsaw join Judy and Dennis Shepard in spotlighting #LGBT rights in #Europe: http://t.co/kSAbJd0Z.",
+      "media_count": 0
+    },
+    {
+      "id": "243810300506300416",
+      "created_at": "2012-09-06T20:38:00+00:00",
+      "text": "Go to http://t.co/a3WBxmvw and follow @HistoryAtState for more information on @StateDept's Office of the Historian. #twitterstorians",
+      "media_count": 0
+    },
+    {
+      "id": "243806546692296705",
+      "created_at": "2012-09-06T20:23:05+00:00",
+      "text": "Latest on #DipNote: Judy and Dennis Shepard Speak Up for #LGBT Rights in Europe http://t.co/kSAbJd0Z via @USEmbassyWarsaw",
+      "media_count": 0
+    },
+    {
+      "id": "243785980878921728",
+      "created_at": "2012-09-06T19:01:21+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8",
+      "media_count": 0
+    },
+    {
+      "id": "243774676864745472",
+      "created_at": "2012-09-06T18:16:26+00:00",
+      "text": "(Photo) #SecClinton meets with employees of the @USAID-founded Cooperativa Cafe Timor in Dili, Timor-Leste: http://t.co/lwhChos6",
+      "media_count": 0
+    },
+    {
+      "id": "243774256767447040",
+      "created_at": "2012-09-06T18:14:46+00:00",
+      "text": "#SecClinton met with Timor-Leste Prime Minister Xanana Gusmao today in Dili: http://t.co/3YyNfYWh",
+      "media_count": 0
+    },
+    {
+      "id": "243773913123938304",
+      "created_at": "2012-09-06T18:13:24+00:00",
+      "text": "Today, #SecClinton helped celebrate 10 years of Timor-Leste as an independent, democratic state. http://t.co/sbuumgas",
+      "media_count": 0
+    },
+    {
+      "id": "243773709238808576",
+      "created_at": "2012-09-06T18:12:36+00:00",
+      "text": "#SecClinton is the first U.S. #SecState to visit Dili, Timor-Leste. http://t.co/sbuumgas",
+      "media_count": 0
+    },
+    {
+      "id": "243773314110214144",
+      "created_at": "2012-09-06T18:11:01+00:00",
+      "text": "Latest on #DipNote: Travel Diary -- #SecClinton in Timor-Leste http://t.co/sbuumgas",
+      "media_count": 0
+    },
+    {
+      "id": "243771081335382017",
+      "created_at": "2012-09-06T18:02:09+00:00",
+      "text": "Be the first U.S. #youth observer to attend the #UN General Assembly this September. Apply by tomorrow! http://t.co/DyJEeXLG",
+      "media_count": 0
+    },
+    {
+      "id": "243770977471832066",
+      "created_at": "2012-09-06T18:01:44+00:00",
+      "text": "Interested in U.S. engagement at the #UN? Ask @State_IO's Dr. Esther Brimmer your questions about the topic here: http://t.co/z4eD77No",
+      "media_count": 0
+    },
+    {
+      "id": "243739747611205632",
+      "created_at": "2012-09-06T15:57:38+00:00",
+      "text": "Background briefing by senior @StateDept official on Timor-Leste: http://t.co/myzrm2Bv | More on #SecClinton's trip: http://t.co/7LlsqPb8",
+      "media_count": 0
+    },
+    {
+      "id": "243738440552837121",
+      "created_at": "2012-09-06T15:52:27+00:00",
+      "text": "Latest on #DipNote: In #Niger, Hope for Ending #Hunger http://t.co/xKG9eRda via @USUNRome",
+      "media_count": 0
+    },
+    {
+      "id": "243738207647330304",
+      "created_at": "2012-09-06T15:51:31+00:00",
+      "text": ".@WFP is providing assistance to over a million people in #Niger and focusing on the link between relief and recovery. http://t.co/xKG9eRda",
+      "media_count": 0
+    },
+    {
+      "id": "243737630808895488",
+      "created_at": "2012-09-06T15:49:14+00:00",
+      "text": "More than 3 million people in #Niger do not have access to sufficient food. http://t.co/xKG9eRda via @USUNRome | #FoodSecurity | #hunger",
+      "media_count": 0
+    },
+    {
+      "id": "243736498619445248",
+      "created_at": "2012-09-06T15:44:44+00:00",
+      "text": ".@USUNRome Ambassador David Lane on advancing #foodsecurity and #nutrition in #Niger: http://t.co/xKG9eRda",
+      "media_count": 0
+    },
+    {
+      "id": "243734481859661824",
+      "created_at": "2012-09-06T15:36:43+00:00",
+      "text": "U.S. looks forward to working with #Angola to advance our shared interests in #democracy, security, and development. http://t.co/Viv0qp7U",
+      "media_count": 0
+    },
+    {
+      "id": "243734143236710400",
+      "created_at": "2012-09-06T15:35:22+00:00",
+      "text": "#Angola's 2012 election marked an important step toward strengthening Angolan democratic institutions. http://t.co/Viv0qp7U",
+      "media_count": 0
+    },
+    {
+      "id": "243733172024651777",
+      "created_at": "2012-09-06T15:31:31+00:00",
+      "text": "Designation of Communist Party of Nepal (Maoist) as a Specially Designated Global Terrorist entity has been revoked. http://t.co/DvcwCC0u",
+      "media_count": 0
+    },
+    {
+      "id": "243731602872627201",
+      "created_at": "2012-09-06T15:25:17+00:00",
+      "text": "U.S. will continue to support the Kyrgyz Republic in its development of inclusive democracy. http://t.co/pmwFR3U5",
+      "media_count": 0
+    },
+    {
+      "id": "243731375721676802",
+      "created_at": "2012-09-06T15:24:22+00:00",
+      "text": "U.S. congratulates the Kyrgyz Republic on the formation of a new coalition government. http://t.co/pmwFR3U5",
+      "media_count": 0
+    },
+    {
+      "id": "243731081965223938",
+      "created_at": "2012-09-06T15:23:12+00:00",
+      "text": "(Video) @USAID's @RajShah discusses additional humanitarian assistance for those affected by violence in #Syria: http://t.co/enVfOa3j",
+      "media_count": 0
+    },
+    {
+      "id": "243730587922350081",
+      "created_at": "2012-09-06T15:21:15+00:00",
+      "text": "Get the latest U.S. foreign policy information on your handheld device by going to http://t.co/lbdSWz2V.",
+      "media_count": 0
+    },
+    {
+      "id": "243730164159234048",
+      "created_at": "2012-09-06T15:19:34+00:00",
+      "text": "Do you want to #StudyAbroad? @ConnectStateGov offers many opportunities. Learn more: http://t.co/wknj2wuQ via @AnnAtState",
+      "media_count": 0
+    },
+    {
+      "id": "243717661492670464",
+      "created_at": "2012-09-06T14:29:53+00:00",
+      "text": "Latest on #DipNote: @StateDept Welcomes @TechWomen to San Francisco http://t.co/sfmBvPSs via @ConnectStateGov | #EmpowerGirls | #innovation",
+      "media_count": 0
+    },
+    {
+      "id": "243714756249280512",
+      "created_at": "2012-09-06T14:18:20+00:00",
+      "text": ".@State_IO Assistant Secretary Esther Brimmer discusses U.S. engagement at the #UN. Submit your questions here: http://t.co/z4eD77No.",
+      "media_count": 0
+    },
+    {
+      "id": "243708755286560769",
+      "created_at": "2012-09-06T13:54:29+00:00",
+      "text": "#SecClinton: We...believe in the power of sports. @StateDept @espnW Global Sports Mentoring Program starts today! http://t.co/K4X349xW",
+      "media_count": 0
+    },
+    {
+      "id": "243536307681378304",
+      "created_at": "2012-09-06T02:29:15+00:00",
+      "text": "Do you want to #StudyAbroad? @ConnectStateGov offers many opportunities, from @KLYESAbroad to @FulbrightPrgrm. More: http://t.co/wknj2wuQ",
+      "media_count": 0
+    },
+    {
+      "id": "243532223352041472",
+      "created_at": "2012-09-06T02:13:01+00:00",
+      "text": "Be the first U.S. #youth observer to attend the #UN General Assembly. Apply by September 7: http://t.co/DyJEeXLG",
+      "media_count": 0
+    },
+    {
+      "id": "243518228104626177",
+      "created_at": "2012-09-06T01:17:24+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8.",
+      "media_count": 0
+    },
+    {
+      "id": "243511174614876161",
+      "created_at": "2012-09-06T00:49:22+00:00",
+      "text": "Latest on #DipNote: In #Niger, Hope for Ending #Hunger http://t.co/wfxe2e3M @USUNRome #FoodSecurity",
+      "media_count": 0
+    },
+    {
+      "id": "243505916090130432",
+      "created_at": "2012-09-06T00:28:29+00:00",
+      "text": "Background Briefing by Senior @StateDept Official on Timor Leste: http://t.co/6TDhuVIn",
+      "media_count": 0
+    },
+    {
+      "id": "243452516694626305",
+      "created_at": "2012-09-05T20:56:17+00:00",
+      "text": "Go to http://t.co/fWTOxs4j for more on U.S. humanitarian assistance for those affected by the violence in #Syria.",
+      "media_count": 0
+    },
+    {
+      "id": "243452014103764993",
+      "created_at": "2012-09-05T20:54:17+00:00",
+      "text": "(Video) @USAID's @RajShah announces additional humanitarian assistance for those affected by the violence in #Syria: http://t.co/enVfOa3j",
+      "media_count": 0
+    },
+    {
+      "id": "243446001078259713",
+      "created_at": "2012-09-05T20:30:24+00:00",
+      "text": "Be the first U.S. #youth observer to attend the #UN General Assembly. Apply by September 7! http://t.co/DyJEeXLG",
+      "media_count": 0
+    },
+    {
+      "id": "243442126103384067",
+      "created_at": "2012-09-05T20:15:00+00:00",
+      "text": ".@usembassysjo encourages U.S. citizens in #CostaRica to register their whereabouts at http://t.co/fptb4wTt. #earthquake",
+      "media_count": 0
+    },
+    {
+      "id": "243441653321433088",
+      "created_at": "2012-09-05T20:13:07+00:00",
+      "text": ".@USAID @theOFDA #CostaRica based disaster response experts are in touch with local counterparts and monitoring the situation. #earthquake",
+      "media_count": 0
+    },
+    {
+      "id": "243403336034947072",
+      "created_at": "2012-09-05T17:40:52+00:00",
+      "text": "U.S. announces additional humanitarian assistance in response to violence in #Syria: http://t.co/V9emNbyh.",
+      "media_count": 0
+    },
+    {
+      "id": "243388606851473408",
+      "created_at": "2012-09-05T16:42:20+00:00",
+      "text": "#SecClinton: The U.S. counts on #China's leadership in addressing many of our common global challenges. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243388354471792640",
+      "created_at": "2012-09-05T16:41:20+00:00",
+      "text": "#SecClinton: #China has a vital role as a force for security &amp; peace, stability &amp; prosperity, regionally &amp; globally. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243387224794726400",
+      "created_at": "2012-09-05T16:36:50+00:00",
+      "text": "#SecClinton on the #SouthChinaSea: U.S. does not take a position on competing territorial claims. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243386910867865600",
+      "created_at": "2012-09-05T16:35:36+00:00",
+      "text": "#SecClinton in #China: I also raised the growing threat of cyber attacks. Both the U.S. and #China are victims. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243385777202024448",
+      "created_at": "2012-09-05T16:31:05+00:00",
+      "text": "#SecClinton on #Syria: The best solution to end the violence is for there to be a peaceful political transition. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243385389606400000",
+      "created_at": "2012-09-05T16:29:33+00:00",
+      "text": "#SecClinton: U.S. wants to work with #China and other partners to take effective steps to end the violence in #Syria. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243385035149938689",
+      "created_at": "2012-09-05T16:28:08+00:00",
+      "text": "#SecClinton in #China: We discussed our shared commitment in preventing #Iran from acquiring #nuclear weapons. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243384652298084352",
+      "created_at": "2012-09-05T16:26:37+00:00",
+      "text": "#SecClinton in #China: At the same time, we wish to continue joint efforts to bring about denuclearization of the Korean Peninsula. #DPRK",
+      "media_count": 0
+    },
+    {
+      "id": "243384366833729537",
+      "created_at": "2012-09-05T16:25:29+00:00",
+      "text": "#SecClinton: There is an opportunity for the new leadership in North #Korea to improve the lives of the people. http://t.co/nmffwrAV #DPRK",
+      "media_count": 0
+    },
+    {
+      "id": "243384127041175552",
+      "created_at": "2012-09-05T16:24:32+00:00",
+      "text": "#SecClinton in #China: We had a productive conversation about how China can use its unique influence with respect to North #Korea. #DPRK",
+      "media_count": 0
+    },
+    {
+      "id": "243383673225879552",
+      "created_at": "2012-09-05T16:22:44+00:00",
+      "text": "#SecClinton in #China: We see this moment as a historic opportunity for our two countries. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243383334267400193",
+      "created_at": "2012-09-05T16:21:23+00:00",
+      "text": "#SecClinton in #China: We are committed to managing differences effectively, expanding cooperation whenever possible. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243382765633028097",
+      "created_at": "2012-09-05T16:19:07+00:00",
+      "text": "#SecClinton: We are convinced the U.S., #China gain far more when we cooperate with one another. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243382376552624129",
+      "created_at": "2012-09-05T16:17:35+00:00",
+      "text": "#SecClinton: We want #China to play a greater role in world affairs. That strengthens global stability, helps solve urgent challenges.",
+      "media_count": 0
+    },
+    {
+      "id": "243382248290791425",
+      "created_at": "2012-09-05T16:17:04+00:00",
+      "text": "#SecClinton:  The U.S. welcomes the rise of a strong, prosperous, and peaceful #China. http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243381533606572034",
+      "created_at": "2012-09-05T16:14:14+00:00",
+      "text": "Today, #SecClinton met with Chinese Foreign Minister Yang Jiechi in Beijing, #China: http://t.co/nmffwrAV",
+      "media_count": 0
+    },
+    {
+      "id": "243380543482388480",
+      "created_at": "2012-09-05T16:10:18+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8.",
+      "media_count": 0
+    },
+    {
+      "id": "243380071178579968",
+      "created_at": "2012-09-05T16:08:25+00:00",
+      "text": "Be the first U.S. #youth observer to attend the #UN General Assembly. Apply by September 7: http://t.co/DyJEeXLG",
+      "media_count": 0
+    },
+    {
+      "id": "243363752358076416",
+      "created_at": "2012-09-05T15:03:34+00:00",
+      "text": "(Photos) #SecClinton at #ASEAN in #Indonesia: http://t.co/hcPY8M4I | http://t.co/nB3h6Mm8",
+      "media_count": 0
+    },
+    {
+      "id": "243359620377223168",
+      "created_at": "2012-09-05T14:47:09+00:00",
+      "text": "Latest on #DipNote: @State_SCA's Robert Blake on ABCs -- Building Blocks for Better Relations http://t.co/0VrZdzaC",
+      "media_count": 0
+    },
+    {
+      "id": "243355331453911041",
+      "created_at": "2012-09-05T14:30:07+00:00",
+      "text": ".@USAID Administrator @RajShah announces additional U.S. humanitarian assistance in response to violence in #Syria. http://t.co/V9emNbyh",
+      "media_count": 0
+    },
+    {
+      "id": "243154444764725250",
+      "created_at": "2012-09-05T01:11:51+00:00",
+      "text": "Do you want to #StudyAbroad? @ConnectStateGov offers many opportunities, from @KLYESAbroad to @FulbrightPrgrm. More: http://t.co/wknj2wuQ",
+      "media_count": 0
+    },
+    {
+      "id": "243152223457140736",
+      "created_at": "2012-09-05T01:03:02+00:00",
+      "text": "Be the first U.S. #youth observer to attend the #UN General Assembly. Apply by September 7: http://t.co/DyJEeXLG",
+      "media_count": 0
+    },
+    {
+      "id": "243147396039716864",
+      "created_at": "2012-09-05T00:43:51+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia, and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8.",
+      "media_count": 0
+    },
+    {
+      "id": "243091698090119170",
+      "created_at": "2012-09-04T21:02:31+00:00",
+      "text": "#Bahrain needs dialogue and negotiation to build a strong national consensus about its political future. http://t.co/4Kawnrsu",
+      "media_count": 0
+    },
+    {
+      "id": "243091586559385600",
+      "created_at": "2012-09-04T21:02:05+00:00",
+      "text": "U.S. urges #Bahrain to abide by its commitment to right to due process and to transparent judicial proceedings. http://t.co/4Kawnrsu",
+      "media_count": 0
+    },
+    {
+      "id": "243090319233675264",
+      "created_at": "2012-09-04T20:57:03+00:00",
+      "text": "Statement on the Upholding the Sentence of 13 Bahraini Activists http://t.co/4Kawnrsu #Bahrain",
+      "media_count": 0
+    },
+    {
+      "id": "243087139556974592",
+      "created_at": "2012-09-04T20:44:25+00:00",
+      "text": "Statement by @PressSec on #Colombia's peace negotiations with the Revolutionary Armed Forces of Colombia (#FARC): http://t.co/1ygj38lL",
+      "media_count": 0
+    },
+    {
+      "id": "243078155626246145",
+      "created_at": "2012-09-04T20:08:43+00:00",
+      "text": "Latest on #DipNote: Travel Diary -- #SecClinton in #Indonesia http://t.co/dZw1Jx0M",
+      "media_count": 0
+    },
+    {
+      "id": "243072224200912896",
+      "created_at": "2012-09-04T19:45:08+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8.",
+      "media_count": 0
+    },
+    {
+      "id": "243071830427062273",
+      "created_at": "2012-09-04T19:43:35+00:00",
+      "text": "#SecClinton: We are committed to building a cooperative partnership with #China; it is a key aspect of our rebalancing in the Asia Pacific.",
+      "media_count": 0
+    },
+    {
+      "id": "243071672314376192",
+      "created_at": "2012-09-04T19:42:57+00:00",
+      "text": "Today, #SecClinton met with Foreign Minister Yang Jiechi of #China in Beijing: http://t.co/PvUcYcLD.",
+      "media_count": 0
+    },
+    {
+      "id": "243062521915920384",
+      "created_at": "2012-09-04T19:06:35+00:00",
+      "text": "Deputy Secretary Tom Nides joins @USChamber and 100 company executives as part of a #business delegation to #Egypt: http://t.co/TSStWaSC.",
+      "media_count": 0
+    },
+    {
+      "id": "243061373293178880",
+      "created_at": "2012-09-04T19:02:01+00:00",
+      "text": "(Photos) #SecClinton departs #Indonesia for #China: http://t.co/0zFVGkFH | http://t.co/1HMjUn2N",
+      "media_count": 0
+    },
+    {
+      "id": "243055705999949824",
+      "created_at": "2012-09-04T18:39:30+00:00",
+      "text": "(Photo) #SecClinton meets with Indonesian President Yudhoyono in Jakarta: http://t.co/ft0l1WAD",
+      "media_count": 0
+    },
+    {
+      "id": "243054640361508864",
+      "created_at": "2012-09-04T18:35:16+00:00",
+      "text": "#SecClinton meets with @usembassyjkt staff and their families in #Indonesia: http://t.co/8zWhp3Dh",
+      "media_count": 0
+    },
+    {
+      "id": "243051876499718144",
+      "created_at": "2012-09-04T18:24:17+00:00",
+      "text": "#SecClinton: The U.S. is very proud to be a Pacific nation; we are committed to be here for the long run. http://t.co/0EUsm8WM",
+      "media_count": 0
+    },
+    {
+      "id": "242997153583202304",
+      "created_at": "2012-09-04T14:46:50+00:00",
+      "text": ".@SportsDiplomacy Basketball Envoys Make First-Ever Visit to #Burma: http://t.co/dxIu6f79",
+      "media_count": 0
+    },
+    {
+      "id": "242996532004151296",
+      "created_at": "2012-09-04T14:44:22+00:00",
+      "text": "Fact Sheet on U.S. Institutional Support for #ASEAN: http://t.co/gBA0Vqb0",
+      "media_count": 0
+    },
+    {
+      "id": "242995527791292417",
+      "created_at": "2012-09-04T14:40:23+00:00",
+      "text": "Go to http://t.co/E3JVFZi3 and follow @USMission2ASEAN and @usembassyjkt for more on #SecClinton's visit to #Indonesia.",
+      "media_count": 0
+    },
+    {
+      "id": "242994419068973056",
+      "created_at": "2012-09-04T14:35:58+00:00",
+      "text": "New! See the latest photos from #SecClinton's visit to #Indonesia: http://t.co/vtZoQX5S",
+      "media_count": 0
+    },
+    {
+      "id": "242993532145655808",
+      "created_at": "2012-09-04T14:32:27+00:00",
+      "text": "#SecClinton: We invite and need #ASEAN to lead in crafting strong, regional responses to transnational challenges. http://t.co/h3CaJW2o",
+      "media_count": 0
+    },
+    {
+      "id": "242992588423045123",
+      "created_at": "2012-09-04T14:28:42+00:00",
+      "text": "#SecClinton: U.S. was the first dialogue partner to open a mission to #ASEAN. I am pleased others are also doing that. http://t.co/h3CaJW2o",
+      "media_count": 0
+    },
+    {
+      "id": "242992210478510081",
+      "created_at": "2012-09-04T14:27:12+00:00",
+      "text": "#SecClinton: The U.S. views #ASEAN as central to regional stability and economic progress in the Asia-Pacific. http://t.co/h3CaJW2o",
+      "media_count": 0
+    },
+    {
+      "id": "242992022552707072",
+      "created_at": "2012-09-04T14:26:27+00:00",
+      "text": "#SecClinton: We have an interest in strengthening #ASEAN's ability to address regional challenges. http://t.co/h3CaJW2o",
+      "media_count": 0
+    },
+    {
+      "id": "242991647003123712",
+      "created_at": "2012-09-04T14:24:57+00:00",
+      "text": "#SecClinton: We want to do all we can to advance #ASEAN's goal of integration. http://t.co/h3CaJW2o",
+      "media_count": 0
+    },
+    {
+      "id": "242991437220806657",
+      "created_at": "2012-09-04T14:24:07+00:00",
+      "text": "#SecClinton: We are making a sustained, all-out effort to build an enduring, multi-faceted relationship between #ASEAN and the U.S.",
+      "media_count": 0
+    },
+    {
+      "id": "242991196107071488",
+      "created_at": "2012-09-04T14:23:10+00:00",
+      "text": "Today, #SecClinton met with #ASEAN Secretary General Surin in #Indonesia. http://t.co/h3CaJW2o",
+      "media_count": 0
+    },
+    {
+      "id": "242990197007065090",
+      "created_at": "2012-09-04T14:19:12+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8",
+      "media_count": 0
+    },
+    {
+      "id": "242989779183104000",
+      "created_at": "2012-09-04T14:17:32+00:00",
+      "text": "Do you want to #StudyAbroad? @ConnectStateGov offers many opportunities, from @FulbrightPrgrm to @KLYESAbroad. More: http://t.co/wknj2wuQ",
+      "media_count": 0
+    },
+    {
+      "id": "242957423529295872",
+      "created_at": "2012-09-04T12:08:58+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8.",
+      "media_count": 0
+    },
+    {
+      "id": "242957119710691328",
+      "created_at": "2012-09-04T12:07:45+00:00",
+      "text": "#StudyAbroad expands your world. Discover what opportunities await you: http://t.co/wknj2wuQ via @AnnatState #IEW2012 #education",
+      "media_count": 0
+    },
+    {
+      "id": "242956557237768193",
+      "created_at": "2012-09-04T12:05:31+00:00",
+      "text": "Latest on #DipNote: Back to School...Anywhere in the World! http://t.co/wknj2wuQ  via @AnnatState #IEW2012 #StudyAbroad",
+      "media_count": 0
+    },
+    {
+      "id": "242813722853261313",
+      "created_at": "2012-09-04T02:37:57+00:00",
+      "text": "Latest on #DipNote: Back to School...Anywhere in the World! http://t.co/wknj2wuQ via @AnnatState #StudyAbroad #IEW2012",
+      "media_count": 0
+    },
+    {
+      "id": "242813258417987584",
+      "created_at": "2012-09-04T02:36:06+00:00",
+      "text": "Go to http://t.co/E3JVFZi3 and follow @USMission2ASEAN and @usembassyjkt for more on #SecClinton's visit to #Indonesia.",
+      "media_count": 0
+    },
+    {
+      "id": "242799721813524480",
+      "created_at": "2012-09-04T01:42:19+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8",
+      "media_count": 0
+    },
+    {
+      "id": "242799293730275328",
+      "created_at": "2012-09-04T01:40:37+00:00",
+      "text": "New! View the latest photos from #SecClinton's visit to #Indonesia September 3: http://t.co/vtZoQX5S",
+      "media_count": 0
+    },
+    {
+      "id": "242798716300451840",
+      "created_at": "2012-09-04T01:38:19+00:00",
+      "text": "Fact Sheet on U.S. Institutional Support for #ASEAN: http://t.co/gBA0Vqb0",
+      "media_count": 0
+    },
+    {
+      "id": "242797816718700545",
+      "created_at": "2012-09-04T01:34:45+00:00",
+      "text": "#SecClinton meets with #ASEAN Secretary General Dr. Surin Pitsuwan in #Indonesia September 4. http://t.co/gBA0Vqb0",
+      "media_count": 0
+    },
+    {
+      "id": "242734675775348736",
+      "created_at": "2012-09-03T21:23:51+00:00",
+      "text": "Follow @usembassyjkt and go to http://t.co/7LlsqPb8 for more on #SecClinton's visit to #Indonesia.",
+      "media_count": 0
+    },
+    {
+      "id": "242734249428533249",
+      "created_at": "2012-09-03T21:22:09+00:00",
+      "text": "(Photos) #SecClinton delivers remarks with Foreign Minister Natalegawa of #Indonesia: http://t.co/5pmxje85 | http://t.co/PPYr9VdI",
+      "media_count": 0
+    },
+    {
+      "id": "242733664193093633",
+      "created_at": "2012-09-03T21:19:49+00:00",
+      "text": "#SecClinton in #Indonesia: On #Syria, our countries remain committed to a political, democratic transition that benefits the Syrian people.",
+      "media_count": 0
+    },
+    {
+      "id": "242732901010120706",
+      "created_at": "2012-09-03T21:16:48+00:00",
+      "text": "#SecClinton in #Indonesia: On #Iran, we believe -- and share this common position -- Iran has a right to the use of peaceful nuclear energy.",
+      "media_count": 0
+    },
+    {
+      "id": "242732479100895232",
+      "created_at": "2012-09-03T21:15:07+00:00",
+      "text": "#SecClinton in Jakarta: I expressed our appreciation for #Indonesia's efforts to advance #ASEAN unity. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242732315934064641",
+      "created_at": "2012-09-03T21:14:28+00:00",
+      "text": "#SecClinton in #Indonesia: U.S. will be sending a high-level delegation to the Bali Democracy Forum. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242732042234777600",
+      "created_at": "2012-09-03T21:13:23+00:00",
+      "text": "#SecClinton: The world looks to #Indonesia as indeed the third largest democracy in the world to promote democracy and human rights.",
+      "media_count": 0
+    },
+    {
+      "id": "242731630110859264",
+      "created_at": "2012-09-03T21:11:45+00:00",
+      "text": "#SecClinton: We endorse the recent #ASEAN six-point principles on the #SouthChinaSea. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242731409700188160",
+      "created_at": "2012-09-03T21:10:52+00:00",
+      "text": "#SecClinton: U.S. has an interest, as every country does, in the maintenance of peace, stability in the #SouthChinaSea. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242730048568832002",
+      "created_at": "2012-09-03T21:05:27+00:00",
+      "text": "In Jakarta, #SecClinton and Indonesian Foreign Minister Natalegawa discussed #ASEAN, #SouthChinaSea, #Syria and #Iran. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242728191377154050",
+      "created_at": "2012-09-03T20:58:05+00:00",
+      "text": "(Photo) #SecClinton meets with senior officials in Jakarta, #Indonesia: http://t.co/syyuRkwE",
+      "media_count": 0
+    },
+    {
+      "id": "242709970112618496",
+      "created_at": "2012-09-03T19:45:40+00:00",
+      "text": "#SecClinton in Jakarta: We condemn the attack on our consulate personal in Peshawar, #Pakistan. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242709597914279936",
+      "created_at": "2012-09-03T19:44:12+00:00",
+      "text": "Ambassador Hoagland: We must work together, Pakistanis and Americans alike, because we have a strong mutual interest in defeating terrorism.",
+      "media_count": 0
+    },
+    {
+      "id": "242709061513134080",
+      "created_at": "2012-09-03T19:42:04+00:00",
+      "text": "Ambassador Richard Hoagland: I am grateful for Pakistani security who saved two U.S. diplomats, two local staff of our Peshawar consulate.",
+      "media_count": 0
+    },
+    {
+      "id": "242708127378702336",
+      "created_at": "2012-09-03T19:38:21+00:00",
+      "text": "Statement by @usembislamabad on the terrorist attack in Peshawar, #Pakistan: http://t.co/79Zy9muI",
+      "media_count": 0
+    },
+    {
+      "id": "242700047068823553",
+      "created_at": "2012-09-03T19:06:15+00:00",
+      "text": "Fact Sheet on U.S.-#Indonesia Relations: http://t.co/2f96sZ8H",
+      "media_count": 0
+    },
+    {
+      "id": "242699755086561280",
+      "created_at": "2012-09-03T19:05:05+00:00",
+      "text": "Today, #SecClinton and Foreign Minister Natalegawa of #Indonesia discussed #ASEAN, #SouthChinaSea, #Syria and #Iran. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242699483308253185",
+      "created_at": "2012-09-03T19:04:00+00:00",
+      "text": "#SecClinton announces @USAID investments to support #education in #Indonesia. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242698625317212160",
+      "created_at": "2012-09-03T19:00:36+00:00",
+      "text": "#SecClinton: U.S.-#Indonesia Comprehensive Partnership is a foundation for our renewed engagement in the Asia Pacific. http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242698399181332480",
+      "created_at": "2012-09-03T18:59:42+00:00",
+      "text": "#SecClinton: In #Indonesia, one of the very first countries I visited as #SecState, we have seen our relationship grow stronger and deeper.",
+      "media_count": 0
+    },
+    {
+      "id": "242698116090957825",
+      "created_at": "2012-09-03T18:58:34+00:00",
+      "text": "#SecClinton met today with Foreign Minister Raden Mohammad Marty Muliana Natalegawa in Jakarta, #Indonesia: http://t.co/Kv7aQz2N",
+      "media_count": 0
+    },
+    {
+      "id": "242686625598033920",
+      "created_at": "2012-09-03T18:12:55+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8.",
+      "media_count": 0
+    },
+    {
+      "id": "242666906526576640",
+      "created_at": "2012-09-03T16:54:33+00:00",
+      "text": "Special Representative Shailor: I express gratitude for the sacrifices, contributions made by working people. http://t.co/cvuDZ9uE #LaborDay",
+      "media_count": 0
+    },
+    {
+      "id": "242666456343519232",
+      "created_at": "2012-09-03T16:52:46+00:00",
+      "text": "Special Representative Barbara Shailor: Labor rights are human rights. http://t.co/cvuDZ9uE | #LaborDay",
+      "media_count": 0
+    },
+    {
+      "id": "242665827495710724",
+      "created_at": "2012-09-03T16:50:16+00:00",
+      "text": "Latest on #DipNote: Defending Labor Rights -- A Smart Investment http://t.co/cvuDZ9uE | #LaborDay",
+      "media_count": 0
+    },
+    {
+      "id": "242665483055284225",
+      "created_at": "2012-09-03T16:48:54+00:00",
+      "text": "U.S. committed to supporting #ASEAN as the foremost regional institution promoting a secure, democratic Southeast Asia. http://t.co/gBA0Vqb0",
+      "media_count": 0
+    },
+    {
+      "id": "242664308037795840",
+      "created_at": "2012-09-03T16:44:14+00:00",
+      "text": "#SecClinton meets with #ASEAN Secretary General Dr. Surin Pitsuwan in #Indonesia on September 4. http://t.co/gBA0Vqb0",
+      "media_count": 0
+    },
+    {
+      "id": "242663849478725633",
+      "created_at": "2012-09-03T16:42:24+00:00",
+      "text": "(Photos) #SecClinton departs the Cook Islands for #Indonesia: http://t.co/BgC25uwR | http://t.co/VnzvUEEq",
+      "media_count": 0
+    },
+    {
+      "id": "242645842371153920",
+      "created_at": "2012-09-03T15:30:51+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8",
+      "media_count": 0
+    },
+    {
+      "id": "242645492033536000",
+      "created_at": "2012-09-03T15:29:28+00:00",
+      "text": "Fact Sheet on U.S. Institutional Support for #ASEAN http://t.co/gBA0Vqb0",
+      "media_count": 0
+    },
+    {
+      "id": "242644947730300928",
+      "created_at": "2012-09-03T15:27:18+00:00",
+      "text": "Fact Sheet on U.S.-#Indonesia Relations http://t.co/2f96sZ8H",
+      "media_count": 0
+    },
+    {
+      "id": "242641988405583873",
+      "created_at": "2012-09-03T15:15:32+00:00",
+      "text": "Special Representative for International Labor Affairs Barbara Shailor offers a #LaborDay message: http://t.co/6qPxHaZM",
+      "media_count": 0
+    },
+    {
+      "id": "242505272759820288",
+      "created_at": "2012-09-03T06:12:17+00:00",
+      "text": "Latest on #DipNote: Defending Labor Rights -- A Smart Investment http://t.co/cvuDZ9uE #LaborDay",
+      "media_count": 0
+    },
+    {
+      "id": "242505004072697856",
+      "created_at": "2012-09-03T06:11:13+00:00",
+      "text": "Joint Statement of the U.S.-#Iraq Political and Diplomatic Joint Coordination Committee: http://t.co/Wp6aeRxi",
+      "media_count": 0
+    },
+    {
+      "id": "242504752515141632",
+      "created_at": "2012-09-03T06:10:13+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8",
+      "media_count": 0
+    },
+    {
+      "id": "242504392396382208",
+      "created_at": "2012-09-03T06:08:47+00:00",
+      "text": ".@SportsDiplomacy Basketball Envoys Make First-Ever Visit to #Burma http://t.co/dxIu6f79",
+      "media_count": 0
+    },
+    {
+      "id": "242313852094660608",
+      "created_at": "2012-09-02T17:31:38+00:00",
+      "text": "#SecClinton: The U.S. is very proud to be a Pacific nation; we are committed to be here for the long run. http://t.co/0EUsm8WM",
+      "media_count": 0
+    },
+    {
+      "id": "242313583436894208",
+      "created_at": "2012-09-02T17:30:34+00:00",
+      "text": "#SecClinton is on travel to the #Pacific, East #Asia and #Russia August 30-September 9. Follow her trip here: http://t.co/7LlsqPb8 .",
+      "media_count": 0
+    },
+    {
+      "id": "242313305195151360",
+      "created_at": "2012-09-02T17:29:28+00:00",
+      "text": "Latest on #DipNote: Basketball Envoys Make First-Ever Visit to #Burma http://t.co/dxIu6f79 cc @SportsDiplomacy",
+      "media_count": 0
+    },
+    {
+      "id": "242312014691721217",
+      "created_at": "2012-09-02T17:24:20+00:00",
+      "text": "Special Representative for International Labor Affairs Barbara Shailor offers a #LaborDay message: http://t.co/6qPxHaZM",
+      "media_count": 0
+    },
+    {
+      "id": "242270844678713344",
+      "created_at": "2012-09-02T14:40:45+00:00",
+      "text": "Latest on #DipNote: Travel Diary -- #SecClinton Underscores U.S. Commitment to the #Pacific http://t.co/0EUsm8WM",
+      "media_count": 0
+    },
+    {
+      "id": "242116092590436352",
+      "created_at": "2012-09-02T04:25:49+00:00",
+      "text": "Follow #SecClinton's travel to the #Pacific, East #Asia and #Russia August 30-September 9 here: http://t.co/7LlsqPb8.",
+      "media_count": 0
+    },
+    {
+      "id": "242115681557028864",
+      "created_at": "2012-09-02T04:24:11+00:00",
+      "text": "(Photo) #SecClinton speaks with Prime Minister Henry Puna at the #Pacific Islands Forum in the Cook Islands: http://t.co/AemFfViE",
+      "media_count": 0
+    },
+    {
+      "id": "242115358868250624",
+      "created_at": "2012-09-02T04:22:54+00:00",
+      "text": "Latest on #DipNote: #SecClinton Underscores U.S. Commitment to the #Pacific http://t.co/0EUsm8WM",
+      "media_count": 0
+    },
+    {
+      "id": "242114424914202624",
+      "created_at": "2012-09-02T04:19:11+00:00",
+      "text": "(Photo) #SecClinton with participants at the Rarotonga Dialogue on Gender Equality: http://t.co/fCWoZZr8",
+      "media_count": 0
+    },
+    {
+      "id": "242113979135193088",
+      "created_at": "2012-09-02T04:17:25+00:00",
+      "text": "#SecClinton: Supporting and promoting gender equality is a core part of the United States commitment to the #Pacific. http://t.co/KKcKf2Bc",
+      "media_count": 0
+    },
+    {
+      "id": "242113461323177985",
+      "created_at": "2012-09-02T04:15:22+00:00",
+      "text": "Australia, New Zealand, and the U.S. launch the Rarotonga Partnership for the Advancement of #Pacific Island #Women: http://t.co/KcUTwe2J.",
+      "media_count": 0
+    },
+    {
+      "id": "242112618897231872",
+      "created_at": "2012-09-02T04:12:01+00:00",
+      "text": "Did you know @StateDept is also on #Tumblr? Take a look for updates from #SecClinton's travel to the #Pacific: http://t.co/qp0w72rs.",
+      "media_count": 0
+    },
+    {
+      "id": "242030643696005122",
+      "created_at": "2012-09-01T22:46:16+00:00",
+      "text": "#SecClinton: U.S. is very proud to be a Pacific nation; we are committed to be here for the long run. http://t.co/0EUsm8WM",
+      "media_count": 0
+    },
+    {
+      "id": "242029105325961216",
+      "created_at": "2012-09-01T22:40:10+00:00",
+      "text": "Latest on #DipNote: #SecClinton in the Cook Islands http://t.co/0EUsm8WM",
+      "media_count": 0
+    },
+    {
+      "id": "242012945255645184",
+      "created_at": "2012-09-01T21:35:57+00:00",
+      "text": "Australia, France, New Zealand, U.S. announce steps to strengthen maritime surveillance in support of Pacific Islands: http://t.co/NxjxWKfv",
+      "media_count": 0
+    },
+    {
+      "id": "242010962327117824",
+      "created_at": "2012-09-01T21:28:04+00:00",
+      "text": "(Photo) #SecClinton with Rear Admiral Ray of @USCG and Admiral Locklear of @PacificCommand in the Cook Islands: http://t.co/lpqL8n0n",
+      "media_count": 0
+    },
+    {
+      "id": "242010316169433088",
+      "created_at": "2012-09-01T21:25:30+00:00",
+      "text": "#SecClinton: The U.S. is working to reduce the number of unexploded bombs and other ordnance from WWII in the #Pacific. http://t.co/3quKD0ON",
+      "media_count": 0
+    },
+    {
+      "id": "242009840401133569",
+      "created_at": "2012-09-01T21:23:36+00:00",
+      "text": "#SecClinton: We are taking steps that will help strengthen regional law enforcement in the #Pacific. http://t.co/3quKD0ON",
+      "media_count": 0
+    },
+    {
+      "id": "242009431062241280",
+      "created_at": "2012-09-01T21:21:59+00:00",
+      "text": "#SecClinton: We work closely with partners on a range of transnational and maritime security issues in the #Pacific. http://t.co/3quKD0ON",
+      "media_count": 0
+    },
+    {
+      "id": "242008724523327489",
+      "created_at": "2012-09-01T21:19:10+00:00",
+      "text": "#SecClinton: U.S. welcomes cooperation with partners, including Japan, the EU, China, and others. The #Pacific is big enough for all of us.",
+      "media_count": 0
+    },
+    {
+      "id": "242008516972388352",
+      "created_at": "2012-09-01T21:18:21+00:00",
+      "text": "#SecClinton: Our goal is to help the island nations of the #Pacific realize their own aspirations. http://t.co/3quKD0ON",
+      "media_count": 0
+    },
+    {
+      "id": "242008204211544064",
+      "created_at": "2012-09-01T21:17:06+00:00",
+      "text": "#SecClinton delivers remarks on U.S. peace and security partnerships in the #Pacific: http://t.co/3quKD0ON | Photo: http://t.co/Kbtn3yTH",
+      "media_count": 0
+    },
+    {
+      "id": "241976758889496576",
+      "created_at": "2012-09-01T19:12:09+00:00",
+      "text": "Follow #SecClinton's travel to the #Pacific, East #Asia and #Russia August 30-September 9 here: http://t.co/7LlsqPb8",
+      "media_count": 0
+    },
+    {
+      "id": "241968211749376000",
+      "created_at": "2012-09-01T18:38:11+00:00",
+      "text": "New! View the latest photos of #SecClinton's visit to the Cook Islands for the Pacific Islands Forum: http://t.co/2MnYYtep",
+      "media_count": 0
+    },
+    {
+      "id": "241967579831357440",
+      "created_at": "2012-09-01T18:35:41+00:00",
+      "text": "#SecClinton: Supporting and promoting gender equality is a core part of the U.S. commitment to the Pacific. http://t.co/KKcKf2Bc",
+      "media_count": 0
+    },
+    {
+      "id": "241967374469849089",
+      "created_at": "2012-09-01T18:34:52+00:00",
+      "text": "#SecClinton: When #women are unequal participants, economic growth is undermined. Development is stymied. http://t.co/KKcKf2Bc",
+      "media_count": 0
+    },
+    {
+      "id": "241967018432163840",
+      "created_at": "2012-09-01T18:33:27+00:00",
+      "text": "#SecClinton: #Women in the Pacific Islands constitute a great reservoir of untapped talent and ability. http://t.co/KKcKf2Bc",
+      "media_count": 0
+    },
+    {
+      "id": "241966733450158082",
+      "created_at": "2012-09-01T18:32:19+00:00",
+      "text": "#SecClinton speaks at the Rarotonga Dialogue on Gender Equality: http://t.co/KKcKf2Bc | Photos: http://t.co/fCWoZZr8 http://t.co/iKTvdbUc",
+      "media_count": 0
+    },
+    {
+      "id": "241957702996213762",
+      "created_at": "2012-09-01T17:56:26+00:00",
+      "text": "#SecClinton delivers remarks with #NewZealand Prime Minister John Key: http://t.co/Lpw5T3uC | Photo: http://t.co/1XwM3EuY",
+      "media_count": 0
+    },
+    {
+      "id": "241948852054286336",
+      "created_at": "2012-09-01T17:21:16+00:00",
+      "text": "#SecClinton announces new @USAID program to  improve clean energy infrastructure across the Pacific Islands. http://t.co/KM6cMhZM",
+      "media_count": 0
+    },
+    {
+      "id": "241948619119403008",
+      "created_at": "2012-09-01T17:20:20+00:00",
+      "text": "#SecClinton announces new @USAID program to address vulnerable coastal areas of the Pacific Islands. http://t.co/KM6cMhZM",
+      "media_count": 0
+    },
+    {
+      "id": "241932634354229250",
+      "created_at": "2012-09-01T16:16:49+00:00",
+      "text": "RT @AmbassadorJones Thank you PM @NajibRazak for acknowledging our Merdeka wishes. I am confident US-#Malaysia relations will keep thriving.",
+      "media_count": 0
+    },
+    {
+      "id": "241929781069901824",
+      "created_at": "2012-09-01T16:05:29+00:00",
+      "text": "U.S., #Japan release joint statement on aid coordination in the #Pacific region: http://t.co/mc5JoIqa",
+      "media_count": 0
+    },
+    {
+      "id": "241925589982932992",
+      "created_at": "2012-09-01T15:48:50+00:00",
+      "text": "#SecClinton delivers remarks at the Pacific Islands Forum Post-Forum Dialogue: http://t.co/BWAoyj2r | Photo: http://t.co/r25ehPhT",
+      "media_count": 0
+    },
+    {
+      "id": "241925277113004032",
+      "created_at": "2012-09-01T15:47:35+00:00",
+      "text": "#SecClinton: I look forward to many more years of friendship and partnership between the U.S. and the nations and peoples of the Pacific.",
+      "media_count": 0
+    },
+    {
+      "id": "241924366252785664",
+      "created_at": "2012-09-01T15:43:58+00:00",
+      "text": "#SecClinton: A priority of ours is supporting the #women of the Pacific. http://t.co/BWAoyj2r",
+      "media_count": 0
+    },
+    {
+      "id": "241923327927656448",
+      "created_at": "2012-09-01T15:39:50+00:00",
+      "text": "#SecClinton: All of us have an interest in maintaining peace and security in the Pacific. http://t.co/BWAoyj2r | Photo: http://t.co/6Aw4IEDn",
+      "media_count": 0
+    },
+    {
+      "id": "241922897973747712",
+      "created_at": "2012-09-01T15:38:08+00:00",
+      "text": "#SecClinton: Throughout the Pacific we seek to advance a sound economic agenda that includes more free trade. http://t.co/BWAoyj2r",
+      "media_count": 0
+    },
+    {
+      "id": "241921787221401600",
+      "created_at": "2012-09-01T15:33:43+00:00",
+      "text": "#SecClinton: The 21st century will be America's #Pacific century. http://t.co/BWAoyj2r",
+      "media_count": 0
+    },
+    {
+      "id": "241920633309646849",
+      "created_at": "2012-09-01T15:29:08+00:00",
+      "text": "#SecClinton remarks at the Pacific Islands Forum Post-Forum Dialogue: http://t.co/BWAoyj2r",
+      "media_count": 0
+    },
+    {
+      "id": "241919902942916610",
+      "created_at": "2012-09-01T15:26:14+00:00",
+      "text": "(Photos) #SecClinton leads U.S. delegation to the Pacific Islands Forum August 31 in the Cook Islands: http://t.co/2MnYYtep",
+      "media_count": 0
+    },
+    {
+      "id": "241919541544878080",
+      "created_at": "2012-09-01T15:24:48+00:00",
+      "text": "Follow #SecClinton's travel to the #Pacific, East #Asia, and #Russia August 30-September 9 here: http://t.co/7LlsqPb8",
+      "media_count": 0
+    },
+    {
+      "id": "241770359693647872",
+      "created_at": "2012-09-01T05:32:00+00:00",
+      "text": "Joint statement by the U.S.., #Australia, and #NewZealand at the Pacific Islands Forum: http://t.co/QWDigFsx | Photo: http://t.co/DSrcFwOk",
+      "media_count": 0
+    },
+    {
+      "id": "241767399085461504",
+      "created_at": "2012-09-01T05:20:14+00:00",
+      "text": "(Photos) #SecClinton meets with Prime Minister John Key of #NewZealand in the Cook Islands:  http://t.co/1XwM3EuY | http://t.co/95kD4WQL",
+      "media_count": 0
+    },
+    {
+      "id": "241751605635076096",
+      "created_at": "2012-09-01T04:17:28+00:00",
+      "text": "Fact sheet on U.S. engagement in the #Pacific: http://t.co/YZGaG65F",
+      "media_count": 0
+    },
+    {
+      "id": "241751203988512768",
+      "created_at": "2012-09-01T04:15:53+00:00",
+      "text": "(Photo) #SecClinton with delegates to the Pacific Islands Forum in the Cook Islands, August 31: http://t.co/6Aw4IEDn",
+      "media_count": 0
+    },
+    {
+      "id": "241750782859431937",
+      "created_at": "2012-09-01T04:14:12+00:00",
+      "text": "#Australia, #NewZealand and the U.S. release joint press statement at Pacific Islands Forum in the Cook Islands: http://t.co/QWDigFsx",
+      "media_count": 0
+    }
+  ]
+}
