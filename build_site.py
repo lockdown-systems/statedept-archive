@@ -267,10 +267,13 @@ def main() -> int:
 </body>
 </html>
 """
+    # Git LFS media base URL (works for public repos)
+    lfs_base = "https://media.githubusercontent.com/media/lockdown-systems/cyd-research/main/docs"
+
     written = 0
     for tid, info in tweet_rows.items():
         media_list = media_by_tweet.get(tid, [])
-        media_payload = [{"url": "../" + path, "kind": kind} for path, kind in media_list]
+        media_payload = [{"url": f"{lfs_base}/{path}", "kind": kind} for path, kind in media_list]
         tweet_data = {
             "id": tid,
             "created_at": info["created_at"],
