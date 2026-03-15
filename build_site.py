@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Static site generator for State Dept tweet archive.
-Reads statedept_backfill.sqlite + media.sqlite, writes site/ with index, month pages, tweet pages.
+Reads statedept_backfill.sqlite + media.sqlite, writes docs/ (or --out) with index, month pages, tweet pages.
+Use docs/ for GitHub Pages (Settings → Pages → Source: Deploy from branch → /docs).
 """
 import argparse
 import json
@@ -33,7 +34,7 @@ def main() -> int:
     p = argparse.ArgumentParser(description="Build static site from tweet + media DBs.")
     p.add_argument("--tweets-db", default="statedept_backfill.sqlite", help="Tweets SQLite path")
     p.add_argument("--media-db", default="media.sqlite", help="Media SQLite path")
-    p.add_argument("--out", default="site", help="Output directory (default: site)")
+    p.add_argument("--out", default="docs", help="Output directory for GitHub Pages (default: docs)")
     args = p.parse_args()
 
     if not os.path.exists(args.tweets_db):
@@ -48,6 +49,9 @@ def main() -> int:
     os.makedirs(os.path.join(out, "month"), exist_ok=True)
     os.makedirs(os.path.join(out, "tweet"), exist_ok=True)
     os.makedirs(os.path.join(out, "assets"), exist_ok=True)
+    # So GitHub Pages serves static files without Jekyll
+    with open(os.path.join(out, ".nojekyll"), "wb") as f:
+        f.write(b"")
 
     tweets_conn = sqlite3.connect(args.tweets_db)
     tweets_conn.row_factory = sqlite3.Row
@@ -59,7 +63,7 @@ def main() -> int:
     for row in media_conn.execute("SELECT tweet_id, COUNT(*) AS c FROM media WHERE ok = 1 GROUP BY tweet_id"):
         media_count[row["tweet_id"]] = row["c"]
 
-    # Media rows per tweet_id for tweet pages: (local_path, kind) -> URL is / + local_path
+    # Media rows per tweet_id for tweet pages: (local_path, kind) -> URL relative to tweet/ (../media/...) for GitHub Pages
     media_by_tweet: Dict[str, List[Tuple[str, str]]] = defaultdict(list)
     for row in media_conn.execute("SELECT tweet_id, local_path, kind FROM media WHERE ok = 1 ORDER BY local_path"):
         media_by_tweet[row["tweet_id"]].append((row["local_path"], row["kind"]))
@@ -118,6 +122,7 @@ def main() -> int:
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <div class="site-wrap">
   <header>
     <h1>State Dept archive</h1>
     <p>Browse by month</p>
@@ -125,11 +130,12 @@ def main() -> int:
   <main>
     <ul class="month-list">
 """ + "\n".join(
-        f'      <li><a href="month/{m["year_month"]}.html">{m["year_month"]}</a> ({m["tweet_count"]} tweets)</li>'
+        f'      <li><a href="month/{m["year_month"]}.html">{m["year_month"]}<span class="month-meta"> · {m["tweet_count"]} tweets</span></a></li>'
         for m in months_payload
     ) + """
     </ul>
   </main>
+  </div>
 </body>
 </html>
 """
@@ -147,15 +153,17 @@ def main() -> int:
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+  <div class="site-wrap">
   <header>
     <h1><a href="../index.html">State Dept archive</a></h1>
-    <p>Month: {{year_month}}</p>
+    <p>{{year_month}}</p>
   </header>
   <main>
     <div id="tweet-list"></div>
     <button id="load-more" style="display:none;">Load more</button>
     <p id="done-msg" style="display:none;"></p>
   </main>
+  </div>
   <script>
     const YEAR_MONTH = "{{year_month}}";
     const PAGE_SIZE = 50;
@@ -170,7 +178,7 @@ def main() -> int:
             f.write(html)
     print(f"Wrote month/YYYY-MM.html for {len(months_sorted)} months", flush=True)
 
-    # Tweet page: embedded JSON, one file per tweet
+    # Tweet page: embedded JSON, one file per tweet (Twitter-style layout)
     tweet_html_template = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -180,46 +188,79 @@ def main() -> int:
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+  <div class="site-wrap">
   <header>
     <h1><a href="../index.html">State Dept archive</a></h1>
   </header>
   <main id="tweet-page">
     <script type="application/json" id="tweet-data">{{tweet_data}}</script>
-    <div id="tweet-content"></div>
+    <div class="tweet-card" id="tweet-content"></div>
   </main>
+  </div>
   <script>
     (function() {
-      const el = document.getElementById("tweet-data");
-      const data = JSON.parse(el.textContent);
-      const root = document.getElementById("tweet-content");
-      const created = document.createElement("p");
-      created.className = "tweet-meta";
-      created.textContent = data.created_at;
-      root.appendChild(created);
-      const text = document.createElement("div");
+      function formatTweetDate(iso) {
+        try {
+          var d = new Date(iso);
+          var time = d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+          var date = d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+          return time + " \\u00b7 " + date;
+        } catch (e) { return iso; }
+      }
+      var el = document.getElementById("tweet-data");
+      var data = JSON.parse(el.textContent);
+      var root = document.getElementById("tweet-content");
+      var avatar = document.createElement("div");
+      avatar.className = "tweet-avatar";
+      avatar.textContent = "S";
+      root.appendChild(avatar);
+      var contentWrap = document.createElement("div");
+      contentWrap.className = "tweet-content-wrap";
+      var header = document.createElement("div");
+      header.className = "tweet-header";
+      var name = document.createElement("span");
+      name.className = "tweet-name";
+      name.textContent = "State Dept";
+      var handle = document.createElement("span");
+      handle.className = "tweet-handle";
+      handle.textContent = " @StateDept";
+      var dot = document.createElement("span");
+      dot.className = "tweet-dot";
+      dot.textContent = " \\u00b7 ";
+      var meta = document.createElement("span");
+      meta.className = "tweet-meta";
+      meta.textContent = formatTweetDate(data.created_at);
+      header.appendChild(name);
+      header.appendChild(handle);
+      header.appendChild(dot);
+      header.appendChild(meta);
+      contentWrap.appendChild(header);
+      var text = document.createElement("div");
       text.className = "tweet-text";
       text.textContent = data.text;
-      root.appendChild(text);
-      const mediaRoot = document.createElement("div");
+      contentWrap.appendChild(text);
+      var mediaRoot = document.createElement("div");
       mediaRoot.className = "tweet-media";
-      for (const m of data.media || []) {
-        const url = m.url;
+      for (var i = 0; i < (data.media || []).length; i++) {
+        var m = data.media[i];
+        var url = m.url;
         if (m.kind === "video" || (url && /\\.(mp4|webm|mov)(\\?|$)/i.test(url))) {
-          const v = document.createElement("video");
+          var v = document.createElement("video");
           v.controls = true;
           v.preload = "metadata";
           v.src = url;
           v.loading = "lazy";
           mediaRoot.appendChild(v);
         } else {
-          const img = document.createElement("img");
+          var img = document.createElement("img");
           img.src = url;
           img.alt = "";
           img.loading = "lazy";
           mediaRoot.appendChild(img);
         }
       }
-      root.appendChild(mediaRoot);
+      contentWrap.appendChild(mediaRoot);
+      root.appendChild(contentWrap);
     })();
   </script>
 </body>
@@ -228,7 +269,7 @@ def main() -> int:
     written = 0
     for tid, info in tweet_rows.items():
         media_list = media_by_tweet.get(tid, [])
-        media_payload = [{"url": "/" + path, "kind": kind} for path, kind in media_list]
+        media_payload = [{"url": "../" + path, "kind": kind} for path, kind in media_list]
         tweet_data = {
             "id": tid,
             "created_at": info["created_at"],
@@ -246,81 +287,165 @@ def main() -> int:
             print(f"  tweet pages: {written}...", flush=True)
     print(f"Wrote {written} tweet pages", flush=True)
 
-    # assets/style.css
-    style_css = """/* State Dept archive — minimal layout */
+    # assets/style.css — Twitter/X–style feed
+    style_css = """/* State Dept archive — Twitter/X–style layout */
 :root {
-  --bg: #0f0f0f;
-  --fg: #e0e0e0;
-  --muted: #888;
-  --link: #6eb8ff;
-  --border: #333;
+  --bg: #ffffff;
+  --fg: #0f1419;
+  --muted: #657786;
+  --link: #1d9bf0;
+  --border: #e1e8ed;
+  --hover-bg: #f5f8fa;
+  --avatar-bg: #1d9bf0;
 }
 * { box-sizing: border-box; }
 body {
-  font-family: system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--fg);
   margin: 0;
-  padding: 1rem;
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.5;
+  padding: 0;
+  line-height: 1.3125;
+  font-size: 15px;
 }
-header { margin-bottom: 1.5rem; }
-header h1 { font-size: 1.25rem; margin: 0; }
+.site-wrap { max-width: 600px; margin: 0 auto; min-height: 100vh; }
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1rem 0.75rem;
+}
+header h1 { font-size: 1.25rem; font-weight: 800; margin: 0; }
 header h1 a { color: var(--fg); text-decoration: none; }
-header h1 a:hover { color: var(--link); }
-header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 0.9rem; }
-.month-list { list-style: none; padding: 0; margin: 0; }
-.month-list li { margin: 0.5rem 0; }
-.month-list a { color: var(--link); }
-.tweet-card {
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 0.75rem 1rem;
-  margin-bottom: 0.75rem;
+header h1 a:hover { text-decoration: underline; }
+header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
+main { padding: 0; }
+
+/* Index: month list as simple links */
+.month-list { list-style: none; padding: 0.5rem 0; margin: 0; }
+.month-list li { margin: 0; border-bottom: 1px solid var(--border); }
+.month-list a {
+  display: block;
+  padding: 1rem 1rem;
+  color: var(--fg);
+  text-decoration: none;
+  font-weight: 500;
 }
-.tweet-card .tweet-meta { font-size: 0.8rem; color: var(--muted); margin: 0 0 0.25rem; }
-.tweet-card .tweet-text {
-  font-size: 0.95rem;
+.month-list a:hover { background: var(--hover-bg); }
+.month-list .month-meta { font-weight: 400; color: var(--muted); font-size: 13px; }
+
+/* Tweet card: avatar left, body right (Twitter feed row) */
+.tweet-card {
+  display: flex;
+  gap: 12px;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease;
+}
+.tweet-card:hover { background: var(--hover-bg); }
+.tweet-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--avatar-bg);
+  color: #fff;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.tweet-body { flex: 1; min-width: 0; }
+.tweet-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px;
+  margin-bottom: 2px;
+}
+.tweet-name { font-weight: 700; color: var(--fg); }
+.tweet-handle { color: var(--muted); font-size: 13px; }
+.tweet-dot { color: var(--muted); font-size: 13px; }
+.tweet-meta { color: var(--muted); font-size: 13px; }
+.tweet-text {
+  font-size: 15px;
   white-space: pre-wrap;
   word-break: break-word;
   margin: 0;
 }
-.tweet-card .tweet-text.truncated { max-height: 4.5em; overflow: hidden; }
-.tweet-card a { color: var(--link); }
-#load-more {
-  margin: 1rem 0;
-  padding: 0.5rem 1rem;
-  background: var(--border);
-  color: var(--fg);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.tweet-text.truncated { max-height: 4.5em; overflow: hidden; }
+.tweet-card .tweet-link {
+  color: var(--link);
+  font-size: 14px;
+  margin-top: 4px;
+  display: inline-block;
 }
-#load-more:hover { background: #444; }
-#tweet-page .tweet-meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.5rem; }
-#tweet-page .tweet-text { white-space: pre-wrap; word-break: break-word; margin-bottom: 1rem; }
-.tweet-media { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+.tweet-card .tweet-link:hover { text-decoration: underline; }
+
+#load-more {
+  margin: 0;
+  padding: 1rem 1rem;
+  width: 100%;
+  background: var(--bg);
+  color: var(--link);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+#load-more:hover { background: var(--hover-bg); }
+#done-msg { padding: 1rem; color: var(--muted); font-size: 14px; text-align: center; }
+
+/* Single tweet page: same row layout */
+#tweet-page .tweet-card { flex-direction: row; }
+#tweet-page .tweet-card:hover { background: transparent; }
+#tweet-page .tweet-content-wrap { padding: 1rem 1rem 1rem 0; }
+#tweet-page .tweet-header { margin-bottom: 4px; }
+#tweet-page .tweet-meta { margin: 0 0 8px; }
+#tweet-page .tweet-text { white-space: pre-wrap; word-break: break-word; margin-bottom: 12px; }
+.tweet-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  border-radius: 16px;
+  overflow: hidden;
+}
 .tweet-media img, .tweet-media video {
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 12px;
   background: var(--border);
+  border: 1px solid var(--border);
 }
 """
     with open(os.path.join(out, "assets", "style.css"), "w", encoding="utf-8") as f:
         f.write(style_css)
     print("Wrote assets/style.css", flush=True)
 
-    # assets/app.js — load month JSON, render tweets, "Load more"
+    # assets/app.js — load month JSON, render tweets (Twitter-style cards), "Load more"
     app_js = """document.addEventListener("DOMContentLoaded", function() {
   if (typeof YEAR_MONTH === "undefined") return;
   const listEl = document.getElementById("tweet-list");
   const loadMoreBtn = document.getElementById("load-more");
   const doneMsg = document.getElementById("done-msg");
   if (!listEl) return;
+
+  function formatTweetDate(iso) {
+    try {
+      const d = new Date(iso);
+      const time = d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+      const date = d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+      return time + " \\u00b7 " + date;
+    } catch (e) { return iso; }
+  }
 
   fetch("../data/" + YEAR_MONTH + ".json")
     .then(function(r) { return r.json(); })
@@ -330,22 +455,45 @@ header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 0.9rem; }
       const pageSize = typeof PAGE_SIZE !== "undefined" ? PAGE_SIZE : 50;
 
       function renderTweet(t) {
-        const card = document.createElement("div");
+        const card = document.createElement("a");
         card.className = "tweet-card";
-        const meta = document.createElement("p");
+        card.href = "../tweet/" + t.id + ".html";
+        const avatar = document.createElement("div");
+        avatar.className = "tweet-avatar";
+        avatar.textContent = "S";
+        card.appendChild(avatar);
+        const body = document.createElement("div");
+        body.className = "tweet-body";
+        const header = document.createElement("div");
+        header.className = "tweet-header";
+        const name = document.createElement("span");
+        name.className = "tweet-name";
+        name.textContent = "State Dept";
+        const handle = document.createElement("span");
+        handle.className = "tweet-handle";
+        handle.textContent = "@StateDept";
+        const dot = document.createElement("span");
+        dot.className = "tweet-dot";
+        dot.textContent = " \\u00b7 ";
+        const meta = document.createElement("span");
         meta.className = "tweet-meta";
-        meta.textContent = t.created_at;
-        card.appendChild(meta);
+        meta.textContent = formatTweetDate(t.created_at);
+        header.appendChild(name);
+        header.appendChild(handle);
+        header.appendChild(dot);
+        header.appendChild(meta);
+        body.appendChild(header);
         const text = document.createElement("div");
         text.className = "tweet-text" + (t.text.length > 200 ? " truncated" : "");
-        text.textContent = t.text.length > 200 ? t.text.slice(0, 200) + "…" : t.text;
-        card.appendChild(text);
-        const link = document.createElement("a");
-        link.href = "../tweet/" + t.id + ".html";
-        link.textContent = "View tweet" + (t.media_count > 0 ? " (" + t.media_count + " media)" : "");
-        link.style.marginTop = "0.5rem";
-        link.style.display = "inline-block";
-        card.appendChild(link);
+        text.textContent = t.text.length > 200 ? t.text.slice(0, 200) + "\\u2026" : t.text;
+        body.appendChild(text);
+        if (t.media_count > 0) {
+          const mediaLink = document.createElement("span");
+          mediaLink.className = "tweet-link";
+          mediaLink.textContent = t.media_count + " photo" + (t.media_count !== 1 ? "s" : "");
+          body.appendChild(mediaLink);
+        }
+        card.appendChild(body);
         return card;
       }
 

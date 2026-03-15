@@ -1,0 +1,137 @@
+/* State Dept archive — Twitter/X–style layout */
+:root {
+  --bg: #ffffff;
+  --fg: #0f1419;
+  --muted: #657786;
+  --link: #1d9bf0;
+  --border: #e1e8ed;
+  --hover-bg: #f5f8fa;
+  --avatar-bg: #1d9bf0;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  padding: 0;
+  line-height: 1.3125;
+  font-size: 15px;
+}
+.site-wrap { max-width: 600px; margin: 0 auto; min-height: 100vh; }
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1rem 0.75rem;
+}
+header h1 { font-size: 1.25rem; font-weight: 800; margin: 0; }
+header h1 a { color: var(--fg); text-decoration: none; }
+header h1 a:hover { text-decoration: underline; }
+header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
+main { padding: 0; }
+
+/* Index: month list as simple links */
+.month-list { list-style: none; padding: 0.5rem 0; margin: 0; }
+.month-list li { margin: 0; border-bottom: 1px solid var(--border); }
+.month-list a {
+  display: block;
+  padding: 1rem 1rem;
+  color: var(--fg);
+  text-decoration: none;
+  font-weight: 500;
+}
+.month-list a:hover { background: var(--hover-bg); }
+.month-list .month-meta { font-weight: 400; color: var(--muted); font-size: 13px; }
+
+/* Tweet card: avatar left, body right (Twitter feed row) */
+.tweet-card {
+  display: flex;
+  gap: 12px;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease;
+}
+.tweet-card:hover { background: var(--hover-bg); }
+.tweet-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--avatar-bg);
+  color: #fff;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.tweet-body { flex: 1; min-width: 0; }
+.tweet-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px;
+  margin-bottom: 2px;
+}
+.tweet-name { font-weight: 700; color: var(--fg); }
+.tweet-handle { color: var(--muted); font-size: 13px; }
+.tweet-dot { color: var(--muted); font-size: 13px; }
+.tweet-meta { color: var(--muted); font-size: 13px; }
+.tweet-text {
+  font-size: 15px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+.tweet-text.truncated { max-height: 4.5em; overflow: hidden; }
+.tweet-card .tweet-link {
+  color: var(--link);
+  font-size: 14px;
+  margin-top: 4px;
+  display: inline-block;
+}
+.tweet-card .tweet-link:hover { text-decoration: underline; }
+
+#load-more {
+  margin: 0;
+  padding: 1rem 1rem;
+  width: 100%;
+  background: var(--bg);
+  color: var(--link);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+#load-more:hover { background: var(--hover-bg); }
+#done-msg { padding: 1rem; color: var(--muted); font-size: 14px; text-align: center; }
+
+/* Single tweet page: same row layout */
+#tweet-page .tweet-card { flex-direction: row; }
+#tweet-page .tweet-card:hover { background: transparent; }
+#tweet-page .tweet-content-wrap { padding: 1rem 1rem 1rem 0; }
+#tweet-page .tweet-header { margin-bottom: 4px; }
+#tweet-page .tweet-meta { margin: 0 0 8px; }
+#tweet-page .tweet-text { white-space: pre-wrap; word-break: break-word; margin-bottom: 12px; }
+.tweet-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.tweet-media img, .tweet-media video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}

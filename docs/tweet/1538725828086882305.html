@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>State Dept — 1538725828086882305</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="site-wrap">
+  <header>
+    <h1><a href="../index.html">State Dept archive</a></h1>
+  </header>
+  <main id="tweet-page">
+    <script type="application/json" id="tweet-data">{"id": "1538725828086882305", "created_at": "2022-06-20T03:30:00+00:00", "text": "This weekend, the United States delivered over 300,000 pediatric doses of Pfizer COVID-19 vaccine to Mongolia through COVAX. We are proud to be Mongolia’s #ThirdNeighbor and will continue to support the health and well-being of Mongolian communities. https://t.co/3ifX1aOjpz", "media": [{"url": "../media/1538725828086882305/00_photo_5419c6df6da5.jpg", "kind": "photo"}, {"url": "../media/1538725828086882305/01_photo_7d32e3aead20.jpg", "kind": "photo"}, {"url": "../media/1538725828086882305/02_photo_2c61df1c58ce.jpg", "kind": "photo"}, {"url": "../media/1538725828086882305/03_photo_f741dffdd000.jpg", "kind": "photo"}]}</script>
+    <div class="tweet-card" id="tweet-content"></div>
+  </main>
+  </div>
+  <script>
+    (function() {
+      function formatTweetDate(iso) {
+        try {
+          var d = new Date(iso);
+          var time = d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+          var date = d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+          return time + " \u00b7 " + date;
+        } catch (e) { return iso; }
+      }
+      var el = document.getElementById("tweet-data");
+      var data = JSON.parse(el.textContent);
+      var root = document.getElementById("tweet-content");
+      var avatar = document.createElement("div");
+      avatar.className = "tweet-avatar";
+      avatar.textContent = "S";
+      root.appendChild(avatar);
+      var contentWrap = document.createElement("div");
+      contentWrap.className = "tweet-content-wrap";
+      var header = document.createElement("div");
+      header.className = "tweet-header";
+      var name = document.createElement("span");
+      name.className = "tweet-name";
+      name.textContent = "State Dept";
+      var handle = document.createElement("span");
+      handle.className = "tweet-handle";
+      handle.textContent = " @StateDept";
+      var dot = document.createElement("span");
+      dot.className = "tweet-dot";
+      dot.textContent = " \u00b7 ";
+      var meta = document.createElement("span");
+      meta.className = "tweet-meta";
+      meta.textContent = formatTweetDate(data.created_at);
+      header.appendChild(name);
+      header.appendChild(handle);
+      header.appendChild(dot);
+      header.appendChild(meta);
+      contentWrap.appendChild(header);
+      var text = document.createElement("div");
+      text.className = "tweet-text";
+      text.textContent = data.text;
+      contentWrap.appendChild(text);
+      var mediaRoot = document.createElement("div");
+      mediaRoot.className = "tweet-media";
+      for (var i = 0; i < (data.media || []).length; i++) {
+        var m = data.media[i];
+        var url = m.url;
+        if (m.kind === "video" || (url && /\.(mp4|webm|mov)(\?|$)/i.test(url))) {
+          var v = document.createElement("video");
+          v.controls = true;
+          v.preload = "metadata";
+          v.src = url;
+          v.loading = "lazy";
+          mediaRoot.appendChild(v);
+        } else {
+          var img = document.createElement("img");
+          img.src = url;
+          img.alt = "";
+          img.loading = "lazy";
+          mediaRoot.appendChild(img);
+        }
+      }
+      contentWrap.appendChild(mediaRoot);
+      root.appendChild(contentWrap);
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>State Dept — 1436127280158363649</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="site-wrap">
+  <header>
+    <h1><a href="../index.html">State Dept archive</a></h1>
+  </header>
+  <main id="tweet-page">
+    <script type="application/json" id="tweet-data">{"id": "1436127280158363649", "created_at": "2021-09-10T00:40:00+00:00", "text": ".@StateDeptSpox discussed @VP, @SecBlinken, and other officials’ participation in the U.S.-Mexico High-Level Economic Dialogue to discuss strategic economic &amp; commercial objectives, job creation, global competitiveness, and reductions in poverty and inequalities. https://t.co/BgMA5zl1Iw", "media": [{"url": "../media/1436127280158363649/00_video_cdc043d26c63.mp4", "kind": "video"}]}</script>
+    <div class="tweet-card" id="tweet-content"></div>
+  </main>
+  </div>
+  <script>
+    (function() {
+      function formatTweetDate(iso) {
+        try {
+          var d = new Date(iso);
+          var time = d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+          var date = d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+          return time + " \u00b7 " + date;
+        } catch (e) { return iso; }
+      }
+      var el = document.getElementById("tweet-data");
+      var data = JSON.parse(el.textContent);
+      var root = document.getElementById("tweet-content");
+      var avatar = document.createElement("div");
+      avatar.className = "tweet-avatar";
+      avatar.textContent = "S";
+      root.appendChild(avatar);
+      var contentWrap = document.createElement("div");
+      contentWrap.className = "tweet-content-wrap";
+      var header = document.createElement("div");
+      header.className = "tweet-header";
+      var name = document.createElement("span");
+      name.className = "tweet-name";
+      name.textContent = "State Dept";
+      var handle = document.createElement("span");
+      handle.className = "tweet-handle";
+      handle.textContent = " @StateDept";
+      var dot = document.createElement("span");
+      dot.className = "tweet-dot";
+      dot.textContent = " \u00b7 ";
+      var meta = document.createElement("span");
+      meta.className = "tweet-meta";
+      meta.textContent = formatTweetDate(data.created_at);
+      header.appendChild(name);
+      header.appendChild(handle);
+      header.appendChild(dot);
+      header.appendChild(meta);
+      contentWrap.appendChild(header);
+      var text = document.createElement("div");
+      text.className = "tweet-text";
+      text.textContent = data.text;
+      contentWrap.appendChild(text);
+      var mediaRoot = document.createElement("div");
+      mediaRoot.className = "tweet-media";
+      for (var i = 0; i < (data.media || []).length; i++) {
+        var m = data.media[i];
+        var url = m.url;
+        if (m.kind === "video" || (url && /\.(mp4|webm|mov)(\?|$)/i.test(url))) {
+          var v = document.createElement("video");
+          v.controls = true;
+          v.preload = "metadata";
+          v.src = url;
+          v.loading = "lazy";
+          mediaRoot.appendChild(v);
+        } else {
+          var img = document.createElement("img");
+          img.src = url;
+          img.alt = "";
+          img.loading = "lazy";
+          mediaRoot.appendChild(img);
+        }
+      }
+      contentWrap.appendChild(mediaRoot);
+      root.appendChild(contentWrap);
+    })();
+  </script>
+</body>
+</html>
