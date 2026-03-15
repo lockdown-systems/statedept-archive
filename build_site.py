@@ -248,7 +248,10 @@ def main() -> int:
           var v = document.createElement("video");
           v.controls = true;
           v.preload = "metadata";
-          v.src = url;
+          var source = document.createElement("source");
+          source.src = url;
+          source.type = "video/mp4";
+          v.appendChild(source);
           mediaRoot.appendChild(v);
         } else {
           var img = document.createElement("img");
