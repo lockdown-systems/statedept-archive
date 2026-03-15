@@ -515,7 +515,7 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
         if (t.media_count > 0) {
           const mediaLink = document.createElement("span");
           mediaLink.className = "tweet-link";
-          mediaLink.textContent = t.media_count + " photo" + (t.media_count !== 1 ? "s" : "");
+          mediaLink.textContent = t.media_count + " media attachment" + (t.media_count !== 1 ? "s" : "");
           body.appendChild(mediaLink);
         }
         card.appendChild(body);

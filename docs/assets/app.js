@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (t.media_count > 0) {
           const mediaLink = document.createElement("span");
           mediaLink.className = "tweet-link";
-          mediaLink.textContent = t.media_count + " photo" + (t.media_count !== 1 ? "s" : "");
+          mediaLink.textContent = t.media_count + " media attachment" + (t.media_count !== 1 ? "s" : "");
           body.appendChild(mediaLink);
         }
         card.appendChild(body);
