@@ -113,21 +113,28 @@ def main() -> int:
     print(f"Wrote data/YYYY-MM.json for {len(months_sorted)} months", flush=True)
 
     # index.html
+    total_tweets = sum(m["tweet_count"] for m in months_payload)
     index_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>State Dept archive</title>
+  <title>State Dept X Archive</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <div class="site-wrap">
   <header>
-    <h1>State Dept archive</h1>
-    <p>Browse by month</p>
+    <h1>State Dept X Archive</h1>
   </header>
   <main>
+    <section class="about">
+      <h2>Why this archive exists</h2>
+      <p>In February 2026, the State Department <a href="https://www.npr.org/2026/02/07/nx-s1-5704785/state-department-trump-posts-x">announced</a> it would delete all posts on its official X accounts made before Trump returned to office on January 20, 2025. The posts would be internally archived but no longer publicly accessible - anyone wanting to see them would have to file a Freedom of Information Act (FOIA) request.</p>
+      <p>These posts are not just press statements. They include the day-to-day record of U.S. diplomacy - often the only public record of those moments.</p>
+      <p>This archive preserves <strong>""" + f"{total_tweets:,}" + """ tweets</strong> and their associated media from the @StateDept account, spanning 2008–2025.</p>
+    </section>
+    <h2>Browse by month</h2>
     <ul class="month-list">
 """ + "\n".join(
         f'      <li><a href="month/{m["year_month"]}.html">{m["year_month"]}<span class="month-meta"> · {m["tweet_count"]} tweets</span></a></li>'
@@ -326,6 +333,20 @@ header h1 a { color: var(--fg); text-decoration: none; }
 header h1 a:hover { text-decoration: underline; }
 header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
 main { padding: 0; }
+main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: var(--fg); }
+
+/* About section */
+.about {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.5;
+}
+.about h2 { margin: 0 0 0.75rem; font-size: 1rem; font-weight: 700; }
+.about p { margin: 0 0 0.75rem; color: var(--fg); font-size: 15px; }
+.about p:last-child { margin-bottom: 0; }
+.about a { color: var(--link); }
+.about a:hover { text-decoration: underline; }
+.about strong { font-weight: 600; }
 
 /* Index: month list as simple links */
 .month-list { list-style: none; padding: 0.5rem 0; margin: 0; }

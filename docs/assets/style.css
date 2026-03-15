@@ -32,6 +32,20 @@ header h1 a { color: var(--fg); text-decoration: none; }
 header h1 a:hover { text-decoration: underline; }
 header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
 main { padding: 0; }
+main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: var(--fg); }
+
+/* About section */
+.about {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.5;
+}
+.about h2 { margin: 0 0 0.75rem; font-size: 1rem; font-weight: 700; }
+.about p { margin: 0 0 0.75rem; color: var(--fg); font-size: 15px; }
+.about p:last-child { margin-bottom: 0; }
+.about a { color: var(--link); }
+.about a:hover { text-decoration: underline; }
+.about strong { font-weight: 600; }
 
 /* Index: month list as simple links */
 .month-list { list-style: none; padding: 0.5rem 0; margin: 0; }

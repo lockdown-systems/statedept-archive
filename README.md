@@ -23,6 +23,6 @@ python3 media_backup.py \
 
 ```
 python3 build_site.py
-cd site
+cd docs
 python3 -m http.server 8000
 ```
