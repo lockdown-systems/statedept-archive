@@ -406,7 +406,7 @@ main { padding: 0; }
 /* Single tweet page: same row layout */
 #tweet-page .tweet-card { flex-direction: row; }
 #tweet-page .tweet-card:hover { background: transparent; }
-#tweet-page .tweet-content-wrap { padding: 1rem 1rem 1rem 0; }
+#tweet-page .tweet-content-wrap { flex: 1; min-width: 0; padding: 0; }
 #tweet-page .tweet-header { margin-bottom: 4px; }
 #tweet-page .tweet-meta { margin: 0 0 8px; }
 #tweet-page .tweet-text { white-space: pre-wrap; word-break: break-word; margin-bottom: 12px; }
