@@ -249,13 +249,11 @@ def main() -> int:
           v.controls = true;
           v.preload = "metadata";
           v.src = url;
-          v.loading = "lazy";
           mediaRoot.appendChild(v);
         } else {
           var img = document.createElement("img");
           img.src = url;
           img.alt = "";
-          img.loading = "lazy";
           mediaRoot.appendChild(img);
         }
       }
