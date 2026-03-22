@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
   const doneMsg = document.getElementById("done-msg");
   if (!listEl) return;
 
+  if (window.location.protocol === "file:") {
+    listEl.innerHTML = "<p class=\"month-load-error\">Month lists use <code>fetch()</code>, which browsers block for <code>file://</code> pages. Serve the <code>docs</code> folder over HTTP, then open the same URL. Example: <code>cd docs</code> then <code>python3 -m http.server 8000</code> and visit <code>http://localhost:8000/month/" + YEAR_MONTH + ".html</code>.</p>";
+    return;
+  }
+
   function formatTweetDate(iso) {
     try {
       const d = new Date(iso);
@@ -14,8 +19,14 @@ document.addEventListener("DOMContentLoaded", function() {
     } catch (e) { return iso; }
   }
 
-  fetch("../data/" + YEAR_MONTH + ".json")
-    .then(function(r) { return r.json(); })
+  var dataUrl = new URL("../data/" + YEAR_MONTH + ".json", window.location.href);
+  fetch(dataUrl)
+    .then(function(r) {
+      if (!r.ok) {
+        throw new Error("HTTP " + r.status + " loading " + dataUrl.href);
+      }
+      return r.json();
+    })
     .then(function(data) {
       const tweets = data.tweets || [];
       let shown = 0;
@@ -84,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
       showNext();
     })
     .catch(function(e) {
-      listEl.innerHTML = "<p>Failed to load month data.</p>";
+      listEl.innerHTML = "<p class=\"month-load-error\">Could not load month data. If the server runs from the repo root, open <code>docs/month/…</code> (e.g. <code>http://localhost:8000/docs/month/" + YEAR_MONTH + ".html</code>), or run the server from inside <code>docs</code> and use <code>http://localhost:8000/month/…</code>. Check the browser console for details.</p>";
       console.error(e);
     });
 });

@@ -38,6 +38,28 @@ def lockdown_byline_html(logo_src: str) -> str:
     )
 
 
+def breadcrumb_nav_month(year_month: str) -> str:
+    return (
+        '    <nav class="breadcrumbs" aria-label="Breadcrumb">\n'
+        '      <a href="../index.html">Home</a>'
+        ' <span class="bc-sep" aria-hidden="true">›</span> '
+        f'<span class="bc-current" aria-current="page">{year_month}</span>\n'
+        "    </nav>\n"
+    )
+
+
+def breadcrumb_nav_tweet(year_month: str) -> str:
+    return (
+        '    <nav class="breadcrumbs" aria-label="Breadcrumb">\n'
+        '      <a href="../index.html">Home</a>'
+        ' <span class="bc-sep" aria-hidden="true">›</span> '
+        f'<a href="../month/{year_month}.html">{year_month}</a>'
+        ' <span class="bc-sep" aria-hidden="true">›</span> '
+        '<span class="bc-current" aria-current="page">Tweet</span>\n'
+        "    </nav>\n"
+    )
+
+
 def parse_created_at(s: str) -> datetime | None:
     if not s:
         return None
@@ -123,7 +145,7 @@ def main() -> int:
             "text": text,
             "media_count": mc,
         })
-        tweet_rows[tid] = {"created_at": created_at_iso, "text": text}
+        tweet_rows[tid] = {"created_at": created_at_iso, "text": text, "year_month": key}
 
     # Sort each month's tweets newest first
     for key in tweets_by_month:
@@ -196,8 +218,8 @@ def main() -> int:
 <body>
   <div class="site-wrap">
   <header>
+{{breadcrumb}}
     <h1><a href="../index.html">State Dept archive</a></h1>
-    <p class="month-title">{{year_month}}</p>
 """ + byline + """  </header>
   <main>
     <div id="tweet-list"></div>
@@ -214,7 +236,11 @@ def main() -> int:
 </html>
 """
     for ym in months_sorted:
-        html = month_html_template.replace("{{year_month}}", ym)
+        html = (
+            month_html_template.replace("{{year_month}}", ym).replace(
+                "{{breadcrumb}}", breadcrumb_nav_month(ym)
+            )
+        )
         with open(os.path.join(out, "month", f"{ym}.html"), "w", encoding="utf-8") as f:
             f.write(html)
     print(f"Wrote month/YYYY-MM.html for {len(months_sorted)} months", flush=True)
@@ -231,6 +257,7 @@ def main() -> int:
 <body>
   <div class="site-wrap">
   <header>
+{{breadcrumb}}
     <h1><a href="../index.html">State Dept archive</a></h1>
 """ + byline + """  </header>
   <main id="tweet-page">
@@ -326,7 +353,12 @@ def main() -> int:
         json_str = json.dumps(tweet_data, ensure_ascii=False)
         # Escape for embedding in HTML: </script> must not appear in the string
         json_str = json_str.replace("</", "<\\/")
-        html = tweet_html_template.replace("{{tweet_id}}", tid).replace("{{tweet_data}}", json_str)
+        ym = info["year_month"]
+        html = (
+            tweet_html_template.replace("{{tweet_id}}", tid)
+            .replace("{{tweet_data}}", json_str)
+            .replace("{{breadcrumb}}", breadcrumb_nav_tweet(ym))
+        )
         with open(os.path.join(out, "tweet", f"{tid}.html"), "w", encoding="utf-8") as f:
             f.write(html)
         written += 1
@@ -367,7 +399,28 @@ header {
 header h1 { font-size: 1.25rem; font-weight: 800; margin: 0; }
 header h1 a { color: var(--fg); text-decoration: none; }
 header h1 a:hover { text-decoration: underline; }
-header p.month-title { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
+
+/* Breadcrumbs (month + tweet pages) */
+.breadcrumbs {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 0 0.6rem;
+  line-height: 1.4;
+}
+.breadcrumbs a {
+  color: var(--link);
+  text-decoration: none;
+}
+.breadcrumbs a:hover { text-decoration: underline; }
+.bc-sep {
+  margin: 0 0.25em;
+  color: var(--muted);
+  user-select: none;
+}
+.bc-current {
+  color: var(--fg);
+  font-weight: 500;
+}
 
 /* Lockdown Systems branding */
 .site-byline {
@@ -492,6 +545,19 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
 #load-more:hover { background: var(--hover-bg); }
 #done-msg { padding: 1rem; color: var(--muted); font-size: 14px; text-align: center; }
 
+.month-load-error {
+  padding: 1rem;
+  color: var(--fg);
+  line-height: 1.5;
+  font-size: 14px;
+}
+.month-load-error code {
+  font-size: 13px;
+  background: var(--hover-bg);
+  padding: 0.12em 0.4em;
+  border-radius: 4px;
+}
+
 /* Single tweet page: same row layout */
 #tweet-page .tweet-card { flex-direction: row; }
 #tweet-page .tweet-card:hover { background: transparent; }
@@ -527,6 +593,11 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
   const doneMsg = document.getElementById("done-msg");
   if (!listEl) return;
 
+  if (window.location.protocol === "file:") {
+    listEl.innerHTML = "<p class=\\"month-load-error\\">Month lists use <code>fetch()</code>, which browsers block for <code>file://</code> pages. Serve the <code>docs</code> folder over HTTP, then open the same URL. Example: <code>cd docs</code> then <code>python3 -m http.server 8000</code> and visit <code>http://localhost:8000/month/" + YEAR_MONTH + ".html</code>.</p>";
+    return;
+  }
+
   function formatTweetDate(iso) {
     try {
       const d = new Date(iso);
@@ -536,8 +607,14 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
     } catch (e) { return iso; }
   }
 
-  fetch("../data/" + YEAR_MONTH + ".json")
-    .then(function(r) { return r.json(); })
+  var dataUrl = new URL("../data/" + YEAR_MONTH + ".json", window.location.href);
+  fetch(dataUrl)
+    .then(function(r) {
+      if (!r.ok) {
+        throw new Error("HTTP " + r.status + " loading " + dataUrl.href);
+      }
+      return r.json();
+    })
     .then(function(data) {
       const tweets = data.tweets || [];
       let shown = 0;
@@ -606,7 +683,7 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
       showNext();
     })
     .catch(function(e) {
-      listEl.innerHTML = "<p>Failed to load month data.</p>";
+      listEl.innerHTML = "<p class=\\"month-load-error\\">Could not load month data. If the server runs from the repo root, open <code>docs/month/…</code> (e.g. <code>http://localhost:8000/docs/month/" + YEAR_MONTH + ".html</code>), or run the server from inside <code>docs</code> and use <code>http://localhost:8000/month/…</code>. Check the browser console for details.</p>";
       console.error(e);
     });
 });

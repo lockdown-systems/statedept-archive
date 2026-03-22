@@ -30,7 +30,28 @@ header {
 header h1 { font-size: 1.25rem; font-weight: 800; margin: 0; }
 header h1 a { color: var(--fg); text-decoration: none; }
 header h1 a:hover { text-decoration: underline; }
-header p.month-title { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
+
+/* Breadcrumbs (month + tweet pages) */
+.breadcrumbs {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 0 0.6rem;
+  line-height: 1.4;
+}
+.breadcrumbs a {
+  color: var(--link);
+  text-decoration: none;
+}
+.breadcrumbs a:hover { text-decoration: underline; }
+.bc-sep {
+  margin: 0 0.25em;
+  color: var(--muted);
+  user-select: none;
+}
+.bc-current {
+  color: var(--fg);
+  font-weight: 500;
+}
 
 /* Lockdown Systems branding */
 .site-byline {
@@ -154,6 +175,19 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
 }
 #load-more:hover { background: var(--hover-bg); }
 #done-msg { padding: 1rem; color: var(--muted); font-size: 14px; text-align: center; }
+
+.month-load-error {
+  padding: 1rem;
+  color: var(--fg);
+  line-height: 1.5;
+  font-size: 14px;
+}
+.month-load-error code {
+  font-size: 13px;
+  background: var(--hover-bg);
+  padding: 0.12em 0.4em;
+  border-radius: 4px;
+}
 
 /* Single tweet page: same row layout */
 #tweet-page .tweet-card { flex-direction: row; }
