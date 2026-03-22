@@ -16,6 +16,12 @@ from typing import Any, Dict, List, Tuple
 # Twitter created_at format: "Fri Apr 01 00:13:57 +0000 2016"
 CREATED_AT_FMT = "%a %b %d %H:%M:%S %z %Y"
 
+# Public Git LFS objects are served from this host (not raw.githubusercontent.com).
+# Path must match repo default branch + path under repo root (here: docs/media/...).
+DEFAULT_GIT_LFS_MEDIA_BASE = (
+    "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs"
+)
+
 
 def parse_created_at(s: str) -> datetime | None:
     if not s:
@@ -35,6 +41,16 @@ def main() -> int:
     p.add_argument("--tweets-db", default="statedept_backfill.sqlite", help="Tweets SQLite path")
     p.add_argument("--media-db", default="media.sqlite", help="Media SQLite path")
     p.add_argument("--out", default="docs", help="Output directory for GitHub Pages (default: docs)")
+    p.add_argument(
+        "--media-base",
+        default=DEFAULT_GIT_LFS_MEDIA_BASE,
+        help="Base URL for media in tweet JSON (Git LFS CDN; no trailing slash). Override for fork/branch.",
+    )
+    p.add_argument(
+        "--relative-media",
+        action="store_true",
+        help="Use ../media/... URLs instead of Git LFS CDN (only if Pages serves real binaries, not pointers).",
+    )
     args = p.parse_args()
 
     if not os.path.exists(args.tweets_db):
@@ -63,7 +79,7 @@ def main() -> int:
     for row in media_conn.execute("SELECT tweet_id, COUNT(*) AS c FROM media WHERE ok = 1 GROUP BY tweet_id"):
         media_count[row["tweet_id"]] = row["c"]
 
-    # Media rows per tweet_id for tweet pages: (local_path, kind) -> URL relative to tweet/ (../media/...) for GitHub Pages
+    # Media rows per tweet_id for tweet pages: local_path is e.g. media/<id>/file.jpg; URLs use Git LFS CDN by default
     media_by_tweet: Dict[str, List[Tuple[str, str]]] = defaultdict(list)
     for row in media_conn.execute("SELECT tweet_id, local_path, kind FROM media WHERE ok = 1 ORDER BY local_path"):
         media_by_tweet[row["tweet_id"]].append((row["local_path"], row["kind"]))
@@ -274,13 +290,15 @@ def main() -> int:
 </body>
 </html>
 """
-    # Git LFS media base URL (works for public repos)
-    lfs_base = "https://media.githubusercontent.com/media/lockdown-systems/cyd-research/main/docs"
+    def media_url(local_path: str) -> str:
+        if args.relative_media:
+            return f"../{local_path}"
+        return f"{args.media_base.rstrip('/')}/{local_path}"
 
     written = 0
     for tid, info in tweet_rows.items():
         media_list = media_by_tweet.get(tid, [])
-        media_payload = [{"url": f"{lfs_base}/{path}", "kind": kind} for path, kind in media_list]
+        media_payload = [{"url": media_url(path), "kind": kind} for path, kind in media_list]
         tweet_data = {
             "id": tid,
             "created_at": info["created_at"],
