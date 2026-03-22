@@ -22,6 +22,21 @@ DEFAULT_GIT_LFS_MEDIA_BASE = (
     "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs"
 )
 
+# Vendored at docs/assets/logo-wide.svg; served like media via Git LFS CDN (see --media-base).
+LOCKDOWN_HOME = "https://lockdown.systems/"
+LOGO_PATH_UNDER_DOCS = "assets/logo-wide.svg"
+
+
+def lockdown_byline_html(logo_src: str) -> str:
+    return (
+        f'    <p class="site-byline">\n'
+        f'      <span class="site-byline-label">A project of</span>\n'
+        f'      <a class="lockdown-logo-link" href="{LOCKDOWN_HOME}" target="_blank" rel="noopener noreferrer">\n'
+        f'        <img src="{logo_src}" alt="Lockdown Systems" width="400" height="160" loading="lazy" decoding="async" />\n'
+        f'      </a>\n'
+        f"    </p>\n"
+    )
+
 
 def parse_created_at(s: str) -> datetime | None:
     if not s:
@@ -128,6 +143,9 @@ def main() -> int:
             json.dump(payload, f, ensure_ascii=False, indent=2)
     print(f"Wrote data/YYYY-MM.json for {len(months_sorted)} months", flush=True)
 
+    logo_src = f"{args.media_base.rstrip('/')}/{LOGO_PATH_UNDER_DOCS}"
+    byline = lockdown_byline_html(logo_src)
+
     # index.html
     total_tweets = sum(m["tweet_count"] for m in months_payload)
     index_html = """<!DOCTYPE html>
@@ -142,7 +160,7 @@ def main() -> int:
   <div class="site-wrap">
   <header>
     <h1>State Dept X Archive</h1>
-  </header>
+""" + byline + """  </header>
   <main>
     <section class="about">
       <h2>Why this archive exists</h2>
@@ -179,8 +197,8 @@ def main() -> int:
   <div class="site-wrap">
   <header>
     <h1><a href="../index.html">State Dept archive</a></h1>
-    <p>{{year_month}}</p>
-  </header>
+    <p class="month-title">{{year_month}}</p>
+""" + byline + """  </header>
   <main>
     <div id="tweet-list"></div>
     <button id="load-more" style="display:none;">Load more</button>
@@ -214,7 +232,7 @@ def main() -> int:
   <div class="site-wrap">
   <header>
     <h1><a href="../index.html">State Dept archive</a></h1>
-  </header>
+""" + byline + """  </header>
   <main id="tweet-page">
     <script type="application/json" id="tweet-data">{{tweet_data}}</script>
     <div class="tweet-card" id="tweet-content"></div>
@@ -349,7 +367,35 @@ header {
 header h1 { font-size: 1.25rem; font-weight: 800; margin: 0; }
 header h1 a { color: var(--fg); text-decoration: none; }
 header h1 a:hover { text-decoration: underline; }
-header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
+header p.month-title { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
+
+/* Lockdown Systems branding */
+.site-byline {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+.site-byline-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.lockdown-logo-link {
+  display: inline-block;
+  line-height: 0;
+}
+.lockdown-logo-link img {
+  height: 64px;
+  width: auto;
+  max-width: min(100%, 420px);
+  display: block;
+}
+.lockdown-logo-link:hover { opacity: 0.92; }
 main { padding: 0; }
 main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: var(--fg); }
 

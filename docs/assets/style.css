@@ -30,7 +30,35 @@ header {
 header h1 { font-size: 1.25rem; font-weight: 800; margin: 0; }
 header h1 a { color: var(--fg); text-decoration: none; }
 header h1 a:hover { text-decoration: underline; }
-header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
+header p.month-title { margin: 0.25rem 0 0; color: var(--muted); font-size: 13px; }
+
+/* Lockdown Systems branding */
+.site-byline {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+.site-byline-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.lockdown-logo-link {
+  display: inline-block;
+  line-height: 0;
+}
+.lockdown-logo-link img {
+  height: 64px;
+  width: auto;
+  max-width: min(100%, 420px);
+  display: block;
+}
+.lockdown-logo-link:hover { opacity: 0.92; }
 main { padding: 0; }
 main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: var(--fg); }
 
