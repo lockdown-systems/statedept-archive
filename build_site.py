@@ -90,6 +90,40 @@ def breadcrumb_nav_tweet(year_month: str) -> str:
     )
 
 
+T_CO_RE = re.compile(r"https?://t\.co/[A-Za-z0-9]+")
+
+
+def resolve_tweet_text(raw_text: str, blob: Dict[str, Any], has_media: bool) -> Tuple[str, List[Dict[str, str]]]:
+    """
+    Returns (clean_text, urls).
+      - clean_text: original text with media-only t.co URLs stripped.
+      - urls: [{t_co, expanded, display}] for substitutable links the renderer will turn into <a>.
+    A t.co URL is "media-only" when it isn't in entities.urls and the tweet has downloaded media —
+    matching how X itself renders these (text on top, media card below, no naked t.co tail).
+    """
+    by_url: Dict[str, Dict[str, str]] = {}
+    for e in (blob.get("entities") or {}).get("urls") or []:
+        u = e.get("url")
+        if not u:
+            continue
+        by_url[u] = {
+            "t_co": u,
+            "expanded": e.get("expanded_url") or u,
+            "display": e.get("display_url") or e.get("expanded_url") or u,
+        }
+
+    if has_media:
+        text = T_CO_RE.sub(lambda m: m.group(0) if m.group(0) in by_url else "", raw_text)
+        text = re.sub(r"[ \t]+\n", "\n", text)
+        text = re.sub(r"  +", " ", text)
+        text = text.rstrip()
+    else:
+        text = raw_text
+
+    urls = [entry for u, entry in by_url.items() if u in text]
+    return text, urls
+
+
 def parse_created_at(s: str) -> datetime | None:
     if not s:
         return None
@@ -165,17 +199,24 @@ def main() -> int:
             blob = json.loads(row["json"])
         except json.JSONDecodeError:
             continue
-        text = (blob.get("text") or "").strip()
-        created_at_iso = dt.isoformat()
+        raw_text = (blob.get("text") or "").strip()
         mc = media_count.get(tid, 0)
+        text, urls = resolve_tweet_text(raw_text, blob, mc > 0)
+        created_at_iso = dt.isoformat()
         key = month_key(dt)
         tweets_by_month[key].append({
             "id": tid,
             "created_at": created_at_iso,
             "text": text,
+            "urls": urls,
             "media_count": mc,
         })
-        tweet_rows[tid] = {"created_at": created_at_iso, "text": text, "year_month": key}
+        tweet_rows[tid] = {
+            "created_at": created_at_iso,
+            "text": text,
+            "urls": urls,
+            "year_month": key,
+        }
 
     # Sort each month's tweets newest first
     for key in tweets_by_month:
@@ -402,10 +443,34 @@ def main() -> int:
       header.appendChild(dot);
       header.appendChild(meta);
       contentWrap.appendChild(header);
-      var text = document.createElement("div");
-      text.className = "tweet-text";
-      text.textContent = data.text;
-      contentWrap.appendChild(text);
+      var textEl = document.createElement("div");
+      textEl.className = "tweet-text";
+      var T_CO = /https?:\\/\\/t\\.co\\/[A-Za-z0-9]+/g;
+      var lookup = {};
+      for (var ui = 0; ui < (data.urls || []).length; ui++) {
+        lookup[data.urls[ui].t_co] = data.urls[ui];
+      }
+      var src = data.text || "";
+      var lastIdx = 0;
+      var match;
+      T_CO.lastIndex = 0;
+      while ((match = T_CO.exec(src)) !== null) {
+        if (match.index > lastIdx) {
+          textEl.appendChild(document.createTextNode(src.slice(lastIdx, match.index)));
+        }
+        var entry = lookup[match[0]];
+        var a = document.createElement("a");
+        a.href = entry ? entry.expanded : match[0];
+        a.textContent = entry ? entry.display : match[0];
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        textEl.appendChild(a);
+        lastIdx = match.index + match[0].length;
+      }
+      if (lastIdx < src.length) {
+        textEl.appendChild(document.createTextNode(src.slice(lastIdx)));
+      }
+      contentWrap.appendChild(textEl);
       var mediaRoot = document.createElement("div");
       mediaRoot.className = "tweet-media";
       for (var i = 0; i < (data.media || []).length; i++) {
@@ -449,6 +514,7 @@ def main() -> int:
             "id": tid,
             "created_at": info["created_at"],
             "text": info["text"],
+            "urls": info["urls"],
             "media": media_payload,
         }
         json_str = json.dumps(tweet_data, ensure_ascii=False)
@@ -716,6 +782,12 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
   word-break: break-word;
   margin: 0;
 }
+.tweet-text a {
+  color: var(--link);
+  text-decoration: none;
+  word-break: break-word;
+}
+.tweet-text a:hover { text-decoration: underline; }
 .tweet-text.truncated { max-height: 4.5em; overflow: hidden; }
 .tweet-card .tweet-link {
   color: var(--link);
@@ -846,8 +918,15 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
         header.appendChild(meta);
         body.appendChild(header);
         const text = document.createElement("div");
-        text.className = "tweet-text" + (t.text.length > 200 ? " truncated" : "");
-        text.textContent = t.text.length > 200 ? t.text.slice(0, 200) + "\\u2026" : t.text;
+        const lookup = {};
+        for (let ui = 0; ui < (t.urls || []).length; ui++) lookup[t.urls[ui].t_co] = t.urls[ui];
+        const display = (t.text || "").replace(
+          /https?:\\/\\/t\\.co\\/[A-Za-z0-9]+/g,
+          function(m) { return lookup[m] ? lookup[m].display : m; }
+        );
+        const truncated = display.length > 200;
+        text.className = "tweet-text" + (truncated ? " truncated" : "");
+        text.textContent = truncated ? display.slice(0, 200) + "\\u2026" : display;
         body.appendChild(text);
         if (t.media_count > 0) {
           const mediaLink = document.createElement("span");

@@ -62,8 +62,15 @@ document.addEventListener("DOMContentLoaded", function() {
         header.appendChild(meta);
         body.appendChild(header);
         const text = document.createElement("div");
-        text.className = "tweet-text" + (t.text.length > 200 ? " truncated" : "");
-        text.textContent = t.text.length > 200 ? t.text.slice(0, 200) + "\u2026" : t.text;
+        const lookup = {};
+        for (let ui = 0; ui < (t.urls || []).length; ui++) lookup[t.urls[ui].t_co] = t.urls[ui];
+        const display = (t.text || "").replace(
+          /https?:\/\/t\.co\/[A-Za-z0-9]+/g,
+          function(m) { return lookup[m] ? lookup[m].display : m; }
+        );
+        const truncated = display.length > 200;
+        text.className = "tweet-text" + (truncated ? " truncated" : "");
+        text.textContent = truncated ? display.slice(0, 200) + "\u2026" : display;
         body.appendChild(text);
         if (t.media_count > 0) {
           const mediaLink = document.createElement("span");

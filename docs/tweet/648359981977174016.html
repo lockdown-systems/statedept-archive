@@ -28,7 +28,7 @@
     </p>
   </header>
   <main id="tweet-page">
-    <script type="application/json" id="tweet-data">{"id": "648359981977174016", "created_at": "2015-09-28T04:54:00+00:00", "text": "Read @JohnKerry's remarks on how we're working to end #ExtremePoverty and #LeaveNoOneBehind. http://t.co/DhQF7uaD6f http://t.co/VY8b9ZONiH", "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/648359981977174016/00_photo_9539bea5fb4a.jpg", "kind": "photo"}, {"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/648359981977174016/01_photo_88f7ee524459.jpg", "kind": "photo"}, {"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/648359981977174016/02_photo_751206cf9671.jpg", "kind": "photo"}, {"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/648359981977174016/03_photo_89e35f6d59a5.jpg", "kind": "photo"}]}</script>
+    <script type="application/json" id="tweet-data">{"id": "648359981977174016", "created_at": "2015-09-28T04:54:00+00:00", "text": "Read @JohnKerry's remarks on how we're working to end #ExtremePoverty and #LeaveNoOneBehind. http://t.co/DhQF7uaD6f", "urls": [{"t_co": "http://t.co/DhQF7uaD6f", "expanded": "http://go.usa.gov/3zYxC", "display": "go.usa.gov/3zYxC"}], "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/648359981977174016/00_photo_9539bea5fb4a.jpg", "kind": "photo"}, {"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/648359981977174016/01_photo_88f7ee524459.jpg", "kind": "photo"}, {"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/648359981977174016/02_photo_751206cf9671.jpg", "kind": "photo"}, {"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/648359981977174016/03_photo_89e35f6d59a5.jpg", "kind": "photo"}]}</script>
     <div class="tweet-card" id="tweet-content"></div>
   </main>
   </div>
@@ -70,10 +70,34 @@
       header.appendChild(dot);
       header.appendChild(meta);
       contentWrap.appendChild(header);
-      var text = document.createElement("div");
-      text.className = "tweet-text";
-      text.textContent = data.text;
-      contentWrap.appendChild(text);
+      var textEl = document.createElement("div");
+      textEl.className = "tweet-text";
+      var T_CO = /https?:\/\/t\.co\/[A-Za-z0-9]+/g;
+      var lookup = {};
+      for (var ui = 0; ui < (data.urls || []).length; ui++) {
+        lookup[data.urls[ui].t_co] = data.urls[ui];
+      }
+      var src = data.text || "";
+      var lastIdx = 0;
+      var match;
+      T_CO.lastIndex = 0;
+      while ((match = T_CO.exec(src)) !== null) {
+        if (match.index > lastIdx) {
+          textEl.appendChild(document.createTextNode(src.slice(lastIdx, match.index)));
+        }
+        var entry = lookup[match[0]];
+        var a = document.createElement("a");
+        a.href = entry ? entry.expanded : match[0];
+        a.textContent = entry ? entry.display : match[0];
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        textEl.appendChild(a);
+        lastIdx = match.index + match[0].length;
+      }
+      if (lastIdx < src.length) {
+        textEl.appendChild(document.createTextNode(src.slice(lastIdx)));
+      }
+      contentWrap.appendChild(textEl);
       var mediaRoot = document.createElement("div");
       mediaRoot.className = "tweet-media";
       for (var i = 0; i < (data.media || []).length; i++) {

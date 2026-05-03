@@ -28,7 +28,7 @@
     </p>
   </header>
   <main id="tweet-page">
-    <script type="application/json" id="tweet-data">{"id": "1420708181412560898", "created_at": "2021-07-29T11:30:00+00:00", "text": ".@SecBlinken: We’ll address the current emergency while also taking the long view. We can’t just end this pandemic. We must also leave our country and the world better prepared for the next one. The United States will rise to the challenge. #VaccinesWork https://t.co/H2fvmYcJIs", "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/1420708181412560898/00_video_2e1e92ec6ae6.mp4", "kind": "video"}]}</script>
+    <script type="application/json" id="tweet-data">{"id": "1420708181412560898", "created_at": "2021-07-29T11:30:00+00:00", "text": ".@SecBlinken: We’ll address the current emergency while also taking the long view. We can’t just end this pandemic. We must also leave our country and the world better prepared for the next one. The United States will rise to the challenge. #VaccinesWork", "urls": [], "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/1420708181412560898/00_video_2e1e92ec6ae6.mp4", "kind": "video"}]}</script>
     <div class="tweet-card" id="tweet-content"></div>
   </main>
   </div>
@@ -70,10 +70,34 @@
       header.appendChild(dot);
       header.appendChild(meta);
       contentWrap.appendChild(header);
-      var text = document.createElement("div");
-      text.className = "tweet-text";
-      text.textContent = data.text;
-      contentWrap.appendChild(text);
+      var textEl = document.createElement("div");
+      textEl.className = "tweet-text";
+      var T_CO = /https?:\/\/t\.co\/[A-Za-z0-9]+/g;
+      var lookup = {};
+      for (var ui = 0; ui < (data.urls || []).length; ui++) {
+        lookup[data.urls[ui].t_co] = data.urls[ui];
+      }
+      var src = data.text || "";
+      var lastIdx = 0;
+      var match;
+      T_CO.lastIndex = 0;
+      while ((match = T_CO.exec(src)) !== null) {
+        if (match.index > lastIdx) {
+          textEl.appendChild(document.createTextNode(src.slice(lastIdx, match.index)));
+        }
+        var entry = lookup[match[0]];
+        var a = document.createElement("a");
+        a.href = entry ? entry.expanded : match[0];
+        a.textContent = entry ? entry.display : match[0];
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        textEl.appendChild(a);
+        lastIdx = match.index + match[0].length;
+      }
+      if (lastIdx < src.length) {
+        textEl.appendChild(document.createTextNode(src.slice(lastIdx)));
+      }
+      contentWrap.appendChild(textEl);
       var mediaRoot = document.createElement("div");
       mediaRoot.className = "tweet-media";
       for (var i = 0; i < (data.media || []).length; i++) {

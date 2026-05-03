@@ -28,7 +28,7 @@
     </p>
   </header>
   <main id="tweet-page">
-    <script type="application/json" id="tweet-data">{"id": "1093631383195602948", "created_at": "2019-02-07T22:03:35+00:00", "text": ".@SecPompeo: The United States government supports a free, fair, transparent, and peaceful election that reflects the will of the Nigerian people. The upcoming elections are an opportunity for Nigeria to solidify its place as a democratic leader in Africa. https://t.co/SxhcdK6Z6o https://t.co/wUu50dRsG2", "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/1093631383195602948/00_photo_9f211605eb7a.jpg", "kind": "photo"}]}</script>
+    <script type="application/json" id="tweet-data">{"id": "1093631383195602948", "created_at": "2019-02-07T22:03:35+00:00", "text": ".@SecPompeo: The United States government supports a free, fair, transparent, and peaceful election that reflects the will of the Nigerian people. The upcoming elections are an opportunity for Nigeria to solidify its place as a democratic leader in Africa. https://t.co/SxhcdK6Z6o", "urls": [{"t_co": "https://t.co/SxhcdK6Z6o", "expanded": "https://go.usa.gov/xENMS", "display": "go.usa.gov/xENMS"}], "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/1093631383195602948/00_photo_9f211605eb7a.jpg", "kind": "photo"}]}</script>
     <div class="tweet-card" id="tweet-content"></div>
   </main>
   </div>
@@ -70,10 +70,34 @@
       header.appendChild(dot);
       header.appendChild(meta);
       contentWrap.appendChild(header);
-      var text = document.createElement("div");
-      text.className = "tweet-text";
-      text.textContent = data.text;
-      contentWrap.appendChild(text);
+      var textEl = document.createElement("div");
+      textEl.className = "tweet-text";
+      var T_CO = /https?:\/\/t\.co\/[A-Za-z0-9]+/g;
+      var lookup = {};
+      for (var ui = 0; ui < (data.urls || []).length; ui++) {
+        lookup[data.urls[ui].t_co] = data.urls[ui];
+      }
+      var src = data.text || "";
+      var lastIdx = 0;
+      var match;
+      T_CO.lastIndex = 0;
+      while ((match = T_CO.exec(src)) !== null) {
+        if (match.index > lastIdx) {
+          textEl.appendChild(document.createTextNode(src.slice(lastIdx, match.index)));
+        }
+        var entry = lookup[match[0]];
+        var a = document.createElement("a");
+        a.href = entry ? entry.expanded : match[0];
+        a.textContent = entry ? entry.display : match[0];
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        textEl.appendChild(a);
+        lastIdx = match.index + match[0].length;
+      }
+      if (lastIdx < src.length) {
+        textEl.appendChild(document.createTextNode(src.slice(lastIdx)));
+      }
+      contentWrap.appendChild(textEl);
       var mediaRoot = document.createElement("div");
       mediaRoot.className = "tweet-media";
       for (var i = 0; i < (data.media || []).length; i++) {

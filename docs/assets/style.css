@@ -245,6 +245,12 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
   word-break: break-word;
   margin: 0;
 }
+.tweet-text a {
+  color: var(--link);
+  text-decoration: none;
+  word-break: break-word;
+}
+.tweet-text a:hover { text-decoration: underline; }
 .tweet-text.truncated { max-height: 4.5em; overflow: hidden; }
 .tweet-card .tweet-link {
   color: var(--link);
