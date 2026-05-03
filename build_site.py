@@ -309,7 +309,10 @@ def main() -> int:
 <body>
   <div class="site-wrap">
   <header>
+    <div class="header-row">
 {{breadcrumb}}
+      <a class="month-download" href="../data/{{year_month}}.json" download="statedept-{{year_month}}.json" aria-label="Download {{year_month_label}} tweets as JSON">Download JSON</a>
+    </div>
 {{month_nav}}
     <h1><a href="../index.html">State Dept archive</a></h1>
 """ + byline + """  </header>
@@ -567,6 +570,27 @@ header h1 a:hover { text-decoration: underline; }
   appearance: auto;
 }
 .month-nav-select:hover { background: var(--hover-bg); }
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 0 0 0.6rem;
+}
+.header-row .breadcrumbs { margin: 0; }
+.month-download {
+  font-size: 13px;
+  color: var(--link);
+  text-decoration: none;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  white-space: nowrap;
+  background: var(--bg);
+}
+.month-download:hover { background: var(--hover-bg); text-decoration: none; }
 
 /* Lockdown Systems branding */
 .site-byline {
