@@ -17,6 +17,33 @@ from typing import Any, Dict, List, Tuple
 # Twitter created_at format: "Fri Apr 01 00:13:57 +0000 2016"
 CREATED_AT_FMT = "%a %b %d %H:%M:%S %z %Y"
 
+MONTH_FULL_NAMES = (
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+)
+MONTH_ABBR_NAMES = (
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+)
+
+
+def month_label(ym: str) -> str:
+    """2024-03 -> March 2024"""
+    year, month = ym.split("-")
+    return f"{MONTH_FULL_NAMES[int(month) - 1]} {year}"
+
+
+def month_label_abbr(ym: str) -> str:
+    """2024-03 -> Mar 2024"""
+    year, month = ym.split("-")
+    return f"{MONTH_ABBR_NAMES[int(month) - 1]} {year}"
+
+
+def month_name_only(ym: str) -> str:
+    """2024-03 -> March (for use under a year heading)"""
+    _, month = ym.split("-")
+    return MONTH_FULL_NAMES[int(month) - 1]
+
 # Public Git LFS objects are served from this host (not raw.githubusercontent.com).
 # Path must match repo default branch + path under repo root (here: docs/media/...).
 DEFAULT_GIT_LFS_MEDIA_BASE = (
@@ -40,21 +67,23 @@ def lockdown_byline_html(logo_src: str) -> str:
 
 
 def breadcrumb_nav_month(year_month: str) -> str:
+    label = month_label(year_month)
     return (
         '    <nav class="breadcrumbs" aria-label="Breadcrumb">\n'
         '      <a href="../index.html">Home</a>'
         ' <span class="bc-sep" aria-hidden="true">›</span> '
-        f'<span class="bc-current" aria-current="page">{year_month}</span>\n'
+        f'<span class="bc-current" aria-current="page">{label}</span>\n'
         "    </nav>\n"
     )
 
 
 def breadcrumb_nav_tweet(year_month: str) -> str:
+    label = month_label(year_month)
     return (
         '    <nav class="breadcrumbs" aria-label="Breadcrumb">\n'
         '      <a href="../index.html">Home</a>'
         ' <span class="bc-sep" aria-hidden="true">›</span> '
-        f'<a href="../month/{year_month}.html">{year_month}</a>'
+        f'<a href="../month/{year_month}.html">{label}</a>'
         ' <span class="bc-sep" aria-hidden="true">›</span> '
         '<span class="bc-current" aria-current="page">Tweet</span>\n'
         "    </nav>\n"
@@ -160,6 +189,15 @@ def main() -> int:
 
     print(f"Wrote data/months.json ({len(months_sorted)} months)", flush=True)
 
+    # Compact month index for the picker dropdown (loaded once, browser-cached across pages)
+    picker_index = [
+        {"ym": m["year_month"], "label": month_label(m["year_month"]), "count": m["tweet_count"]}
+        for m in months_payload
+    ]
+    with open(os.path.join(out, "assets", "months.js"), "w", encoding="utf-8") as f:
+        f.write("window.MONTHS_INDEX = " + json.dumps(picker_index, separators=(",", ":")) + ";\n")
+    print("Wrote assets/months.js", flush=True)
+
     for ym in months_sorted:
         payload = {"year_month": ym, "tweets": tweets_by_month[ym]}
         with open(os.path.join(out, "data", f"{ym}.json"), "w", encoding="utf-8") as f:
@@ -180,7 +218,7 @@ def main() -> int:
         year_total = sum(m["tweet_count"] for m in months_in_year)
         open_attr = " open" if idx == 0 else ""
         items = "\n".join(
-            f'          <li><a href="month/{m["year_month"]}.html">{m["year_month"]}<span class="month-meta"> · {m["tweet_count"]} tweets</span></a></li>'
+            f'          <li><a href="month/{m["year_month"]}.html">{month_name_only(m["year_month"])}<span class="month-meta"> · {m["tweet_count"]} tweets</span></a></li>'
             for m in months_in_year
         )
         year_blocks.append(
@@ -225,19 +263,54 @@ def main() -> int:
         f.write(index_html)
     print("Wrote index.html", flush=True)
 
+    # Pre-render prev (older) / next (newer) anchors per month — months_sorted is newest-first
+    month_nav_by_ym: Dict[str, str] = {}
+    total_months = len(months_sorted)
+    for i, ym in enumerate(months_sorted):
+        older = months_sorted[i + 1] if i + 1 < total_months else None
+        newer = months_sorted[i - 1] if i > 0 else None
+        if older:
+            prev_html = (
+                f'<a class="month-nav-prev" href="../month/{older}.html" rel="prev"'
+                f' aria-label="Older month: {month_label(older)}">‹ {month_label_abbr(older)}</a>'
+            )
+        else:
+            prev_html = (
+                '<span class="month-nav-prev month-nav-disabled"'
+                ' aria-disabled="true">‹</span>'
+            )
+        if newer:
+            next_html = (
+                f'<a class="month-nav-next" href="../month/{newer}.html" rel="next"'
+                f' aria-label="Newer month: {month_label(newer)}">{month_label_abbr(newer)} ›</a>'
+            )
+        else:
+            next_html = (
+                '<span class="month-nav-next month-nav-disabled"'
+                ' aria-disabled="true">›</span>'
+            )
+        month_nav_by_ym[ym] = (
+            '    <nav class="month-nav" aria-label="Jump to month">\n'
+            f'      {prev_html}\n'
+            f'      <span class="month-nav-picker" data-month-picker data-current="{ym}"></span>\n'
+            f'      {next_html}\n'
+            '    </nav>\n'
+        )
+
     # Month page template: loads data/YYYY-MM.json via JS, render with "Load more" (50 per page)
     month_html_template = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>State Dept — {{year_month}}</title>
+  <title>State Dept — {{year_month_label}}</title>
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
   <div class="site-wrap">
   <header>
 {{breadcrumb}}
+{{month_nav}}
     <h1><a href="../index.html">State Dept archive</a></h1>
 """ + byline + """  </header>
   <main>
@@ -250,15 +323,18 @@ def main() -> int:
     const YEAR_MONTH = "{{year_month}}";
     const PAGE_SIZE = 50;
   </script>
+  <script src="../assets/months.js"></script>
+  <script src="../assets/picker.js"></script>
   <script src="../assets/app.js"></script>
 </body>
 </html>
 """
     for ym in months_sorted:
         html = (
-            month_html_template.replace("{{year_month}}", ym).replace(
-                "{{breadcrumb}}", breadcrumb_nav_month(ym)
-            )
+            month_html_template.replace("{{year_month_label}}", month_label(ym))
+            .replace("{{year_month}}", ym)
+            .replace("{{breadcrumb}}", breadcrumb_nav_month(ym))
+            .replace("{{month_nav}}", month_nav_by_ym[ym])
         )
         with open(os.path.join(out, "month", f"{ym}.html"), "w", encoding="utf-8") as f:
             f.write(html)
@@ -277,6 +353,7 @@ def main() -> int:
   <div class="site-wrap">
   <header>
 {{breadcrumb}}
+{{month_nav}}
     <h1><a href="../index.html">State Dept archive</a></h1>
 """ + byline + """  </header>
   <main id="tweet-page">
@@ -351,6 +428,8 @@ def main() -> int:
       root.appendChild(contentWrap);
     })();
   </script>
+  <script src="../assets/months.js"></script>
+  <script src="../assets/picker.js"></script>
 </body>
 </html>
 """
@@ -377,6 +456,7 @@ def main() -> int:
             tweet_html_template.replace("{{tweet_id}}", tid)
             .replace("{{tweet_data}}", json_str)
             .replace("{{breadcrumb}}", breadcrumb_nav_tweet(ym))
+            .replace("{{month_nav}}", month_nav_by_ym[ym])
         )
         with open(os.path.join(out, "tweet", f"{tid}.html"), "w", encoding="utf-8") as f:
             f.write(html)
@@ -440,6 +520,53 @@ header h1 a:hover { text-decoration: underline; }
   color: var(--fg);
   font-weight: 500;
 }
+
+/* Month-jump nav (older / dropdown / newer) on month + tweet pages */
+.month-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.6rem;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+.month-nav-prev,
+.month-nav-next,
+.month-nav-disabled,
+.month-nav-select {
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 1.3;
+}
+.month-nav-prev,
+.month-nav-next {
+  color: var(--link);
+  text-decoration: none;
+  background: var(--bg);
+}
+.month-nav-prev:hover,
+.month-nav-next:hover {
+  background: var(--hover-bg);
+  text-decoration: none;
+}
+.month-nav-disabled {
+  color: var(--muted);
+  opacity: 0.5;
+}
+.month-nav-picker { display: inline-flex; flex: 1; min-width: 0; }
+.month-nav-select {
+  font-family: inherit;
+  background: var(--bg);
+  color: var(--fg);
+  cursor: pointer;
+  width: 100%;
+  max-width: 100%;
+  appearance: auto;
+}
+.month-nav-select:hover { background: var(--hover-bg); }
 
 /* Lockdown Systems branding */
 .site-byline {
@@ -736,6 +863,34 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
     with open(os.path.join(out, "assets", "app.js"), "w", encoding="utf-8") as f:
         f.write(app_js)
     print("Wrote assets/app.js", flush=True)
+
+    # assets/picker.js — populates the month-jump <select> from window.MONTHS_INDEX
+    picker_js = """document.addEventListener("DOMContentLoaded", function() {
+  var holder = document.querySelector("[data-month-picker]");
+  if (!holder) return;
+  var months = window.MONTHS_INDEX || [];
+  if (!months.length) return;
+  var current = holder.getAttribute("data-current");
+  var sel = document.createElement("select");
+  sel.className = "month-nav-select";
+  sel.setAttribute("aria-label", "Jump to month");
+  for (var i = 0; i < months.length; i++) {
+    var m = months[i];
+    var opt = document.createElement("option");
+    opt.value = "../month/" + m.ym + ".html";
+    opt.textContent = m.label + " \\u2014 " + m.count + " tweet" + (m.count === 1 ? "" : "s");
+    if (m.ym === current) opt.selected = true;
+    sel.appendChild(opt);
+  }
+  sel.addEventListener("change", function() {
+    if (sel.value) window.location.href = sel.value;
+  });
+  holder.appendChild(sel);
+});
+"""
+    with open(os.path.join(out, "assets", "picker.js"), "w", encoding="utf-8") as f:
+        f.write(picker_js)
+    print("Wrote assets/picker.js", flush=True)
 
     tweets_conn.close()
     media_conn.close()

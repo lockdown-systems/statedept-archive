@@ -3,14 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>State Dept — 2025-01</title>
+  <title>State Dept — January 2025</title>
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
   <div class="site-wrap">
   <header>
     <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">2025-01</span>
+      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">January 2025</span>
+    </nav>
+
+    <nav class="month-nav" aria-label="Jump to month">
+      <a class="month-nav-prev" href="../month/2024-12.html" rel="prev" aria-label="Older month: December 2024">‹ Dec 2024</a>
+      <span class="month-nav-picker" data-month-picker data-current="2025-01"></span>
+      <span class="month-nav-next month-nav-disabled" aria-disabled="true">›</span>
     </nav>
 
     <h1><a href="../index.html">State Dept archive</a></h1>
@@ -31,6 +37,8 @@
     const YEAR_MONTH = "2025-01";
     const PAGE_SIZE = 50;
   </script>
+  <script src="../assets/months.js"></script>
+  <script src="../assets/picker.js"></script>
   <script src="../assets/app.js"></script>
 </body>
 </html>
