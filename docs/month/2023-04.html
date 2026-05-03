@@ -3,14 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>State Dept — 2023-04</title>
+  <title>State Dept — April 2023</title>
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
   <div class="site-wrap">
   <header>
+    <div class="header-row">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">2023-04</span>
+      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">April 2023</span>
+    </nav>
+
+      <a class="month-download" href="../data/2023-04.json" download="statedept-2023-04.json" aria-label="Download April 2023 tweets as JSON">Download JSON</a>
+    </div>
+    <nav class="month-nav" aria-label="Jump to month">
+      <a class="month-nav-prev" href="../month/2023-03.html" rel="prev" aria-label="Older month: March 2023">‹ Mar 2023</a>
+      <span class="month-nav-picker" data-month-picker data-current="2023-04"></span>
+      <a class="month-nav-next" href="../month/2023-05.html" rel="next" aria-label="Newer month: May 2023">May 2023 ›</a>
     </nav>
 
     <h1><a href="../index.html">State Dept archive</a></h1>
@@ -31,6 +40,8 @@
     const YEAR_MONTH = "2023-04";
     const PAGE_SIZE = 50;
   </script>
+  <script src="../assets/months.js"></script>
+  <script src="../assets/picker.js"></script>
   <script src="../assets/app.js"></script>
 </body>
 </html>

@@ -10,7 +10,13 @@
   <div class="site-wrap">
   <header>
     <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <a href="../month/2018-09.html">2018-09</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">Tweet</span>
+      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <a href="../month/2018-09.html">September 2018</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">Tweet</span>
+    </nav>
+
+    <nav class="month-nav" aria-label="Jump to month">
+      <a class="month-nav-prev" href="../month/2018-08.html" rel="prev" aria-label="Older month: August 2018">‹ Aug 2018</a>
+      <span class="month-nav-picker" data-month-picker data-current="2018-09"></span>
+      <a class="month-nav-next" href="../month/2018-10.html" rel="next" aria-label="Newer month: October 2018">Oct 2018 ›</a>
     </nav>
 
     <h1><a href="../index.html">State Dept archive</a></h1>
@@ -22,7 +28,7 @@
     </p>
   </header>
   <main id="tweet-page">
-    <script type="application/json" id="tweet-data">{"id": "1040324250509299713", "created_at": "2018-09-13T19:40:04+00:00", "text": ".@statedeptspox: I would like to congratulate our newest career ambassadors – David Hale, Michele Sison, Daniel Smith, and Philip Goldberg. This is the highest rank that a Foreign Service Officer can attain, and we could not be happier to announce this news today. https://t.co/5FfBuHmvUx", "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/1040324250509299713/00_video_63888fc2ada2.mp4", "kind": "video"}]}</script>
+    <script type="application/json" id="tweet-data">{"id": "1040324250509299713", "created_at": "2018-09-13T19:40:04+00:00", "text": ".@statedeptspox: I would like to congratulate our newest career ambassadors – David Hale, Michele Sison, Daniel Smith, and Philip Goldberg. This is the highest rank that a Foreign Service Officer can attain, and we could not be happier to announce this news today.", "urls": [], "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/1040324250509299713/00_video_63888fc2ada2.mp4", "kind": "video"}]}</script>
     <div class="tweet-card" id="tweet-content"></div>
   </main>
   </div>
@@ -64,10 +70,34 @@
       header.appendChild(dot);
       header.appendChild(meta);
       contentWrap.appendChild(header);
-      var text = document.createElement("div");
-      text.className = "tweet-text";
-      text.textContent = data.text;
-      contentWrap.appendChild(text);
+      var textEl = document.createElement("div");
+      textEl.className = "tweet-text";
+      var T_CO = /https?:\/\/t\.co\/[A-Za-z0-9]+/g;
+      var lookup = {};
+      for (var ui = 0; ui < (data.urls || []).length; ui++) {
+        lookup[data.urls[ui].t_co] = data.urls[ui];
+      }
+      var src = data.text || "";
+      var lastIdx = 0;
+      var match;
+      T_CO.lastIndex = 0;
+      while ((match = T_CO.exec(src)) !== null) {
+        if (match.index > lastIdx) {
+          textEl.appendChild(document.createTextNode(src.slice(lastIdx, match.index)));
+        }
+        var entry = lookup[match[0]];
+        var a = document.createElement("a");
+        a.href = entry ? entry.expanded : match[0];
+        a.textContent = entry ? entry.display : match[0];
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        textEl.appendChild(a);
+        lastIdx = match.index + match[0].length;
+      }
+      if (lastIdx < src.length) {
+        textEl.appendChild(document.createTextNode(src.slice(lastIdx)));
+      }
+      contentWrap.appendChild(textEl);
       var mediaRoot = document.createElement("div");
       mediaRoot.className = "tweet-media";
       for (var i = 0; i < (data.media || []).length; i++) {
@@ -93,5 +123,7 @@
       root.appendChild(contentWrap);
     })();
   </script>
+  <script src="../assets/months.js"></script>
+  <script src="../assets/picker.js"></script>
 </body>
 </html>

@@ -10,7 +10,13 @@
   <div class="site-wrap">
   <header>
     <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <a href="../month/2015-08.html">2015-08</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">Tweet</span>
+      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <a href="../month/2015-08.html">August 2015</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">Tweet</span>
+    </nav>
+
+    <nav class="month-nav" aria-label="Jump to month">
+      <a class="month-nav-prev" href="../month/2015-07.html" rel="prev" aria-label="Older month: July 2015">‹ Jul 2015</a>
+      <span class="month-nav-picker" data-month-picker data-current="2015-08"></span>
+      <a class="month-nav-next" href="../month/2015-09.html" rel="next" aria-label="Newer month: September 2015">Sep 2015 ›</a>
     </nav>
 
     <h1><a href="../index.html">State Dept archive</a></h1>
@@ -22,7 +28,7 @@
     </p>
   </header>
   <main id="tweet-page">
-    <script type="application/json" id="tweet-data">{"id": "631998731177590786", "created_at": "2015-08-14T01:20:14+00:00", "text": ".@JohnKerry visits #Cuba tomorrow, re-opens @USEmbCuba. Watch flag-raising live: 9:45am ET on http://t.co/58Uc9lIgDz! http://t.co/FlBeWM6rsH", "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/631998731177590786/00_photo_9272fbe73863.jpg", "kind": "photo"}]}</script>
+    <script type="application/json" id="tweet-data">{"id": "631998731177590786", "created_at": "2015-08-14T01:20:14+00:00", "text": ".@JohnKerry visits #Cuba tomorrow, re-opens @USEmbCuba. Watch flag-raising live: 9:45am ET on http://t.co/58Uc9lIgDz!", "urls": [{"t_co": "http://t.co/58Uc9lIgDz", "expanded": "http://state.gov", "display": "state.gov"}], "media": [{"url": "https://media.githubusercontent.com/media/lockdown-systems/statedept-archive/main/docs/media/631998731177590786/00_photo_9272fbe73863.jpg", "kind": "photo"}]}</script>
     <div class="tweet-card" id="tweet-content"></div>
   </main>
   </div>
@@ -64,10 +70,34 @@
       header.appendChild(dot);
       header.appendChild(meta);
       contentWrap.appendChild(header);
-      var text = document.createElement("div");
-      text.className = "tweet-text";
-      text.textContent = data.text;
-      contentWrap.appendChild(text);
+      var textEl = document.createElement("div");
+      textEl.className = "tweet-text";
+      var T_CO = /https?:\/\/t\.co\/[A-Za-z0-9]+/g;
+      var lookup = {};
+      for (var ui = 0; ui < (data.urls || []).length; ui++) {
+        lookup[data.urls[ui].t_co] = data.urls[ui];
+      }
+      var src = data.text || "";
+      var lastIdx = 0;
+      var match;
+      T_CO.lastIndex = 0;
+      while ((match = T_CO.exec(src)) !== null) {
+        if (match.index > lastIdx) {
+          textEl.appendChild(document.createTextNode(src.slice(lastIdx, match.index)));
+        }
+        var entry = lookup[match[0]];
+        var a = document.createElement("a");
+        a.href = entry ? entry.expanded : match[0];
+        a.textContent = entry ? entry.display : match[0];
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        textEl.appendChild(a);
+        lastIdx = match.index + match[0].length;
+      }
+      if (lastIdx < src.length) {
+        textEl.appendChild(document.createTextNode(src.slice(lastIdx)));
+      }
+      contentWrap.appendChild(textEl);
       var mediaRoot = document.createElement("div");
       mediaRoot.className = "tweet-media";
       for (var i = 0; i < (data.media || []).length; i++) {
@@ -93,5 +123,7 @@
       root.appendChild(contentWrap);
     })();
   </script>
+  <script src="../assets/months.js"></script>
+  <script src="../assets/picker.js"></script>
 </body>
 </html>

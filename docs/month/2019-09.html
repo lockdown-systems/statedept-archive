@@ -3,14 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>State Dept — 2019-09</title>
+  <title>State Dept — September 2019</title>
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
   <div class="site-wrap">
   <header>
+    <div class="header-row">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">2019-09</span>
+      <a href="../index.html">Home</a> <span class="bc-sep" aria-hidden="true">›</span> <span class="bc-current" aria-current="page">September 2019</span>
+    </nav>
+
+      <a class="month-download" href="../data/2019-09.json" download="statedept-2019-09.json" aria-label="Download September 2019 tweets as JSON">Download JSON</a>
+    </div>
+    <nav class="month-nav" aria-label="Jump to month">
+      <a class="month-nav-prev" href="../month/2019-08.html" rel="prev" aria-label="Older month: August 2019">‹ Aug 2019</a>
+      <span class="month-nav-picker" data-month-picker data-current="2019-09"></span>
+      <a class="month-nav-next" href="../month/2019-10.html" rel="next" aria-label="Newer month: October 2019">Oct 2019 ›</a>
     </nav>
 
     <h1><a href="../index.html">State Dept archive</a></h1>
@@ -31,6 +40,8 @@
     const YEAR_MONTH = "2019-09";
     const PAGE_SIZE = 50;
   </script>
+  <script src="../assets/months.js"></script>
+  <script src="../assets/picker.js"></script>
   <script src="../assets/app.js"></script>
 </body>
 </html>
