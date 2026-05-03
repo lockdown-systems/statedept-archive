@@ -11,6 +11,7 @@ import re
 import sqlite3
 from collections import defaultdict
 from datetime import datetime
+from itertools import groupby
 from typing import Any, Dict, List, Tuple
 
 # Twitter created_at format: "Fri Apr 01 00:13:57 +0000 2016"
@@ -170,6 +171,27 @@ def main() -> int:
 
     # index.html
     total_tweets = sum(m["tweet_count"] for m in months_payload)
+
+    year_blocks: List[str] = []
+    for idx, (year, group) in enumerate(
+        groupby(months_payload, key=lambda m: m["year_month"][:4])
+    ):
+        months_in_year = list(group)
+        year_total = sum(m["tweet_count"] for m in months_in_year)
+        open_attr = " open" if idx == 0 else ""
+        items = "\n".join(
+            f'          <li><a href="month/{m["year_month"]}.html">{m["year_month"]}<span class="month-meta"> · {m["tweet_count"]} tweets</span></a></li>'
+            for m in months_in_year
+        )
+        year_blocks.append(
+            f'      <details class="year-group"{open_attr}>\n'
+            f'        <summary class="year-summary">{year}<span class="year-meta"> · {year_total:,} tweets</span></summary>\n'
+            f'        <ul class="month-list">\n'
+            f'{items}\n'
+            f'        </ul>\n'
+            f'      </details>'
+        )
+    year_list_html = "\n".join(year_blocks)
     index_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -191,12 +213,9 @@ def main() -> int:
       <p>This archive preserves <strong>""" + f"{total_tweets:,}" + """ tweets</strong> and their associated media from the @StateDept account, spanning 2008–2025.</p>
     </section>
     <h2>Browse by month</h2>
-    <ul class="month-list">
-""" + "\n".join(
-        f'      <li><a href="month/{m["year_month"]}.html">{m["year_month"]}<span class="month-meta"> · {m["tweet_count"]} tweets</span></a></li>'
-        for m in months_payload
-    ) + """
-    </ul>
+    <div class="year-list">
+""" + year_list_html + """
+    </div>
   </main>
   </div>
 </body>
@@ -465,12 +484,38 @@ main h2 { font-size: 1rem; font-weight: 700; margin: 1.5rem 1rem 0.5rem; color: 
 .about a:hover { text-decoration: underline; }
 .about strong { font-weight: 600; }
 
-/* Index: month list as simple links */
-.month-list { list-style: none; padding: 0.5rem 0; margin: 0; }
+/* Index: year-grouped month list */
+.year-list { padding: 0; margin: 0; }
+.year-summary {
+  padding: 1rem 1rem;
+  font-weight: 800;
+  font-size: 1.05rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.year-summary::-webkit-details-marker { display: none; }
+.year-summary::before {
+  content: "\\25B8";
+  color: var(--muted);
+  font-size: 0.8em;
+  transition: transform 0.15s ease;
+  display: inline-block;
+  width: 0.8em;
+}
+.year-group[open] > .year-summary::before { transform: rotate(90deg); }
+.year-summary:hover { background: var(--hover-bg); }
+.year-meta { font-weight: 400; color: var(--muted); font-size: 13px; }
+
+.month-list { list-style: none; padding: 0; margin: 0; }
 .month-list li { margin: 0; border-bottom: 1px solid var(--border); }
 .month-list a {
   display: block;
-  padding: 1rem 1rem;
+  padding: 1rem 1rem 1rem 2.25rem;
   color: var(--fg);
   text-decoration: none;
   font-weight: 500;
